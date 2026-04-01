@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "fopl": "∀x (Vacation(x) ∧ Relaxing(x) → (BeautifulScenery(x) ∧ EnjoyableActivities(x)))"
+  },
+  {
+    "id": 2,
+    "fopl": "∀x (Gemstone(x) → ((Diamond(x) ∧ ¬(Ruby(x) ∨ Emerald(x))) ∨ (Ruby(x) ∧ ¬(Diamond(x) ∨ Emerald(x))) ∨ (Emerald(x) ∧ ¬(Diamond(x) ∨ Ruby(x)))))"
+  },
+  {
+    "id": 3,
+    "fopl": "∀x (SpeakMultipleLanguages(x) → (Bilingual(x) ∨ Multilingual(x)))"
+  },
+  {
+    "id": 4,
+    "fopl": "∀x (Organization(x) ∧ CharitableMission(x) ∧ ¬DistributesProfits(x) ∧ ReliesOnDonations(x) → NonProfit(x))"
+  },
+  {
+    "id": 5,
+    "fopl": "∀x (Flower(x) ∧ SingleCotyledon(x) ∧ ParallelVeinedLeaves(x) ∧ FlowerPartsInMultiplesOfThree(x) → Monocot(x))"
+  },
+  {
+    "id": 6,
+    "fopl": "∀x (Fabric(x) ∧ Lightweight(x) ∧ Breathable(x) ∧ AbsorbsMoisture(x) → SuitableForAthleticWear(x))"
+  },
+  {
+    "id": 7,
+    "fopl": "∀x (Place(x) ∧ HousesCollectionOfMedia(x) ∧ (Books(x) ∨ Periodicals(x) ∨ OtherMedia(x)) ∧ ForPublicUseAndStudy(x) → Library(x))"
+  },
+  {
+    "id": 8,
+    "fopl": "∀x (Bird(x) → (PossessFeathers(x) ∧ HasBeak(x) ∧ LaysEggs(x) ∧ LightweightBones(x) ∧ SpecializedMuscles(x) ∧ AbilityToFly(x)))"
+  },
+  {
+    "id": 9,
+    "fopl": "∀x∀y∀z (Child(x) ∧ Toy(y) ∧ Playground(z) → PlaysWith(x, y, z))"
+  },
+  {
+    "id": 10,
+    "fopl": "∀x (Person(x) ∧ StudiesNatureAndPropertiesOfMatterAndEnergy(x) → Physicist(x))"
+  },
+  {
+    "id": 11,
+    "fopl": "∀x (WellInsulatedBuilding(x) → ConservesEnergyByMaintainingStableTemperature(x))"
+  },
+  {
+    "id": 12,
+    "fopl": "∀x (Employee(x) ∧ EligibleForPromotion(x) ↔ ((WorkedAtCompanyForTwoYears(x) ∧ GoodPerformanceRecord(x)) ∨ RecommendationFromSupervisor(x)))"
+  },
+  {
+    "id": 13,
+    "fopl": "¬∀x (Flower(x) → BloomsInSpring(x))"
+  },
+  {
+    "id": 14,
+    "fopl": "∀x (Movie(x) ∧ HasRomance(x) ∧ HasComedy(x) → RomanticComedy(x))"
+  },
+  {
+    "id": 15,
+    "fopl": "∀x ∀y ∀z (Chef(x) ∧ Waiter(y) ∧ Customer(z) → (PreparesMeals(x) ∧ ServesMeals(y, z) ∧ EnjoysMeals(z)))"
+  },
+  {
+    "id": 16,
+    "fopl": "∀x (Vehicle(x) ∧ CanTravelOnLand(x) ∧ CanTravelOnWater(x) → AmphibiousVehicle(x))"
+  },
+  {
+    "id": 17,
+    "fopl": "∀x ∀y ∀z (Tool(x) ∧ LongHandle(y) ∧ FlatBlade(z) ∧ Has(x, y) ∧ Has(x, z) ∧ LiftsAndMovesLooseMaterial(x) → Shovel(x))"
+  },
+  {
+    "id": 18,
+    "fopl": "∀x (Camera(x) → (CapturePhotos(x) ∨ RecordVideos(x)))"
+  },
+  {
+    "id": 19,
+    "fopl": "∀x∀y∀z (BalancedDiet(x) ∧ VarietyOfFruits(y) ∧ Vegetables(z) ∧ LeanProteins(x) ∧ IncludesElements(x, y, z) → ProvidesEssentialNutrients(x) ∧ PromotesOverallHealthAndWellness(x))"
+  },
+  {
+    "id": 20,
+    "fopl": "∀x (Vehicle(x) ∧ DesignedForTravelingOnSnow(x) ∧ (EquippedWithSkis(x) ∨ EquippedWithTracks(x)) ∧ PoweredByEngine(x) → Snowmobile(x))"
+  },
+  {
+    "id": 21,
+    "fopl": "∀x (SportsEvent(x) → (IndoorEvent(x) ⊕ OutdoorEvent(x)))"
+  },
+  {
+    "id": 22,
+    "fopl": "∀x (Product(x) ∧ (SustainableMaterials(x) ∨ LowCarbonFootprint(x) ∨ EncouragesConservation(x)) → EcoFriendly(x))"
+  },
+  {
+    "id": 23,
+    "fopl": "∀x (Tsunami(x) → ∃y (UnderwaterEarthquake(y) ∨ VolcanicEruption(y) ∨ Landslide(y)) ∧ Triggers(x, y) ∧ CausesMassiveWaves(x) ∧ DevastatesCoastalAreas(x))"
+  },
+  {
+    "id": 24,
+    "fopl": "∀x (Device(x) ∧ UsesElectricity(x) ∧ EmitsLight(x) → LightEmittingDevice(x))"
+  },
+  {
+    "id": 25,
+    "fopl": "∀x (WorksInNewsIndustryAndReportsOnEvents(x) → Journalist(x))"
+  },
+  {
+    "id": 26,
+    "fopl": "∀x (Triangle(x) ∧ EqualSides(x) → EqualAngles(x))"
+  },
+  {
+    "id": 27,
+    "fopl": "∃x (Bicycle(x) ∧ Lightweight(x) ∧ Durable(x) ∧ OffRoadSuitable(x))"
+  },
+  {
+    "id": 28,
+    "fopl": "∀x (Bird(x) ∧ HasWings(x) → Flies(x))"
+  },
+  {
+    "id": 29,
+    "fopl": "∀x (Garment(x) ∧ WornOnLowerPartOfBody(x) ∧ SeparateOpeningsForEachLeg(x) ∧ MadeOfFabric(x) → (Pants(x) ∨ Skirt(x)))"
+  },
+  {
+    "id": 30,
+    "fopl": "∀x (Polygon(x) ∧ Sides(x, 3) ∧ Angles(x, 3) → Triangle(x))"
+  },
+  {
+    "id": 31,
+    "fopl": "∀x (Sport(x) ∧ PlayedBetweenTwoTeams(x) ∧ PlayedOnField(x) ∧ PlayedWithBall(x) ∧ ObjectiveToScorePointsByGettingBallIntoOpposingTeamsGoal(x) → GoalBasedSport(x))"
+  },
+  {
+    "id": 32,
+    "fopl": "∀x ∀y ∀z (Orchestra(x) ∧ Concert(y) ∧ Instrument(z) → (Performs(x, y) ∧ ∃w (Musician(w) ∧ Plays(w, z))))"
+  },
+  {
+    "id": 33,
+    "fopl": "∀x (Detective(x) → (∃y (Crime(y) ∧ Solves(x, y) ∧ GathersEvidence(x) ∧ AnalyzesClues(x))))"
+  },
+  {
+    "id": 34,
+    "fopl": "∃x (Painting(x) ∧ Abstract(x) ∧ CreatedByFamousArtist(x))"
+  },
+  {
+    "id": 35,
+    "fopl": "∀x (Instrument(x) → ((StringInstrument(x) ∨ WindInstrument(x)) ∧ ¬(StringInstrument(x) ∧ WindInstrument(x))))"
+  },
+  {
+    "id": 36,
+    "fopl": "∀x (Mammal(x) → (GivesBirthToLiveYoung(x) ∧ NursesOffspringWithMilk(x)))"
+  },
+  {
+    "id": 37,
+    "fopl": "∀x (Vaccine(x) ∧ Effective(x) → ProvidesImmunity(x) ∧ ReducesRiskOfInfection(x) ∧ OftenContributesToHerdImmunityInPopulation(x))"
+  },
+  {
+    "id": 38,
+    "fopl": "∀x ∀y (Satellite(x) ∧ (OrbitsEarth(x) ∧ TransmitsAndReceivesData(x, y)) ∧ (EnablesWeatherForecasting(y) ∨ EnablesGlobalPositioning(y) ∨ EnablesCommunication(y)))"
+  },
+  {
+    "id": 39,
+    "fopl": "∀x (BloomsInSpring(x) ↔ (Flower(x) ∧ RequiresSpecificSunlight(x) ∧ RequiresWarmth(x)))"
+  },
+  {
+    "id": 40,
+    "fopl": "∀x (Tree(x) → (LosesLeavesInAutumn(x) ∨ RetainsLeavesThroughoutYear(x))) ∧ ∀y (EvergreenTree(y) → RetainsLeavesThroughoutYear(y))"
+  },
+  {
+    "id": 41,
+    "fopl": "∀x (Smartphone(x) → (UsedForCommunication(x) ∧ UsedForEntertainment(x) ∧ UsedForProductivity(x)))"
+  },
+  {
+    "id": 42,
+    "fopl": "∀x (Bird(x) ∧ Migrates(x) → TravelsLongDistances(x) ∧ OftenCrossesContinents(x) ∧ UsuallyFollowsSeasonalPatternToFindResources(x))"
+  },
+  {
+    "id": 43,
+    "fopl": "∀x (Electron(x) ∧ (Orbital(x) ⊕ Suborbital(x)))"
+  },
+  {
+    "id": 44,
+    "fopl": "∀x (Coat(x) ∧ Wool(x) ∧ Hood(x) ∧ Insulated(x) → AppropriateForColdWeather(x))"
+  },
+  {
+    "id": 45,
+    "fopl": "∀x (MusicType(x) ∧ OriginatedInAfricanAmericanCommunities(x) ∧ FeaturesImprovisation(x) ∧ UsesSyncopation(x) → Jazz(x))"
+  },
+  {
+    "id": 46,
+    "fopl": "∀x (Country(x) ∧ (BorderedByOcean(x) ∨ BorderedBySea(x)) → HasCoastline(x))"
+  },
+  {
+    "id": 47,
+    "fopl": "∀x∀y (Prism(x) ∧ WhiteLight(y) → DispersesIntoSpectrumOfColors(x, y))"
+  },
+  {
+    "id": 48,
+    "fopl": "∀x (Book(x) ∧ HighSalesVolume(x) ∧ PositiveReviews(x) → Bestseller(x))"
+  },
+  {
+    "id": 49,
+    "fopl": "∀x (Farmer(x) → GrowsCrops(x)) ∧ ∀y (Miner(y) → ExtractsMinerals(y))"
+  },
+  {
+    "id": 50,
+    "fopl": "∀x (ParticipatesInCommunityEvents(x) → (StrongSenseOfBelonging(x) ∧ ConnectionWithCommunity(x)))"
+  },
+  {
+    "id": 51,
+    "fopl": "∀x (Winter(x) → Cold(x)) ∧ ∀y (Summer(y) → Hot(y))"
+  },
+  {
+    "id": 52,
+    "fopl": "∀x∀y (Beverage(x) ∧ ContainsCaffeine(x) ∧ ServedHot(x) ∧ RoastedSeeds(y) ∧ MadeFrom(x, y) → Coffee(x))"
+  },
+  {
+    "id": 53,
+    "fopl": "∀x (Planet(x) ∧ AtmosphereContainsOxygen(x) → SupportsHumanLife(x))"
+  },
+  {
+    "id": 54,
+    "fopl": "∀x (Building(x) ∧ ProperInsulation(x) ∧ EnergyEfficientWindows(x) ∧ SolarPanels(x) → EnergyEfficient(x))"
+  },
+  {
+    "id": 55,
+    "fopl": "∀x (River(x) ↔ (∃y (Source(x, y) ∧ Mountains(y)) ∧ FlowsThroughVariousLandscapes(x) ∧ ReachesLargerBodyOfWater(x)))"
+  },
+  {
+    "id": 56,
+    "fopl": "∀x (Dessert(x) ∧ Frozen(x) ↔ (RequiresRefrigeration(x) ∧ ServedCold(x) ∧ ¬BakedGood(x)))"
+  },
+  {
+    "id": 57,
+    "fopl": "∀x∀y (Clock(x) ∧ Scale(y) → (Measures(x, Time) ∧ Measures(y, Weight)))"
+  },
+  {
+    "id": 58,
+    "fopl": "∀x (Company(x) ∧ ProducesElectronics(x) ∧ GlobalPresence(x) → InternationalElectronicsManufacturer(x))"
+  },
+  {
+    "id": 59,
+    "fopl": "∀x (Building(x) → ((HasElevator(x) ⊕ HasStairs(x))))"
+  },
+  {
+    "id": 60,
+    "fopl": "∀x (Computer(x) → (∃y (InputDevice(y) ∧ (Keyboard(y) ∨ Mouse(y))) ∧ ∃z (OutputDevice(z) ∧ (Monitor(z) ∨ Speakers(z)))))"
+  },
+  {
+    "id": 61,
+    "fopl": "∀x ∀y ∀z (Tree(x) ∧ Car(y) ∧ Factory(z) → (AbsorbsCO2(x) ∧ EmitsCO2(y) ∧ ReleasesCO2Byproduct(z)))"
+  },
+  {
+    "id": 62,
+    "fopl": "∀x (DesignsAndCreatesVideoGames(x) → GameDeveloper(x))"
+  },
+  {
+    "id": 63,
+    "fopl": "∀x (Apple(x) → (Red(x) ⊕ Green(x)))"
+  },
+  {
+    "id": 64,
+    "fopl": "∀x (Organism(x) ∧ CanProduceOwnFoodThroughPhotosynthesis(x) ∧ ProvidesEnergyForOtherOrganisms(x) ∧ ¬ConsumesOtherOrganisms(x) → PrimaryProducer(x))"
+  },
+  {
+    "id": 65,
+    "fopl": "∀x ∀y (Device(x) ∧ ThermalEnergy(y) ∧ UsesTemperatureDifference(x, y) → ThermoelectricGenerator(x))"
+  },
+  {
+    "id": 66,
+    "fopl": "∀x (Dessert(x) ∧ MadeFromMilk(x) ∧ Sugar(x) ∧ Flavorings(x) ∧ Frozen(x) → IceCream(x))"
+  },
+  {
+    "id": 67,
+    "fopl": "∀x ∀y (Bird(x) ∧ SeasonChange(y) ∧ UnsuitableTemperatureForSurvival(x, y) → Migrates(x))"
+  },
+  {
+    "id": 68,
+    "fopl": "∀x (FoodProduct(x) ∧ ProducedWithoutSynthetics(x) ∧ MeetsRegulatoryStandards(x) → LabeledOrganic(x))"
+  },
+  {
+    "id": 69,
+    "fopl": "∀x (ElectronicDevice(x) ∧ DisplaysTime(x) ∧ ReceivesRadioSignals(x) ∧ BatteryPowered(x) → RadioControlledClock(x))"
+  },
+  {
+    "id": 70,
+    "fopl": "∀x (CellPhone(x) ∧ BatteryDepleted(x) → NeedsRecharge(x))"
+  },
+  {
+    "id": 71,
+    "fopl": "∀x (HealthyDiet(x) ∧ ContainsVarietyOfFruitsVegetablesWholeGrainsLeanProteins(x) → PromotesWellBeingAndReducesRiskOfChronicDiseases(x))"
+  },
+  {
+    "id": 72,
+    "fopl": "∀x (RipeFruit(x) ↔ (Fruit(x) ∧ ReadyToBeEaten(x) ∧ FullFlavor(x)))"
+  },
+  {
+    "id": 73,
+    "fopl": "∀x (Book(x) ∧ SoldOverOneMillionCopies(x) → Bestseller(x))"
+  },
+  {
+    "id": 74,
+    "fopl": "∀x (Place(x) ∧ VenueForLiveStagePerformances(x) ∧ OftenWithStageCurtainsAndAudienceSeating(x) ∧ HostsPlaysMusicalsOrOtherProductions(x) → Theater(x))"
+  },
+  {
+    "id": 75,
+    "fopl": "∀x (Beverage(x) ∧ ¬ContainsAlcohol(x) ∧ TypicallyCarbonated(x) → SoftDrink(x))"
+  },
+  {
+    "id": 76,
+    "fopl": "∀x (Smartphone(x) → (ConnectsToInternet(x) ∧ MakesCalls(x) ∧ SendsMessages(x)))"
+  },
+  {
+    "id": 77,
+    "fopl": "∀x (Mountain(x) → (FormsFromTectonicForces(x) ∧ HasElevation(x) ∧ CanBeClimbed(x)))"
+  },
+  {
+    "id": 78,
+    "fopl": "∀x (ArtisticExpression(x) ∧ InvolvesMovement(x) ∧ ¬Dance(x) → TheaterPerformance(x) ⊕ CircusAct(x))"
+  },
+  {
+    "id": 79,
+    "fopl": "∀x (Bird(x) → ((CanFly(x) ∧ ¬CanSwim(x)) ∨ (CanSwim(x) ∧ ¬CanFly(x))))"
+  },
+  {
+    "id": 80,
+    "fopl": "∀x ∀y (Object(x) ∧ Liquid(y) ∧ FloatsOnSurface(x, y) → Buoyant(x))"
+  },
+  {
+    "id": 81,
+    "fopl": "∀x ∀y (Bat(x) ∧ Turtle(y) → ((Mammal(x) ∧ CanFly(x)) ∧ (Reptile(y) ∧ ¬CanFly(y))))"
+  },
+  {
+    "id": 82,
+    "fopl": "∀x (Bicycle(x) ∧ ThickTires(x) ∧ ¬DesignedForRoadUse(x) → MountainBike(x))"
+  },
+  {
+    "id": 83,
+    "fopl": "∀x ∀y ∀z (RedApple(x) ∧ GreenApple(y) ∧ YellowApple(z) → ((IsSweet(x) ∧ IsSour(y)) ∧ (IsSweet(z) ⊕ IsSour(z))))"
+  },
+  {
+    "id": 84,
+    "fopl": "∃x (Animal(x) ∧ Herbivore(x) ∧ EatsOnlyPlants(x)) ∧ ∃y (Animal(y) ∧ Carnivore(y) ∧ EatsOnlyAnimals(y))"
+  },
+  {
+    "id": 85,
+    "fopl": "∀x ∀y (Refrigerator(x) ∧ Perishable(y) → Preserves(x, y)) ∧ ¬(Refrigerator(x) ∧ Electronics(y) → Preserves(x, y))"
+  },
+  {
+    "id": 86,
+    "fopl": "∀x∀y (Battery(x) ∧ Device(y) → (StoresElectricalEnergy(x) ∧ ProvidesPower(x, y)))"
+  },
+  {
+    "id": 87,
+    "fopl": "∀x (Vehicle(x) ∧ TwoWheels(x) ∧ HasEngine(x) → Motorcycle(x))"
+  },
+  {
+    "id": 88,
+    "fopl": "∀x∀y∀z (City(x) ∧ Park(y) ∧ Beach(z) → (HasBuildings(x) ∧ HasTrees(y) ∧ HasSand(z)))"
+  },
+  {
+    "id": 89,
+    "fopl": "∀x (Oven(x) → (UsedForBaking(x) ∧ UsedForCooking(x)))"
+  },
+  {
+    "id": 90,
+    "fopl": "∀x∀y∀z (Beverage(x) ∧ MadeFromFermentedGrains(x) ∧ SpecificAlcoholContent(y) ∧ Has(x, y) ∧ PopularInRegion(x, z) ∧ ParticularRegion(z) → (Beer(x) ∨ Ale(x)))"
+  },
+  {
+    "id": 91,
+    "fopl": "∀x (Sun(x) → (RisesInEast(x) ∧ SetsInWest(x) ∧ ShinesDuringDay(x)))"
+  },
+  {
+    "id": 92,
+    "fopl": "∀x∀y (Wolf(x) ∧ Bird(y) → (Howls(x) ∧ Chirps(y)))"
+  },
+  {
+    "id": 93,
+    "fopl": "∀x (Volunteer(x) ↔ (Person(x) ∧ OffersTimeAndSkills(x) ∧ ForCause(x) ∧ ¬ExpectsCompensation(x)))"
+  },
+  {
+    "id": 94,
+    "fopl": "∀x (Vehicle(x) ∧ TwoWheels(x) ∧ PoweredByHumanEffort(x) ∧ RiderSitsOnSeatAndPedals(x) → Bicycle(x))"
+  },
+  {
+    "id": 95,
+    "fopl": "∀x (Musician(x) ∧ Versatile(x) ∧ (PlaysPiano(x) ∨ PlaysGuitar(x)) ∧ (PerformsInJazz(x) ∨ PerformsInRock(x)))"
+  },
+  {
+    "id": 96,
+    "fopl": "∀x (FourSides(x) → Quadrilateral(x))"
+  },
+  {
+    "id": 97,
+    "fopl": "∀x (Waterfall(x) → NaturalFeature(x) ∧ WaterFlowsOverVerticalDrop(x) ∧ (FoundInMountainousAreas(x) ∨ FoundAlongRivers(x)))"
+  },
+  {
+    "id": 98,
+    "fopl": "∀x (Student(x) ∧ GoodGrades(x) ∧ ParticipatesInExtracurricularActivities(x) → HonorStudent(x))"
+  },
+  {
+    "id": 99,
+    "fopl": "∀x (Game(x) ∧ PlayedOnRectangularSurface(x) ∧ InvolvesTwoTeams(x) ∧ ObjectiveIsScoringPoints(x) ∧ PuttingBallInOpposingTeamsGoal(x) → Soccer(x))"
+  },
+  {
+    "id": 100,
+    "fopl": "∀x (Thunderstorm(x) → (WarmAirRises(x) ∧ AtmosphericInstability(x)))"
+  },
+  {
+    "id": 101,
+    "fopl": "∀x (Fruit(x) ∧ ReceivesEthyleneGas(x) ∧ ReachedMaturity(x) ∧ ¬ExposedToColdTemperatures(x) → Ripens(x))"
+  },
+  {
+    "id": 102,
+    "fopl": "∀x (Language(x) ∧ ¬(NativeLanguage(x) ∨ UsedInDailyCommunication(x)) → DeadLanguage(x))"
+  },
+  {
+    "id": 103,
+    "fopl": "∃x (Shape(x) ∧ ¬(Square(x) ∨ Circle(x) ∨ Triangle(x)))"
+  },
+  {
+    "id": 104,
+    "fopl": "∀x∀y (Key(x) ∧ Lock(y) → (Opens(x, y) ∧ ¬Closes(x, y)))"
+  },
+  {
+    "id": 105,
+    "fopl": "∀x∀y (Cloud(x) ∧ ReleasesWaterDroplets(x) → Rain(y))"
+  },
+  {
+    "id": 106,
+    "fopl": "∀x∀y (Chemist(x) → StudiesChemicalReactions(x)) ∧ (Biologist(y) → ExaminesLivingOrganisms(y))"
+  },
+  {
+    "id": 107,
+    "fopl": "∀x (Liquid(x) ∧ ReachesBoilingPoint(x) → Gas(x))"
+  },
+  {
+    "id": 108,
+    "fopl": "∀x (Smartphone(x) ∧ ProtectiveCasing(x) ∧ SealedPorts(x) → WaterResistant(x))"
+  },
+  {
+    "id": 109,
+    "fopl": "∀x (Computer(x) → ((Desktop(x) ∧ ¬(Laptop(x) ∨ Tablet(x))) ∨ (Laptop(x) ∧ ¬(Desktop(x) ∨ Tablet(x))) ∨ (Tablet(x) ∧ ¬(Desktop(x) ∨ Laptop(x)))))"
+  },
+  {
+    "id": 110,
+    "fopl": "∀x (MusicalInstrument(x) ∧ Versatile(x) ↔ (ProducesWideRangeOfTones(x) ∧ SuitableForVariousMusicalStyles(x)))"
+  },
+  {
+    "id": 111,
+    "fopl": "∀x ∀y (Dancer(x) ∧ Stage(y) → PerformsOn(x, y))"
+  },
+  {
+    "id": 112,
+    "fopl": "∀x ∀y (Planet(x) ∧ Star(y) ∧ StableEllipticalPath(x) ∧ ¬Moon(x) → Orbits(x, y))"
+  },
+  {
+    "id": 113,
+    "fopl": "∀x (Material(x) ∧ ReturnsToOriginalShape(x) → Elastic(x))"
+  },
+  {
+    "id": 114,
+    "fopl": "∀x (Bicycle(x) → (HasTwoWheels(x) ∧ HasFrame(x) ∧ HasSeat(x)) ∧ (UsedForTransportation(x) ∨ UsedForExercise(x)))"
+  },
+  {
+    "id": 115,
+    "fopl": "∀x (WearingHelmet(x) → ReducedRiskOfHeadInjuries(x))"
+  },
+  {
+    "id": 116,
+    "fopl": "∃x (Chair(x) ∧ ¬MadeOfWood(x))"
+  },
+  {
+    "id": 117,
+    "fopl": "∀x ∀y (MusicalInstrument(x) ∧ Musician(y) ∧ WellTuned(x) ∧ SkilledMusician(y) → ProducesPleasantSound(x, y))"
+  },
+  {
+    "id": 118,
+    "fopl": "∀x∀y (Dolphin(x) ∧ Dolphin(y) → Communicates(x, y, SoundsAndBodyMovements))"
+  },
+  {
+    "id": 119,
+    "fopl": "∀x (Bird(x) ∧ TravelsLongDistances(x) ∧ SpecificBreedingAndWinteringGrounds(x) ∧ SeasonalPattern(x) → Migratory(x))"
+  },
+  {
+    "id": 120,
+    "fopl": "∀x (Volcano(x) → (Dormant(x) ⊕ Active(x) ⊕ Extinct(x)))"
+  },
+  {
+    "id": 121,
+    "fopl": "∀x (Movie(x) → ¬(Silent(x) ∧ Soundtrack(x)))"
+  },
+  {
+    "id": 122,
+    "fopl": "∀x (Meal(x) ∧ Satisfying(x) ↔ (Flavorful(x) ∧ VarietyOfTextures(x) ∧ ¬OverlyFull(x) ∧ ¬StillHungry(x)))"
+  },
+  {
+    "id": 123,
+    "fopl": "∀x∀z (Tree(x) ∧ DesertEnvironment(z) ∧ GrowsIn(x, z) ∧ DeepRoots(x) → AdaptedToStoreWater(x))"
+  },
+  {
+    "id": 124,
+    "fopl": "∀x (Student(x) ∧ Course(y) ∧ RegularAttendance(x, y) ∧ AbovePassingGrade(x, y) → Passes(x, y)) ∨ (Student(x) ∧ Course(y) ∧ ExceptionalFinalExamScore(x, y) → Passes(x, y))"
+  },
+  {
+    "id": 125,
+    "fopl": "∀x (Community(x) ∧ OrganizesEngagingEvents(x) ∧ PromotesInclusivity(x) ∧ FostersSenseOfBelonging(x) → Vibrant(x))"
+  },
+  {
+    "id": 126,
+    "fopl": "∀x∀y∀z (SecuritySystem(x) ∧ Building(y) ∧ Occupant(z, y) ∧ DetectsIntrusions(x, y) ∧ SendsAlertsToPropertyOwners(x, y) ∧ EnsuresSafetyOfOccupants(x, z) → Robust(x))"
+  },
+  {
+    "id": 127,
+    "fopl": "∀x ((Dog(x) ∧ TrainedToAssistPeopleWithDisabilities(x) ∧ PassedCertificationTests(x)) → ServiceDog(x))"
+  },
+  {
+    "id": 128,
+    "fopl": "∀x (MusicalPerformance(x) → ((Live(x) ∧ InPerson(x)) ∨ (PreRecorded(x) ∧ Streamed(x))))"
+  },
+  {
+    "id": 129,
+    "fopl": "∀x (Snow(x) → FormsAtFreezingTemperatures(x)) ∧ ∀y (Rain(y) → OccursAtAboveFreezingTemperatures(y))"
+  },
+  {
+    "id": 130,
+    "fopl": "∀x (Device(x) ∧ StoresData(x) ∧ RetrievesData(x) ∧ ConnectableToComputer(x) → StorageDevice(x))"
+  },
+  {
+    "id": 131,
+    "fopl": "∀x (Movie(x) → Comedy(x) ⊕ Drama(x) ⊕ Action(x))"
+  },
+  {
+    "id": 132,
+    "fopl": "∀x (Vehicle(x) ∧ TravelsOnLand(x) ∧ TravelsOnWater(x) → AmphibiousVehicle(x))"
+  },
+  {
+    "id": 133,
+    "fopl": "∀x (Triangle(x) → (Equilateral(x) ⊕ Isosceles(x)))"
+  },
+  {
+    "id": 134,
+    "fopl": "∀x (Smartphone(x) ↔ (Device(x) ∧ TouchscreenInterface(x) ∧ InternetAccess(x) ∧ RunsApplications(x)))"
+  },
+  {
+    "id": 135,
+    "fopl": "∃x ∃y (Ball(x) ∧ Cube(y) ∧ (Red(x) ∨ Blue(y)) ∧ ¬(Red(x) ∧ Blue(y)))"
+  },
+  {
+    "id": 136,
+    "fopl": "∀x (Animal(x) ∧ HasFeathers(x) ∧ LaysEggs(x) ∧ WarmBlooded(x) → Bird(x))"
+  },
+  {
+    "id": 137,
+    "fopl": "∀x (Product(x) ∧ Innovative(x) ∧ WellAdvertised(x) ∧ SolvesCommonProblem(x) → HighDemand(x))"
+  },
+  {
+    "id": 138,
+    "fopl": "∀x∀y (Train(x) ∧ Bus(y) → (PublicTransportation(x) ∧ PublicTransportation(y)))"
+  },
+  {
+    "id": 139,
+    "fopl": "∀x (Cake(x) → (IsSweet(x) ∧ MadeFromFlour(x)))"
+  },
+  {
+    "id": 140,
+    "fopl": "CartilaginousSkeleton(shark) ∧ OceanDweller(shark) ∧ Carnivorous(shark)"
+  },
+  {
+    "id": 141,
+    "fopl": "∀x (Smartphone(x) → (FacilitatesCommunication(x) ∧ AccessToInformation(x) ∧ EnablesConnectivity(x) ∧ EnhancesProductivity(x)))"
+  },
+  {
+    "id": 142,
+    "fopl": "∀x (Laptop(x) → (BuiltInKeyboard(x) ∧ DisplayScreen(x)))"
+  },
+  {
+    "id": 143,
+    "fopl": "∀x (Food(x) ∧ Spicy(x) ↔ ContainsHotIngredients(x))"
+  },
+  {
+    "id": 144,
+    "fopl": "∀x (Square(x) → (NumberOfSides(x, 4) ∧ EqualLengthSides(x) ∧ NumberOfRightAngles(x, 4)))"
+  },
+  {
+    "id": 145,
+    "fopl": "∀x (Movie(x) ∧ CriticallyAcclaimed(x) → (EngagingStoryline(x) ∧ ExcellentActing(x)))"
+  },
+  {
+    "id": 146,
+    "fopl": "∀x∀y (Baker(x) ∧ Bread(y) → Bakes(x, y))"
+  },
+  {
+    "id": 147,
+    "fopl": "∃x (Athlete(x) ∧ (IndividualSportCompetitor(x) ∨ TeamSportCompetitor(x) ∨ (IndividualSportCompetitor(x) ∧ TeamSportCompetitor(x))))"
+  },
+  {
+    "id": 148,
+    "fopl": "∀x (Triangle(x) → ThreeSides(x)) ∧ ∀y (Square(y) → FourSides(y))"
+  },
+  {
+    "id": 149,
+    "fopl": "∀x (Dish(x) ∧ IsSweet(x) ∧ ServedAfterMeal(x) ∧ ¬PartOfMainCourse(x) → Dessert(x))"
+  },
+  {
+    "id": 150,
+    "fopl": "∃x (IceCreamFlavor(x) ∧ ¬Sweet(x))"
+  },
+  {
+    "id": 151,
+    "fopl": "∀x (Student(x) ∧ (AcademicExcellence(x) ∨ FinancialNeed(x)) → ReceivesScholarship(x))"
+  },
+  {
+    "id": 152,
+    "fopl": "∀x ∀y (Student(x) ∧ Exam(y) ∧ StudiesDiligently(x) → (PassWithHighScore(x, y) ∨ FailDueToExternalFactors(x, y)))"
+  },
+  {
+    "id": 153,
+    "fopl": "∀x (Cinema(x) → DisplaysMovies(x))"
+  },
+  {
+    "id": 154,
+    "fopl": "∀x∀y∀z (SolarPanel(x) ∧ Sunlight(y) ∧ ElectricalEnergy(z) → GeneratesElectricity(x, y, z))"
+  },
+  {
+    "id": 155,
+    "fopl": "∀x ∀y (Vaccine(x) ∧ Pathogen(y) ∧ StimulatesImmuneSystemWithoutCausingIllness(x, y) → ProvidesImmunity(x))"
+  },
+  {
+    "id": 156,
+    "fopl": "∀x∀y∀z (Mountain(x) ∧ Climate(y) ∧ (WindPatterns(z) ∨ Precipitation(z) ∨ Temperature(z)) → Influences(x, y, z))"
+  },
+  {
+    "id": 157,
+    "fopl": "∀x (LaptopComputer(x) → Portable(x) ∧ RunsOnBatteryPower(x) ∧ IncludesBuiltInKeyboard(x) ∧ IncludesTouchpad(x) ∧ IncludesDisplayScreen(x))"
+  },
+  {
+    "id": 158,
+    "fopl": "∀x ∀y (Student(x) ∧ University(y) ∧ CompletedDegreeRequirements(x, y) ∧ ReceivedDiplomaFrom(x, y) → Graduates(x, y))"
+  },
+  {
+    "id": 159,
+    "fopl": "∀x ∀y ∀z (Dessert(x) ∧ MainCourse(y) ∧ SideDish(z) → ((Sweet(x) ∨ Sour(x)) ∧ Savory(y) ⊕ (Salty(z) ∨ Spicy(z))))"
+  },
+  {
+    "id": 160,
+    "fopl": "∀x∀y (Lawyer(x) ∧ Client(y) → (DefendsInCriminal(x, y) ∨ DefendsInCivil(x, y) ∨ DefendsInFamily(x, y)))"
+  },
+  {
+    "id": 161,
+    "fopl": "∀x (Zoo(x) → (HousesDiverseAssortmentOfAnimals(x) ∧ ProvidesNaturalisticHabitats(x)))"
+  },
+  {
+    "id": 162,
+    "fopl": "∀x (Garden(x) ∧ Thriving(x) ↔ (DiverseRangeOfPlants(x) ∧ (AdequateSunlight(x) ∨ FertileSoil(x))))"
+  },
+  {
+    "id": 163,
+    "fopl": "∀x (Cyclist(x) → RideBicycle(x)) ∧ (Motorcyclist(x) → RideMotorcycle(x)) ∧ (Driver(x) → OperateCar(x)) ∧ (Pedestrian(x) → TravelOnFoot(x))"
+  },
+  {
+    "id": 164,
+    "fopl": "∀x∀y (CelestialObject(x) ∧ Planet(y) ∧ Orbits(x, y) → Moon(x))"
+  },
+  {
+    "id": 165,
+    "fopl": "∀x (Cat(x) → HasFur(x)) ∧ (Dog(x) → HasTail(x)) ∧ (Bird(x) → HasFeathers(x))"
+  },
+  {
+    "id": 166,
+    "fopl": "∀x (Smartphone(x) → CanSendTextMessages(x))"
+  },
+  {
+    "id": 167,
+    "fopl": "∀x (Student(x) → (StudiesMath(x) ⊕ StudiesHistory(x)))"
+  },
+  {
+    "id": 168,
+    "fopl": "∀x (Number(x) ∧ Even(x) ↔ DivisibleByTwo(x))"
+  },
+  {
+    "id": 169,
+    "fopl": "∀x ∀y ∀z (Museum(x) ∧ Artifact(y) → Displays(x, y)) ∧ (Library(z) ∧ Book(a) → Lends(z, a))"
+  },
+  {
+    "id": 170,
+    "fopl": "∀x (MusicalPerformance(x) ∧ Memorable(x) ↔ (ExceptionalTalent(x) ∨ UniqueStagePresence(x) ∨ EmotionalConnectionWithAudience(x)))"
+  },
+  {
+    "id": 171,
+    "fopl": "∃x ∃y (Student(x) ∧ Teacher(y) ∧ Studies(x, Mathematics) ∧ Teaches(y, Chemistry))"
+  },
+  {
+    "id": 172,
+    "fopl": "∀x (Grass(x) → ¬Tree(x))"
+  },
+  {
+    "id": 173,
+    "fopl": "∀x (Plant(x) ∧ AdequateSunlight(x) ∧ ProperWatering(x) ∧ EssentialNutrients(x) → ThrivesAndGrowsHealthily(x))"
+  },
+  {
+    "id": 174,
+    "fopl": "∀x∀y (Element(x) ∧ Element(y) ∧ ChemicalReaction(x, y) → FormsCompound(x, y))"
+  },
+  {
+    "id": 175,
+    "fopl": "∀x (ElectronicDevice(x) → (PoweredOn(x) ⊕ PoweredOff(x)))"
+  },
+  {
+    "id": 176,
+    "fopl": "∀x (Animal(x) ∧ HasHair(x) ∧ GivesBirthToLiveYoung(x) ∧ ProducesMilk(x) → Mammal(x))"
+  },
+  {
+    "id": 177,
+    "fopl": "∀x (ExerciseRoutine(x) ∧ TargetsDifferentMuscleGroups(x) ∧ PerformedRegularly(x) → Effective(x))"
+  },
+  {
+    "id": 178,
+    "fopl": "∀x ∀y ∀z (Airplane(x) → Requires(x, Fuel) ∧ Flies(x)) ∧ (HotAirBalloon(y) → ReliesOn(y, HeatedAir) ∧ Lifts(y)) ∧ (Parachute(z) → Uses(z, AirResistance) ∧ SlowsDescent(z))"
+  },
+  {
+    "id": 179,
+    "fopl": "∀x∀y (Vehicle(x) ∧ EmissionsTest(y) ∧ CatalyticConverter(x) ∧ MeetsEmissionStandards(x, y) → PassesTest(x, y))"
+  },
+  {
+    "id": 180,
+    "fopl": "∀x (WeatherCondition(x) ∧ PresenceOfIceCrystalsOrSnowflakes(x) ∧ LowVisibility(x) → Snowfall(x))"
+  },
+  {
+    "id": 181,
+    "fopl": "∀x ((Rainforest(x) → (HabitatForVarietyOfSpecies(x))) ∧ (City(x) → (PopulatedByHumans(x) ∧ HasInfrastructure(x))))"
+  },
+  {
+    "id": 182,
+    "fopl": "∀x (Plant(x) ∧ DrySoil(x) ∧ ¬DroughtTolerant(x) → NeedsWatering(x))"
+  },
+  {
+    "id": 183,
+    "fopl": "∃x∃y (Medication(x) ∧ Illness(y) → AlleviatesSymptoms(x, y))"
+  },
+  {
+    "id": 184,
+    "fopl": "∀x (Cactus(x) → StoresWaterInStem(x)) ∧ ∀y (Fern(y) → RequiresConstantMoisture(y))"
+  },
+  {
+    "id": 185,
+    "fopl": "∀x (Clock(x) → (Analog(x) ⊕ Digital(x)))"
+  },
+  {
+    "id": 186,
+    "fopl": "∀x (Vessel(x) ∧ DesignedToTravelOnWater(x) ∧ CarriesPeopleOrGoods(x) ∧ (PropelledByEngines(x) ∨ PropelledBySails(x)) → Boat(x))"
+  },
+  {
+    "id": 187,
+    "fopl": "∀x (Watch(x) → (DisplaysTimeWithHands(x) ∨ DisplaysTimeWithDigitalDisplay(x)))"
+  },
+  {
+    "id": 188,
+    "fopl": "∀x (Pencil(x) ↔ (WritingInstrument(x) ∧ MadeOfWood(x) ∧ MadeOfGraphite(x) ∧ ¬Pen(x)))"
+  },
+  {
+    "id": 189,
+    "fopl": "∀x (Animal(x) ∧ ColdBlooded(x) ∧ ScalySkin(x) ∧ UsuallyLaysEggs(x) → Reptile(x))"
+  },
+  {
+    "id": 190,
+    "fopl": "∀x (ProfessionalAthlete(x) ∧ (StrictTrainingSchedule(x) ∧ HealthyDiet(x) ∧ PrioritizesRestAndRecovery(x)))"
+  },
+  {
+    "id": 191,
+    "fopl": "∀x (Desert(x) ↔ (ReceivesLittlePrecipitation(x) ∧ ExtremeTemperatureFluctuations(x)))"
+  },
+  {
+    "id": 192,
+    "fopl": "∀x (HealthyDiet(x) ↔ (IncludesFruits(x) ∧ IncludesVegetables(x) ∧ IncludesLeanProteins(x) ∧ ¬ExcessiveSugar(x) ∧ ¬SaturatedFats(x)))"
+  },
+  {
+    "id": 193,
+    "fopl": "∀x (Atom(x) → (Metal(x) ⊕ NonMetal(x)))"
+  },
+  {
+    "id": 194,
+    "fopl": "∀x (Amphibian(x) ↔ (CanLiveOnLand(x) ∧ CanLiveInWater(x) ∧ UndergoesMetamorphosis(x)))"
+  },
+  {
+    "id": 195,
+    "fopl": "∀x (Movie(x) ∧ EngagingPlot(x) ∧ WellDevelopedCharacters(x) ∧ ExcellentCinematography(x) → PositiveReviews(x))"
+  },
+  {
+    "id": 196,
+    "fopl": "∀x (Book(x) ∧ StatusAvailable(x) → CanBeBorrowedFromLibrary(x))"
+  },
+  {
+    "id": 197,
+    "fopl": "∀x (Event(x) ∧ ¬Ticketed(x) ∧ HeldOutdoors(x) ∧ LiveMusic(x) → AttractsDiverseCrowd(x))"
+  },
+  {
+    "id": 198,
+    "fopl": "∀x (Appliance(x) ∧ UsedForCooling(x) ∧ UsedForPreservingFood(x) → Refrigerator(x))"
+  },
+  {
+    "id": 199,
+    "fopl": "∀x (Cat(x) → (SleepsDuringDay(x) ∧ ActiveAtNight(x)))"
+  },
+  {
+    "id": 200,
+    "fopl": "∀x ∀y (BasketballGame(x) ∧ Team(y) ∧ SuccessfulShot(y, x) → (ScoresTwoPoints(y, x) ⊕ ScoresThreePoints(y, x)))"
+  },
+  {
+    "id": 201,
+    "fopl": "∀x∀y∀z (Antibiotic(x) ∧ BacterialInfection(y) ∧ Patient(z) ∧ TargetsSpecificBacteria(x, y) ∧ NoAdverseReactions(x, z) → EffectivelyTreats(x, y))"
+  },
+  {
+    "id": 202,
+    "fopl": "∀x∀y∀z∀w (ElectricCircuit(x) ∧ PowerSource(y) ∧ ConductivePathway(z) ∧ ElectricalComponent(w) → (Includes(x, y, z, w) ∧ AllowsFlowOfCurrent(x) ∧ EnablesElectronicFunctions(x)))"
+  },
+  {
+    "id": 203,
+    "fopl": "∀x (Bank(x) → HoldsCustomersMoney(x))"
+  },
+  {
+    "id": 204,
+    "fopl": "∀x (VacationDestination(x) ∧ PopularAmongTourists(x) ↔ (BeautifulScenery(x) ∧ InterestingAttractions(x) ∧ RangeOfAccommodations(x) ∧ ¬SeeksUrbanExperiences(x)))"
+  },
+  {
+    "id": 205,
+    "fopl": "∀x ∀y (Museum(x) ∧ DisplaysDiverseRangeOfArtifacts(x) ∧ OffersInteractiveExhibits(x) → ProvidesEngagingEducationalExperience(y))"
+  },
+  {
+    "id": 206,
+    "fopl": "∀x (Illness(x) ∧ CausesFever(x) ∧ CausesCough(x) ∧ CausesDifficultyBreathing(x) → RespiratoryIllness(x))"
+  },
+  {
+    "id": 207,
+    "fopl": "∀x∀y (Farmer(x) ∧ FertileLand(y) → GrowsCropsOn(x, y))"
+  },
+  {
+    "id": 208,
+    "fopl": "∀x (Star(x) → ¬Planet(x))"
+  },
+  {
+    "id": 209,
+    "fopl": "∀x∀y (Architect(x) ∧ Building(y) ∧ Designs(x, y) ∧ OptimizesSpaceUtilization(y) ∧ StructurallySound(y) ∧ AestheticallyPleasing(y) → SuccessfulDesign(x, y))"
+  },
+  {
+    "id": 210,
+    "fopl": "∀x (Restaurant(x) → (ServesVeganFood(x) ∨ ServesVegetarianFood(x)) ∧ ¬(¬ServesVeganFood(x) ∧ ¬ServesVegetarianFood(x)))"
+  },
+  {
+    "id": 211,
+    "fopl": "∀x (ElectricalCircuit(x) → (ContainsResistor(x) ∧ ReducesCurrentFlow(x) ∧ DissipatesEnergyAsHeat(x)))"
+  },
+  {
+    "id": 212,
+    "fopl": "∀x (Object(x) ∧ (WeighsMoreThan(x, 100) ∨ HighDensity(x)) → Heavy(x))"
+  },
+  {
+    "id": 213,
+    "fopl": "∀x (PaintingTechnique(x) ∧ UsesWater(x) ∧ UsesPigments(x) ∧ UsesBrush(x) → (Watercolor(x) ∨ Gouache(x)))"
+  },
+  {
+    "id": 214,
+    "fopl": "∀x (Planet(x) ∧ Habitable(x) → HasWater(x) ∧ HasAtmosphere(x))"
+  },
+  {
+    "id": 215,
+    "fopl": "∀x (SuccessfulEntrepreneur(x) ↔ (Innovative(x) ∧ Adaptable(x) ∧ Persistent(x) ∧ HasStrongNetwork(x) ∧ UnderstandsTargetMarket(x)))"
+  },
+  {
+    "id": 216,
+    "fopl": "∀x ∀y (Carpenter(x) ∧ Furniture(y) → Builds(x, y))"
+  },
+  {
+    "id": 217,
+    "fopl": "∀x ∀y ∀z (River(x) ∧ Spring(y) ∧ LargerBodyOfWater(z) → (FlowsDownstream(x) ∧ EmptiesInto(x, z)) ∧ (EmergesFromGround(y) ∧ FeedsInto(y, x)))"
+  },
+  {
+    "id": 218,
+    "fopl": "∀x (Wind(x) ∧ ∃y (Leaf(y) ∧ Moves(x, y)))"
+  },
+  {
+    "id": 219,
+    "fopl": "∀x ∀y (Species(x) ∧ PopulationDecline(y) ∧ DeclinesDueToFactors(x, y) → Endangered(x))"
+  },
+  {
+    "id": 220,
+    "fopl": "¬(∀x (Transportation(x) → (LandBased(x) ∨ AirBased(x) ∨ WaterBased(x))))"
+  },
+  {
+    "id": 221,
+    "fopl": "∀x (Island(x) → (SurroundedByWater(x) ∧ ¬ConnectedToMainland(x)))"
+  },
+  {
+    "id": 222,
+    "fopl": "∀x ∀y ∀z (Book(x) ∧ Author(y) ∧ Publisher(z) → (WrittenBy(x, y) ∧ PublishedBy(x, z)))"
+  },
+  {
+    "id": 223,
+    "fopl": "∀x (Artwork(x) ∧ MuseumContains(x) ∧ (FamousArtistCreated(x) ∨ HistoricalSignificance(x) ∨ RarePiece(x)) → Valuable(x))"
+  },
+  {
+    "id": 224,
+    "fopl": "∀x (Building(x) ∧ PrimarilyUsedForHousing(x) → Residential(x))"
+  },
+  {
+    "id": 225,
+    "fopl": "∀x (Device(x) ∧ LowBattery(x) → NeedsCharging(x))"
+  },
+  {
+    "id": 226,
+    "fopl": "∀x (Asset(x) ∧ AppreciatesOverTime(x) ∧ GeneratesIncome(x) ∧ OffersDiversificationBenefits(x) → ValuableInvestment(x))"
+  },
+  {
+    "id": 227,
+    "fopl": "∀x (Employee(x) ∧ WorksOvertime(x) ∧ ¬Paid(x) → Exploited(x))"
+  },
+  {
+    "id": 228,
+    "fopl": "∀x (Smartphone(x) ∧ CompatibleChargingReceiver(x) ∧ ¬InMetalCase(x) → SupportsWirelessCharging(x))"
+  },
+  {
+    "id": 229,
+    "fopl": "∀x∀y (Apple(x) ∧ Carrot(y) → (Fruit(x) ∧ GrowsOnTree(x) ∧ Vegetable(y) ∧ GrowsUnderground(y)))"
+  },
+  {
+    "id": 230,
+    "fopl": "∀x (CreatesDesignsAndTestsNewProducts(x) → ProductDesigner(x))"
+  },
+  {
+    "id": 231,
+    "fopl": "∀x (Wetland(x) ∧ HabitatForVariousBirdSpecies(x) ∧ FiltersPollutantsFromWater(x) ∧ AbsorbsExcessFloodwater(x) → ContributesToEcosystemStability(x))"
+  },
+  {
+    "id": 232,
+    "fopl": "∀x (VolcanoEruption(x) → (ReleaseAsh(x) ∧ ReleaseGas(x) ∧ ReleaseMoltenRock(x) ∧ CausesHazardsAndDisruptions(x)))"
+  },
+  {
+    "id": 233,
+    "fopl": "∀x (LivingOrganism(x) → (SexualReproduction(x) ⊕ AsexualReproduction(x)))"
+  },
+  {
+    "id": 234,
+    "fopl": "∀x (Product(x) ∧ MeetsCustomerNeeds(x) ∧ UniqueDesign(x) ∧ AdvancedTechnology(x) → Innovative(x))"
+  },
+  {
+    "id": 235,
+    "fopl": "∀x (AquaticAnimal(x) ∧ BreathesThroughGills(x) ∧ HasFins(x) ∧ CoveredInScales(x) → Fish(x))"
+  },
+  {
+    "id": 236,
+    "fopl": "∀x (Dentist(x) ↔ (Person(x) ∧ Trained(x) ∧ Licensed(x) ∧ DiagnosesOralIssues(x) ∧ TreatsOralIssues(x)))"
+  },
+  {
+    "id": 237,
+    "fopl": "∀x∀y (Student(x) ∧ AcademicSubject(y) ∧ StrongUnderstanding(x, y) ∧ EffectiveStudyHabits(x, y) ∧ ConsistentPerformanceOnExams(x, y) → Excels(x, y))"
+  },
+  {
+    "id": 238,
+    "fopl": "∀x (Gemstone(x) → (Valuable(x) ∧ CanBeCutIntoDifferentShapes(x)))"
+  },
+  {
+    "id": 239,
+    "fopl": "∀x ∀y (Garden(x) ∧ Gardener(y) ∧ ContainsPlants(x) → MaintainedBy(x, y))"
+  },
+  {
+    "id": 240,
+    "fopl": "∀x (Car(x) ∧ FuelEfficient(x) ↔ (LowFuelConsumption(x) ∧ ReducedEmissions(x) ∧ OptimalEnginePerformance(x)))"
+  },
+  {
+    "id": 241,
+    "fopl": "∀x (Party(x) ∧ (EntertainingActivities(x) ∨ DeliciousFood(x) ∨ DiverseGuestList(x)) → Successful(x))"
+  },
+  {
+    "id": 242,
+    "fopl": "∀x (Shape(x) → (Round(x) ⊕ HasEdges(x)))"
+  },
+  {
+    "id": 243,
+    "fopl": "∀x (Democracy(x) → (RightToVote(x) ∧ FreedomOfSpeech(x)))"
+  },
+  {
+    "id": 244,
+    "fopl": "∀x ∀y ∀z (Library(x) → (Contains(x, y) ∧ (Books(y) ∨ Journals(y) ∨ DigitalResources(y)) ∧ OrganizedBy(x, z) ∧ (Subject(z) ∨ Author(z) ∨ PublicationDate(z))))"
+  },
+  {
+    "id": 245,
+    "fopl": "∀x ∀y (GreenhouseEffect(x) ∧ EarthsAtmosphere(y) → (TrapsHeat(x, y) ∧ WarmsPlanetsSurface(x)))"
+  },
+  {
+    "id": 246,
+    "fopl": "∀x (FoodType(x) → Fruit(x) ⊕ Vegetable(x))"
+  },
+  {
+    "id": 247,
+    "fopl": "∀x (TropicalRainforest(x) ↔ (ReceivesHighRainfall(x) ∧ HighHumidity(x) ∧ DenseCanopy(x) ∧ ∀y∀z (DiverseSpecies(y, z) ∧ Plant(y) ∧ Animal(z))))"
+  },
+  {
+    "id": 248,
+    "fopl": "∀x (Book(x) ↔ (ConsistsOfPages(x) ∧ ContainsText(x) ∧ ContainsImages(x) ∧ BoundTogether(x) ∧ ProtectedByCover(x)))"
+  },
+  {
+    "id": 249,
+    "fopl": "∀x (Surface(x) ∧ ReflectsLight(x) ∧ ¬TransmitsLight(x) ∧ ¬AbsorbsLight(x) → Mirror(x))"
+  },
+  {
+    "id": 250,
+    "fopl": "∀x (Restaurant(x) ∧ ExceptionalCulinarySkill(x) ∧ HighQualityIngredients(x) ∧ OutstandingCustomerService(x) → AwardedMichelinStar(x))"
+  },
+  {
+    "id": 251,
+    "fopl": "∀x (Fruit(x) ∧ RichInVitaminC(x) ∧ (Orange(x) ∨ Lemon(x)) → StrengthenImmuneSystem(x))"
+  },
+  {
+    "id": 252,
+    "fopl": "∀x ∀y (Refrigerator(x) ∧ GasStove(y) → ((KeepsFoodCold(x) ∧ HasDoor(x) ∧ RunsOnElectricity(x)) ∧ (CooksFood(y) ∧ HasBurners(y) ∧ RunsOnGas(y))))"
+  },
+  {
+    "id": 253,
+    "fopl": "∃x (Game(x) ∧ ¬(SinglePlayer(x) ∨ MultiPlayer(x)))"
+  },
+  {
+    "id": 254,
+    "fopl": "∀x (BoxOfficeHit(x) ↔ (Film(x) ∧ (HighProductionBudget(x) ∨ AllStarCast(x) ∨ SignificantEarlyRevenue(x))))"
+  },
+  {
+    "id": 255,
+    "fopl": "∀x (Houseplant(x) → (NeedsWater(x) ∧ NeedsSunlight(x) ∧ (Succulents(x) ∨ Ferns(x) ∨ FloweringPlants(x)) ∧ SpecificCareInstructions(x)))"
+  },
+  {
+    "id": 256,
+    "fopl": "∀x ∀y (Country(x) ∧ Country(y) ∧ ShareBorder(x, y) → Neighbors(x, y))"
+  },
+  {
+    "id": 257,
+    "fopl": "∀x (Meal(x) ∧ BalancedProportionOfProteins(x) ∧ BalancedProportionOfCarbohydrates(x) ∧ BalancedProportionOfFats(x) → Healthy(x))"
+  },
+  {
+    "id": 258,
+    "fopl": "∀x ∀y (Medicine(x) ∧ Disease(y) ∧ ((TargetsCause(x, y) ∧ MinimalSideEffects(x)) ∧ ¬Expired(x) → EffectiveTreatment(x, y)))"
+  },
+  {
+    "id": 259,
+    "fopl": "∀x (Cat(x) → (HasWhiskers(x) ∧ HasSharpClaws(x)))"
+  },
+  {
+    "id": 260,
+    "fopl": "¬(∀x (MusicGenre(x) → FastPaced(x))) ∧ ∃y∃z (MusicGenre(y) ∧ Slow(y) ∧ MusicGenre(z) ∧ ModerateTempo(z))"
+  },
+  {
+    "id": 261,
+    "fopl": "∀x (Butterfly(x) ∧ Caterpillar(y) → UndergoesMetamorphosis(y, x))"
+  },
+  {
+    "id": 262,
+    "fopl": "∀x (Place(x) ∧ HasGreenSpaces(x) ∧ OpenToPublic(x) ∧ OffersRecreationalActivities(x) → Park(x))"
+  },
+  {
+    "id": 263,
+    "fopl": "∀x (Plant(x) ∧ StoresWaterInLeavesOrStems(x) ∧ ThrivesInAridEnvironments(x) → Succulent(x))"
+  },
+  {
+    "id": 264,
+    "fopl": "∃x (Bird(x) ∧ CanFly(x)) ∧ ∃y (Fish(y) ∧ CanSwim(y)) ∧ ∃z (Elephant(z) ∧ ¬CanFly(z) ∧ ¬CanSwim(z))"
+  },
+  {
+    "id": 265,
+    "fopl": "∀x ∀y (Flower(x) ∧ Season(y) ∧ TemperatureConditionsMet(x, y) ∧ PrecipitationConditionsMet(x, y) ∧ SunlightConditionsMet(x, y) → Blooms(x, y))"
+  },
+  {
+    "id": 266,
+    "fopl": "∀x ∀y ∀z (Circle(x) ∧ Pentagon(y) ∧ Hexagon(z) → (NoSides(x) ∧ FiveSides(y) ∧ SixSides(z)))"
+  },
+  {
+    "id": 267,
+    "fopl": "∀x (DiseaseType(x) ∧ CausedByImmuneSystemMalfunction(x) ∧ AttacksOwnTissues(x) ∧ CanLeadToChronicInflammation(x) → AutoimmuneDisease(x))"
+  },
+  {
+    "id": 268,
+    "fopl": "∀x (Square(x) → HasFourRightAngles(x))"
+  },
+  {
+    "id": 269,
+    "fopl": "∀x (HealthyEcosystem(x) → ∃y ∃z (Predator(y) ∧ Prey(z) ∧ BalancedRelationship(x, y, z)))"
+  },
+  {
+    "id": 270,
+    "fopl": "∀x (Art(x) ∧ CreatedUsingPigment(x) ∧ (Canvas(x) ∨ Paper(x)) ∧ PortraysRealisticImages(x) → Painting(x))"
+  },
+  {
+    "id": 271,
+    "fopl": "∀x (Lecture(x) ∧ Informative(x) → (EngagesAudience(x) ∧ ClearlyExplainsConcepts(x) ∧ EncouragesQuestions(x)))"
+  },
+  {
+    "id": 272,
+    "fopl": "∀x (Region(x) ∧ DistinctClimaticConditions(x) ∧ CharacterizedBySpecificVegetation(x) ∧ CharacterizedBySpecificWildlife(x) → Biome(x))"
+  },
+  {
+    "id": 273,
+    "fopl": "∀x (Bird(x) ∧ Nocturnal(x) ∧ ExcellentNightVision(x) → HuntInTheDark(x))"
+  },
+  {
+    "id": 274,
+    "fopl": "∀x ∀y (Programmer(x) ∧ Software(y) ∧ Develops(x, y) ∧ TestsForBugs(x, y) → DeploysToUsers(x, y))"
+  },
+  {
+    "id": 275,
+    "fopl": "∀x (Plant(x) ∧ ProducesOxygen(x) ∧ AbsorbsCarbonDioxide(x) ∧ GrowsInSoil(x) → (Tree(x) ∨ Shrub(x)))"
+  },
+  {
+    "id": 276,
+    "fopl": "∀x (Student(x) ∧ StudiesRegularly(x) ∧ CompletesAssignmentsOnTime(x) → Hardworking(x))"
+  },
+  {
+    "id": 277,
+    "fopl": "∀x ∀y (Planet(x) ∧ Star(y) ∧ Orbits(x, y) ∧ ¬∃z (Planet(z) ∧ Satellite(x, z)) → OrbitsStar(x))"
+  },
+  {
+    "id": 278,
+    "fopl": "∀x (Comet(x) → ComposedOfIceDustAndRock(x) ∧ OrbitsSun(x) ∧ LeavesVisibleTail(x))"
+  },
+  {
+    "id": 279,
+    "fopl": "∀x (CelestialObject(x) ∧ OrbitsSun(x) ∧ HasTail(x) ∧ MostlyIceAndDust(x) → Comet(x))"
+  },
+  {
+    "id": 280,
+    "fopl": "∀x (Game(x) ∧ FlatSurface(x) ∧ Pieces(x) ∧ Rules(x) → BoardGame(x))"
+  },
+  {
+    "id": 281,
+    "fopl": "∀x (Compass(x) → AlignsWithEarthsMagneticField(x))"
+  },
+  {
+    "id": 282,
+    "fopl": "∀x (Car(x) → (PoweredByEngine(x) ∧ (Transmission(x) ∧ Wheels(x) ∧ Brakes(x)) ∧ (TransportationUsage(x) ∨ CommercialUsage(x) ∨ RecreationalActivitiesUsage(x))))"
+  },
+  {
+    "id": 283,
+    "fopl": "∀x (Fruit(x) → (Sweet(x) ⊕ Sour(x)) ∧ ¬Vegetable(x))"
+  },
+  {
+    "id": 284,
+    "fopl": "∀x ∃y (Person(x) ∧ ProvidesHealthcareServices(x) ∧ SupportsPatients(x) ∧ SupervisedByDoctor(x, y) ∧ Doctor(y) → Nurse(x))"
+  },
+  {
+    "id": 285,
+    "fopl": "∀x (Movie(x) ∧ LargeAudience(x) → Popular(x))"
+  },
+  {
+    "id": 286,
+    "fopl": "∀x (Film(x) ∧ AwardWinning(x) → (CaptivatingPlot(x) ∨ OutstandingPerformances(x) ∨ ExceptionalCinematography(x)))"
+  },
+  {
+    "id": 287,
+    "fopl": "∀x (CelestialBody(x) ∧ ¬Star(x) → (Planet(x) ∨ Asteroid(x)))"
+  },
+  {
+    "id": 288,
+    "fopl": "∀x (Tree(x) ∧ FullHeight(x) ∧ (ProducesSeeds(x) ∨ ProducesFruits(x)) → Mature(x))"
+  },
+  {
+    "id": 289,
+    "fopl": "∀x (SuitableForOutdoorUse(x) ↔ (Fabric(x) ∧ ∃y (UVResistant(y) ∧ Has(x, y)) ∧ ∃z (WaterResistant(z) ∧ Has(x, z)) ∧ ∃w (Durable(w) ∧ Is(x, w))))"
+  },
+  {
+    "id": 290,
+    "fopl": "∀x∀y (Room(x) ∧ Room(y) ∧ HasWindow(x) ∧ ¬HasWindow(y) → Brighter(x, y))"
+  },
+  {
+    "id": 291,
+    "fopl": "∀x (Country(x) ∧ StrictImmigrationPolicies(x) → (ValidPassportRequired(x) ∧ VisaRequired(x)))"
+  },
+  {
+    "id": 292,
+    "fopl": "∀x (TouristAttraction(x) ∧ (HistoricalSignificance(x) ∨ NaturalBeauty(x) ∨ CulturalImportance(x)) → DrawsVisitors(x))"
+  },
+  {
+    "id": 293,
+    "fopl": "∀x (Library(x) → (Place(x) ∧ StoresMedia(x) ∧ OrganizesMedia(x) ∧ AvailableForBorrowingOrReference(x)))"
+  },
+  {
+    "id": 294,
+    "fopl": "Requires(baking, oven) ∧ Requires(blending, blender) ∧ Requires(boiling, stove)"
+  },
+  {
+    "id": 295,
+    "fopl": "∀x (Footwear(x) ∧ FlatSole(x) ∧ FlexibleUpperPart(x) ∧ CoversToes(x) → Sandal(x))"
+  },
+  {
+    "id": 296,
+    "fopl": "∀x (WashHandsFrequently(x) → PreventSpreadOfGerms(x)) ∧ ∀y (TouchFace(y) → IncreaseRiskOfInfection(y))"
+  },
+  {
+    "id": 297,
+    "fopl": "∀x (Submarine(x) ∧ Buoyancy(b) ∧ BallastTanks(t) → CanNavigateUnderwater(x, b, t))"
+  },
+  {
+    "id": 298,
+    "fopl": "∀x ∀y (Student(x) ∧ Test(y) → (Passes(x, y) ⊕ Fails(x, y)))"
+  },
+  {
+    "id": 299,
+    "fopl": "∀x (Flower(x) ∧ HasColor(x) → (AttractsPollinators(x) ∨ DetersPredators(x)))"
+  },
+  {
+    "id": 300,
+    "fopl": "∀x (Dog(x) → (Domesticated(x) ∧ Barks(x) ∧ HasWaggingTail(x)))"
+  },
+  {
+    "id": 301,
+    "fopl": "∀x ∀y (Hammer(x) ∧ Saw(y) → (ForPoundingNails(x) ∧ ForCuttingWood(y)))"
+  },
+  {
+    "id": 302,
+    "fopl": "∀x (Pilot(x) ↔ (Person(x) ∧ Trained(x) ∧ Certified(x) ∧ OperatesAircraft(x) ∧ NavigatesAircraft(x)))"
+  },
+  {
+    "id": 303,
+    "fopl": "∀x (City(x) ∧ EfficientPublicTransportationSystem(x) ∧ AmpleGreenSpaces(x) ∧ LowCrimeRate(x) → Livable(x))"
+  },
+  {
+    "id": 304,
+    "fopl": "∀x (Material(x) ∧ GoodConductorOfHeat(x) ∧ GoodConductorOfElectricity(x) ∧ LustrousAppearance(x) → Metal(x))"
+  },
+  {
+    "id": 305,
+    "fopl": "∀x (Smartphone(x) ∧ LowBatteryLevel(x) → NeedsCharging(x))"
+  },
+  {
+    "id": 306,
+    "fopl": "∀x (SolarPanel(x) → (ConvertsSunlight(x) ∧ ProducesElectricity(x) ∧ RenewableEnergySource(x) ∧ EnvironmentallyFriendly(x)))"
+  },
+  {
+    "id": 307,
+    "fopl": "∀x∀y (Parent(x) ∧ Child(y) → (CanHaveMultipleChildren(x) ∧ CanHaveMultipleSiblings(y)))"
+  },
+  {
+    "id": 308,
+    "fopl": "∃x (Substance(x) ∧ ¬(Acidic(x) ∨ Basic(x)))"
+  },
+  {
+    "id": 309,
+    "fopl": "∀x (MusicalInstrument(x) ∧ (Piano(x) ∨ Violin(x)) → ProducesSoundThroughVibration(x))"
+  },
+  {
+    "id": 310,
+    "fopl": "∀x (MusicalInstrument(x) ∧ StringInstrument(x) → ProducesSoundThroughVibratingStrings(x))"
+  },
+  {
+    "id": 311,
+    "fopl": "∀x∀y (Sneezing(x) ∧ Germs(y) → SpreadsInAir(x, y))"
+  },
+  {
+    "id": 312,
+    "fopl": "∀x∀y∀z (Theater(x) ∧ (Play(y) ∨ Concert(y) ∨ MovieScreening(y)) ∧ (Actor(z) ∨ Musician(z)) → (Hosts(x, y) ∧ Performs(z, y)))"
+  },
+  {
+    "id": 313,
+    "fopl": "∀x (Instrument(x) ∧ ProducesSoundByVibration(x) → MusicalInstrument(x))"
+  },
+  {
+    "id": 314,
+    "fopl": "∀x (TransportationMethod(x) ∧ TravelsFixedRoute(x) ∧ OperatesOnSchedule(x) ∧ CarriesMultiplePassengers(x) → (Bus(x) ∨ Train(x)))"
+  },
+  {
+    "id": 315,
+    "fopl": "∀x (Movie(x) ∧ Suspense(x) ∧ Excitement(x) ∧ SurpriseEnding(x) → Thriller(x))"
+  },
+  {
+    "id": 316,
+    "fopl": "∀x (ShoppingMall(x) ∧ (ClothingStores(x) ∨ ElectronicsStores(x) ∨ GroceryStores(x)) → ProvidesEntertainmentOptions(x))"
+  },
+  {
+    "id": 317,
+    "fopl": "∀x (Fish(x) → Swim(x)) ∧ ∀y (Bird(y) → Fly(y)) ∧ ∀z (Horse(z) → Run(z))"
+  },
+  {
+    "id": 318,
+    "fopl": "∀x (Counselor(x) → (ProvidesGuidance(x) ∧ ProvidesSupport(x)))"
+  },
+  {
+    "id": 319,
+    "fopl": "∀x ∀y (Film(x) ∧ CaptivatingVisuals(x) ∧ EmotionallyEngagingStoryline(x) → CanAchieveCriticalAcclaim(y))"
+  },
+  {
+    "id": 320,
+    "fopl": "∀x (Appliance(x) → ((Small(x) ⊕ Large(x)) ∧ (KitchenAppliance(x) ⊕ LaundryAppliance(x)) ∧ (Electric(x) ∨ Gas(x) ∨ BatteryPowered(x))))"
+  },
+  {
+    "id": 321,
+    "fopl": "∀x (Meteorologist(x) → (StudiesWeatherPatterns(x) ∧ StudiesWeatherPhenomena(x)))"
+  },
+  {
+    "id": 322,
+    "fopl": "∀x (Keyboard(x) → UsedToInputText(x))"
+  },
+  {
+    "id": 323,
+    "fopl": "∀x ∀y (Watch(x) ∧ DigitalClock(y) → (UsesGears(x) ∧ UsesCrystalOscillator(y)))"
+  },
+  {
+    "id": 324,
+    "fopl": "∀x (Beverage(x) ∧ ContainsAlcohol(x) ∧ MixtureOfIngredients(x) ∧ TypicallyServedAt(x, socialEvents, bars) → Cocktail(x))"
+  },
+  {
+    "id": 325,
+    "fopl": "∀x (Person(x) ∧ CatchesCold(x) → (HasFever(x) ∨ HasRunnyNose(x)))"
+  },
+  {
+    "id": 326,
+    "fopl": "∀x (ClothingType(x) → Formal(x) ⊕ Casual(x))"
+  },
+  {
+    "id": 327,
+    "fopl": "∀x (FashionChoice(x) ∧ Trendy(x) ∧ Comfortable(x) → (Colorful(x) ∨ InterestingPatterns(x)) ∧ Stylish(x))"
+  },
+  {
+    "id": 328,
+    "fopl": "∀x (Book(x) ↔ (ContainsPages(x) ∧ WithTextAndIllustrations(x) ∧ ConveysInformationStoriesOrIdeas(x)))"
+  },
+  {
+    "id": 329,
+    "fopl": "∀x (EnergyEfficientBuilding(x) → (UsesRenewableEnergySources(x) ∧ SustainableMaterials(x) ∧ ReducesEnvironmentalImpact(x)))"
+  },
+  {
+    "id": 330,
+    "fopl": "∀x∀y∀z (Carnivore(x) ∧ Herbivore(y) ∧ Omnivore(z) → (FeedsOnAnimals(x) ∧ FeedsOnPlants(y) ∧ FeedsOnAnimalsAndPlants(z)))"
+  },
+  {
+    "id": 331,
+    "fopl": "∀x (Dessert(x) ∧ PleasantTaste(x) ∧ AppealingTexture(x) → Delicious(x))"
+  },
+  {
+    "id": 332,
+    "fopl": "∀x∀y (Fish(x) ∧ Bird(y) → (SwimsInWater(x) ∧ FliesInAir(y)))"
+  },
+  {
+    "id": 333,
+    "fopl": "∀x∀y∀z (Circle(x) ∧ Triangle(y) ∧ Square(z) → (HasNoCorners(x) ∧ HasThreeCorners(y) ∧ HasFourCorners(z)))"
+  },
+  {
+    "id": 334,
+    "fopl": "∀x (HealthyTeeth(x) → (RequiresBrushing(x) ∧ RequiresFlossing(x)))"
+  },
+  {
+    "id": 335,
+    "fopl": "∀x (Medication(x) ∧ EffectivelyTreatsSymptoms(x) ∧ MinimalSideEffects(x) ∧ EasilyAdministered(x) → PreferredByHealthcareProfessionals(x))"
+  },
+  {
+    "id": 336,
+    "fopl": "∀x (Dog(x) → Bark(x)) ∧ ∀y (Baby(y) → Cry(y)) ∧ ∀z (Siren(z) → Wail(z))"
+  },
+  {
+    "id": 337,
+    "fopl": "∀x (DemocraticCountry(x) → (RightToVote(x) ∧ RightToExpressOpinionsFreely(x)))"
+  },
+  {
+    "id": 338,
+    "fopl": "∀x (Product(x) ∧ Bestseller(x) ↔ (InnovativeFeatures(x) ∧ ReasonablePricing(x) ∧ EffectiveMarketing(x) ∧ ¬(ManufacturingDefects(x) ∨ PoorCustomerSupport(x))))"
+  },
+  {
+    "id": 339,
+    "fopl": "∀x (CelestialObject(x) ∧ OrbitsStar(x) ∧ ReflectsLight(x) ∧ ¬Satellite(x) → Planet(x))"
+  },
+  {
+    "id": 340,
+    "fopl": "∀x (Island(x) ∧ FormedByVolcanicActivity(x) ∧ HasVolcanicCone(x) ∧ GeothermalActivity(x) → Volcanic(x))"
+  },
+  {
+    "id": 341,
+    "fopl": "∀x∀y∀z (Factory(x) ∧ RawMaterial(y) ∧ Worker(z) → (ManufacturesGoods(x, y) ∧ Employs(x, z) ∧ OperatesMachinery(z)))"
+  },
+  {
+    "id": 342,
+    "fopl": "∀x (WashesHands(x) ∧ UsesSoap(x) ∧ UsesWater(x) → (RemovesDirt(x) ∧ RemovesGerms(x)))"
+  },
+  {
+    "id": 343,
+    "fopl": "∀x (DanceType(x) → Ballet(x) ⊕ Contemporary(x))"
+  },
+  {
+    "id": 344,
+    "fopl": "∀x∀y∀z (Predator(x) ∧ HuntsAndConsumes(x, y) ∧ Prey(y) ∧ AffectsAbundance(y, z) ∧ Ecosystem(z) → SustainsPopulation(x, z))"
+  },
+  {
+    "id": 345,
+    "fopl": "∀x (Material(x) ∧ GoodConductorOfElectricity(x) ↔ AllowsElectricCurrentToFlowEasily(x))"
+  },
+  {
+    "id": 346,
+    "fopl": "∀x (Object(x) ∧ OpticalInstrument(x) ∧ MagnifiesSmallSpecimens(x) ∧ OftenUsedInScientificResearch(x) ∧ ProvidesDetailedImages(x) → Microscope(x))"
+  },
+  {
+    "id": 347,
+    "fopl": "∀x (Worker(x) ∧ Skilled(x) ∧ Experienced(x) ∧ Knowledgeable(x) → Expert(x))"
+  },
+  {
+    "id": 348,
+    "fopl": "∀x (Artwork(x) ∧ MadeWithWatercolors(x) ∧ CreatedOnPaper(x) → WatercolorPainting(x))"
+  },
+  {
+    "id": 349,
+    "fopl": "∀x (Airplane(x) ∧ (FlownCertainHours(x) ∨ MechanicalIssues(x)) → RequiresMaintenance(x))"
+  },
+  {
+    "id": 350,
+    "fopl": "∀x (Insect(x) → HasWings(x)) ∧ ∀y (Arachnid(y) → ¬HasWings(y))"
+  },
+  {
+    "id": 351,
+    "fopl": "∀x∀y∀z (Museum(x) ∧ Artifact(y) ∧ Artwork(z) → (DisplaysToEducateAndInspire(x, y) ∧ DisplaysToEducateAndInspire(x, z)))"
+  },
+  {
+    "id": 352,
+    "fopl": "∀x (Stadium(x) ∧ UniqueArchitecturalDesign(x) ∧ HistoricalSignificance(x) → Iconic(x))"
+  },
+  {
+    "id": 353,
+    "fopl": "∀x (Documentary(x) ↔ (Film(x) ∧ PresentsFactualInformation(x) ∧ FeaturesRealLifeEvents(x) ∧ IntendedForEducationalPurposes(x)))"
+  },
+  {
+    "id": 354,
+    "fopl": "∀x (Event(x) ∧ RareOccurrence(x) ∧ SignificantImpact(x) → Outlier(x))"
+  },
+  {
+    "id": 355,
+    "fopl": "∀x (Film(x) ∧ SignificantRevenue(x) ∧ PositiveReviews(x) → Blockbuster(x))"
+  },
+  {
+    "id": 356,
+    "fopl": "∀x ((OwnsMansion(x) ∨ OwnsPrivateJet(x)) → Wealthy(x))"
+  },
+  {
+    "id": 357,
+    "fopl": "∀x (Element(x) ∧ FullElectronShell(x) ∧ LowChemicalReactivity(x) → NobleGas(x))"
+  },
+  {
+    "id": 358,
+    "fopl": "∀x∀y∀z (Architect(x) ∧ Building(y) ∧ Regulation(z) → (Designs(x, y) ∧ ConsidersElements(x) ∧ CompliesWith(x, z)))"
+  },
+  {
+    "id": 359,
+    "fopl": "∀x (Beverage(x) ∧ ContainsEthanol(x) ∧ HasMinimumLegalDrinkingAge(x) → Alcoholic(x))"
+  },
+  {
+    "id": 360,
+    "fopl": "∀x ∀y (Lawyer(x) ∧ Client(y) → (RepresentsInCourt(x, y) ∨ RepresentsDuringNegotiations(x, y)))"
+  },
+  {
+    "id": 361,
+    "fopl": "∀x (JobType(x) → FullTime(x) ⊕ PartTime(x))"
+  },
+  {
+    "id": 362,
+    "fopl": "∀x (Book(x) ∧ Language(x) ∧ (ContainsPrintedText(x) ∨ ContainsIllustrations(x)) → HasPages(x))"
+  },
+  {
+    "id": 363,
+    "fopl": "∀x∀y∀z (Farmer(x) ∧ Crop(y) ∧ SoilType(z) ∧ ThrivesIn(y, z) ∧ LandConsistsOfSoilType(x, z) → Grows(x, y, z))"
+  },
+  {
+    "id": 364,
+    "fopl": "∀x (Software(x) ∧ CollectionOfPrograms(x) ∧ ManagesComputerHardwareAndSoftwareResources(x) ∧ ProvidesInterfaceForUsersToInteractWithComputerAndRunApplications(x) → OperatingSystem(x))"
+  },
+  {
+    "id": 365,
+    "fopl": "∀x (Smartphone(x) → EnablesCommunication(x) ∧ AccessToInformation(x))"
+  },
+  {
+    "id": 366,
+    "fopl": "∀x (Person(x) ∧ ExceptionalSkills(x) ∧ RigorousTraining(x) → ProfessionalAthlete(x))"
+  },
+  {
+    "id": 367,
+    "fopl": "∀x ∀y ∀z (Doctor(x) ∧ Patient(y) ∧ Medication(z) ∧ Prescribes(x, z, y) → Dispenses(Pharmacist, z, y))"
+  },
+  {
+    "id": 368,
+    "fopl": "∀x (Book(x) ∧ (CompellingStory(x) ∨ PositiveReviews(x) ∨ StrongWordOfMouth(x)) → Bestseller(x))"
+  },
+  {
+    "id": 369,
+    "fopl": "∀x (Firewall(x) ∧ ProperlyConfigured(x) ∧ UpdatedRegularly(x) ∧ MonitorsTraffic(x) → ProvidesSecurity(x))"
+  },
+  {
+    "id": 370,
+    "fopl": "∀x ∀y ((Violin(x) ∧ PlayedWithBow(x)) ∧ (Guitar(y) ∧ (PlayedWithFingers(y) ∨ PlayedWithPick(y))))"
+  },
+  {
+    "id": 371,
+    "fopl": "∀x (Book(x) ∧ InLibrary(x) → OrganizedBySubjectAndAuthor(x)) ∧ ∀y (Periodical(y) ∧ InLibrary(y) → OrganizedByPublicationDateAndTitle(y))"
+  },
+  {
+    "id": 372,
+    "fopl": "∀x ∀y (Player(x) ∧ Player(y) ∧ ChessMatch(z) ∧ (Checkmate(x, y) ∨ Resigns(y)) → Wins(x, z))"
+  },
+  {
+    "id": 373,
+    "fopl": "∀x (Vehicle(x) ∧ TwoWheeledMotorVehicle(x) ∧ OftenPoweredByInternalCombustionEngine(x) ∧ UsedForTransportationSportOrRecreation(x) → Motorcycle(x))"
+  },
+  {
+    "id": 374,
+    "fopl": "∀x (Restaurant(x) ∧ ¬(Steakhouse(x) ∨ SeafoodMenuOnly(x)) → (ServesVegetarian(x) ∨ ServesVegan(x)))"
+  },
+  {
+    "id": 375,
+    "fopl": "∀x (Singer(x) → PerformsSongs(x))"
+  },
+  {
+    "id": 376,
+    "fopl": "∀x (Volcano(x) → (Active(x) ⊕ Dormant(x) ⊕ Extinct(x)))"
+  },
+  {
+    "id": 377,
+    "fopl": "∀x ∀y ∀z (Fish(x) ∧ Danger(y) ∧ Water(z) ∧ Senses(x, y) ∧ StreamlinedBody(x) ∧ Calm(z) → SwimsFaster(x))"
+  },
+  {
+    "id": 378,
+    "fopl": "∀x (Room(x) ∧ Dark(x) → ¬LightSource(x))"
+  },
+  {
+    "id": 379,
+    "fopl": "∀x∀y (Smartphone(x) ∧ Pager(y) → (SendsTextMessages(x) ∧ MakesCalls(x) ∧ ReceivesMessages(y) ∧ ¬MakesCalls(y)))"
+  },
+  {
+    "id": 380,
+    "fopl": "∀x (IceCreamFlavor(x) ∧ Popular(x) ↔ ((Sweet(x) ∨ Fruity(x)) ∧ ¬Salty(x)))"
+  },
+  {
+    "id": 381,
+    "fopl": "∀x ((WoodyStem(x) ∧ TypicallyTall(x)) → Tree(x))"
+  },
+  {
+    "id": 382,
+    "fopl": "∃x (Dessert(x) ∧ ((RichFlavor(x) ∨ PleasingPresentation(x)) ∧ ¬HighInCalories(x) → MoreAppealing(x)))"
+  },
+  {
+    "id": 383,
+    "fopl": "∃x (Bird(x) ∧ ¬CanFly(x)) ∧ ∀y (Penguin(y) → (Bird(y) ∧ ¬CanFly(y)))"
+  },
+  {
+    "id": 384,
+    "fopl": "∀x (Garage(x) → UsedToStoreVehicles(x))"
+  },
+  {
+    "id": 385,
+    "fopl": "∀x (NobleGas(x) → (Element(x) ∧ FullValenceElectronShell(x) ∧ ¬∃y (NormalConditions(y) ∧ FormsCompound(x, y))))"
+  },
+  {
+    "id": 386,
+    "fopl": "∀x (Meal(x) ∧ BalanceOfProtein(x) ∧ BalanceOfCarbohydrates(x) ∧ BalanceOfHealthyFats(x) ∧ ProvidesEssentialVitaminsAndMinerals(x) → Nutritious(x))"
+  },
+  {
+    "id": 387,
+    "fopl": "∀x (Snake(x) → (ShedsSkin(x) ∧ HasNoLegs(x)))"
+  },
+  {
+    "id": 388,
+    "fopl": "∀x (Building(x) ∧ MoreThan50Floors(x) → Skyscraper(x))"
+  },
+  {
+    "id": 389,
+    "fopl": "∀x (Food(x) ∧ HighCalories(x) ∧ LowNutritionalValue(x) ∧ (ExcessiveSugar(x) ∨ ExcessiveFat(x) ∨ ExcessiveSalt(x)) → JunkFood(x))"
+  },
+  {
+    "id": 390,
+    "fopl": "∀x ∀y ∀z (SushiRestaurant(x) ∧ Pizzeria(y) ∧ BurgerJoint(z) → (ServesJapaneseSushi(x) ∧ ServesItalianPizza(y) ∧ ServesAmericanBurgers(z)))"
+  },
+  {
+    "id": 391,
+    "fopl": "∀x (Door(x) → (Open(x) ⊕ Closed(x)) ∧ ¬PartiallyOpen(x))"
+  },
+  {
+    "id": 392,
+    "fopl": "∀x (Museum(x) → (Displays(x, Artifacts) ∧ (Offers(x, GuidedTours))))"
+  },
+  {
+    "id": 393,
+    "fopl": "∀x (Vehicle(x) ↔ (Car(x) ⊕ Motorcycle(x)))"
+  },
+  {
+    "id": 394,
+    "fopl": "∀x (Pilot(x) → (OperatesAndNavigatesAircraft(x) ∧ IncludingAirplanesAndHelicopters(x) ∧ ForTransportationRecreationOrOtherPurposes(x)))"
+  },
+  {
+    "id": 395,
+    "fopl": "∀x (Telescope(x) → OpticalInstrument(x) ∧ UsedForObservingDistantObjects(x))"
+  },
+  {
+    "id": 396,
+    "fopl": "∀x (TouristDestination(x) ∧ DiverseCulturalExperiences(x) ∧ BreathtakingScenery(x) ∧ UniqueLocalCuisine(x) → Attractive(x))"
+  },
+  {
+    "id": 397,
+    "fopl": "∀x (Book(x) ∧ LargeReadership(x) ∧ PositiveReviewsFromCritics(x) ∧ GeneratesSignificantSalesRevenue(x) → Bestseller(x))"
+  },
+  {
+    "id": 398,
+    "fopl": "∀x (Vegetarian(x) → (Person(x) ∧ ¬ConsumesMeat(x) ∧ ¬ConsumesFish(x)))"
+  },
+  {
+    "id": 399,
+    "fopl": "∀x (Clothing(x) ∧ MadeFromCotton(x) → (Shirt(x) ∨ Pants(x) ∨ Dress(x)))"
+  },
+  {
+    "id": 400,
+    "fopl": "∀x (Rainbow(x) → FormsAfter(x, rain, sunlight))"
+  },
+  {
+    "id": 401,
+    "fopl": "∀x (CultivatesAndHarvestsCrops(x) → Farmer(x))"
+  },
+  {
+    "id": 402,
+    "fopl": "∀x (Mammal(x) → (HairOrFur(x) ∧ ProducesMilkToFeedYoung(x)))"
+  },
+  {
+    "id": 403,
+    "fopl": "∀x (Ice(x) ∧ Heated(x) → MeltsIntoWater(x))"
+  },
+  {
+    "id": 404,
+    "fopl": "∀x (Plant(x) → Needs(x, sunlight))"
+  },
+  {
+    "id": 405,
+    "fopl": "∀x (Person(x) ∧ ConsumesPlants(x) ∧ ConsumesAnimals(x) → Omnivore(x))"
+  },
+  {
+    "id": 406,
+    "fopl": "∀x (Person(x) ∧ Architect(x) → DesignsBuildingsAndStructures(x))"
+  },
+  {
+    "id": 407,
+    "fopl": "∀x (MusicalInstrument(x) ∧ ¬UsesStrings(x) → Drum(x) ⊕ Flute(x) ⊕ Trumpet(x))"
+  },
+  {
+    "id": 408,
+    "fopl": "∀x∀y∀z (Rainforest(x) ∧ Plant(y) ∧ Animal(z) → ProvidesHabitat(x, y, z))"
+  },
+  {
+    "id": 409,
+    "fopl": "∀x ∀y (Temperature(x) ∧ BelowFreezing(x) ∧ Water(y) → TurnsIntoIce(y))"
+  },
+  {
+    "id": 410,
+    "fopl": "∀x (Country(x) ∧ IncreaseInGDP(x) ∧ DecreaseInUnemploymentRates(x) ∧ ImprovementInLivingStandards(x) → EconomicGrowth(x))"
+  },
+  {
+    "id": 411,
+    "fopl": "∀x (Bird(x) → (FliesByFlappingWings(x) ∨ FliesByGlidingOnAirCurrents(x)))"
+  },
+  {
+    "id": 412,
+    "fopl": "∀x (Mammal(x) ∧ DietConsistsOf(x, Animals) → Carnivore(x))"
+  },
+  {
+    "id": 413,
+    "fopl": "∀x (TeamSport(x) ↔ (Sport(x) ∧ TwoOrMorePlayersOnEachSide(x) ∧ SetOfRules(x) ∧ RequiresCooperation(x)))"
+  },
+  {
+    "id": 414,
+    "fopl": "∀x (Book(x) ∧ SellsManyCopies(x) ∧ PositiveReviews(x) ∧ WidespreadRecognition(x) → Bestseller(x))"
+  },
+  {
+    "id": 415,
+    "fopl": "∀x (TelevisionShow(x) ∧ BecomesPopular(x) ↔ (AttractsLargeAudience(x) ∨ ReceivesPositiveReviews(x) ∨ WinsAwards(x)))"
+  },
+  {
+    "id": 416,
+    "fopl": "∀x (Person(x) ∧ DiagnosesTreatsAndPreventsOralHealthIssues(x) ∧ OftenInDentalOfficeSetting(x) ∧ ProvidesCareForTeethGumsAndMouthStructures(x) → Dentist(x))"
+  },
+  {
+    "id": 417,
+    "fopl": "∀x (RainyWeather(x) → CausesSlipperyRoads(x))"
+  },
+  {
+    "id": 418,
+    "fopl": "∀x (FossilFuel(x) → ((Coal(x) ∨ Oil(x) ∨ NaturalGas(x)) ∧ NonrenewableEnergySource(x) ∧ ReleaseGreenhouseGases(x) ∧ BurnedForEnergyProduction(x)))"
+  },
+  {
+    "id": 419,
+    "fopl": "∀x (Artist(x) → Creates(x, y) ∧ (Painting(y) ∨ Sculpture(y) ∨ Drawing(y)))"
+  },
+  {
+    "id": 420,
+    "fopl": "∀x∀y (Sunflower(x) ∧ Cactus(y) → (FollowsSun(x) ∧ StoresWater(y)))"
+  },
+  {
+    "id": 421,
+    "fopl": "∀x (Book(x) ∧ HighSales(x) ∧ PositiveReviews(x) → Bestseller(x))"
+  },
+  {
+    "id": 422,
+    "fopl": "∀x (Medicine(x) ∧ ReducesSymptoms(x) → Effective(x))"
+  },
+  {
+    "id": 423,
+    "fopl": "∀x (Insect(x) ↔ (HasLegs(x, 6) ∧ HasBodySegments(x, 3)) ⊕ (Arachnid(x) ↔ (HasLegs(x, 8) ∧ HasBodySegments(x, 2))))"
+  },
+  {
+    "id": 424,
+    "fopl": "∀x (ElectronicDevice(x) ∧ ReceivesRadioWaves(x) ∧ ConvertsToSoundWaves(x) → RadioReceiver(x))"
+  },
+  {
+    "id": 425,
+    "fopl": "∀x∀y∀z (SolarSystem(x) ∧ Planet(y) ∧ Moon(z) → (OrbitsAround(y, x) ∧ OrbitsAround(z, y)))"
+  },
+  {
+    "id": 426,
+    "fopl": "∀x (SedimentaryRock(x) → (FormsFromAccumulationAndCompactionOfSediments(x) ∧ OftenContainsFossilsOfAncientOrganisms(x)))"
+  },
+  {
+    "id": 427,
+    "fopl": "∀x (Vehicle(x) ∧ TravelsOnWater(x) ∧ (PoweredBySails(x) ∨ PoweredByEngine(x)) → Boat(x))"
+  },
+  {
+    "id": 428,
+    "fopl": "∀x (Person(x) ∧ NormalBodyTemperature(x) ∧ ¬SevereIllness(x) → Healthy(x))"
+  },
+  {
+    "id": 429,
+    "fopl": "∀x (Strawberry(x) → (Red(x) ∨ Green(x)))"
+  },
+  {
+    "id": 430,
+    "fopl": "∀x (Smartphone(x) ∧ ConnectsToInternet(x) ↔ (UsesWiFi(x) ⊕ UsesMobileData(x) ⊕ TetheredToInternetDevice(x)))"
+  },
+  {
+    "id": 431,
+    "fopl": "∀x (Mountain(x) ∧ ¬TooSteep(x) ∧ ¬Restricted(x) → Climbable(x))"
+  },
+  {
+    "id": 432,
+    "fopl": "∀x (HealthyDiet(x) ↔ (VarietyOfFruits(x) ∧ VarietyOfVegetables(x) ∧ WholeGrains(x) ∧ LeanProteins(x)))"
+  },
+  {
+    "id": 433,
+    "fopl": "¬∃x (Smartphone(x) ∧ ¬HasCamera(x) ∧ CanUseVideoChatApps(x))"
+  },
+  {
+    "id": 434,
+    "fopl": "∀x ∀y (Lion(x) ∧ Group(y) ∧ HuntsInGroup(x, y) → Pride(y)) ∧ ∀z (Tiger(z) → SolitaryHunter(z))"
+  },
+  {
+    "id": 435,
+    "fopl": "∀x∀y∀z (Building(x) ∧ Foundation(y) ∧ Architect(z) → (Has(x, y) ∧ SupportsStructure(x) ∧ DesignedBy(x, z)))"
+  },
+  {
+    "id": 436,
+    "fopl": "∀x∀y (AnimalShelter(x) ∧ HomelessAnimal(y) → (ProvidesCare(x, y) ∧ ProvidesTemporaryHousing(x, y)))"
+  },
+  {
+    "id": 437,
+    "fopl": "∀x ∀y (Doctor(x) ∧ Patient(y) → (Examines(x, y) ∧ PrescribesMedication(x, y) ∧ SchedulesFollowUp(x, y)))"
+  },
+  {
+    "id": 438,
+    "fopl": "∀x (Boat(x) ∧ Buoyant(x) ∧ ¬Overloaded(x) → Floats(x))"
+  },
+  {
+    "id": 439,
+    "fopl": "∀x (Park(x) ∧ GreenSpaces(x) ∧ WellMaintainedFacilities(x) → Inviting(x))"
+  },
+  {
+    "id": 440,
+    "fopl": "∀x (Parent(x) ↔ ∃y (Child(y) ∧ ParentOf(x, y)))"
+  },
+  {
+    "id": 441,
+    "fopl": "∀x (Star(x) → (∃y (NuclearFusion(y) ∧ Core(x, y) ∧ EmitsLight(x))))"
+  },
+  {
+    "id": 442,
+    "fopl": "∀x (Zoo(x) ↔ (HousesAndDisplaysVariousAnimals(x) ∧ ForPublicViewingEducationAndConservation(x)))"
+  },
+  {
+    "id": 443,
+    "fopl": "∀x (Animal(x) ∧ DietPrimarilyPlants(x) ∧ SpecializedTeeth(x) ∧ AdaptedDigestiveSystem(x) → Herbivorous(x))"
+  },
+  {
+    "id": 444,
+    "fopl": "∀x ∀y (City(x) ∧ PublicTransportationSystem(y) ∧ PopulationDensitySurpassesThreshold(x) ∧ SufficientFunding(x, y) → Implements(x, y))"
+  },
+  {
+    "id": 445,
+    "fopl": "∀x (Relaxing(x) ↔ (CoffeeShop(x) ∧ (((∃y (Comfortable(y) ∧ Seating(y) ∧ InShop(x, y))) ∨ ∃z (Quiet(z) ∧ Atmosphere(z) ∧ InShop(x, z))) ∧ ¬∃w (Frequently(w) ∧ Overcrowded(w) ∧ InShop(x, w)))))"
+  },
+  {
+    "id": 446,
+    "fopl": "∀x (Region(x) ∧ Desert(x) ↔ (MinimalRainfall(x) ∧ AridConditions(x)))"
+  },
+  {
+    "id": 447,
+    "fopl": "∀x (Airport(x) → (∃y (DomesticFlights(y) ∧ Connects(x, y)) ∧ ∃z (InternationalFlights(z) ∧ Connects(x, z))))"
+  },
+  {
+    "id": 448,
+    "fopl": "∀x∀y (Student(x) → StudiesInLibrary(x)) ∧ (Athlete(y) → TrainsInGym(y))"
+  },
+  {
+    "id": 449,
+    "fopl": "∀x (Animal(x) ∧ ColdBloodedVertebrate(x) ∧ LivesOnLandAndWater(x) ∧ UndergoesMetamorphosis(x) → Amphibian(x))"
+  },
+  {
+    "id": 450,
+    "fopl": "∀x∀y (Mirror(x) ∧ Light(y) → ReflectsToFormImages(x, y))"
+  },
+  {
+    "id": 451,
+    "fopl": "∀x∀y (City(x) ∧ Country(y) ∧ AdministrativeCenter(x, y) → Capital(x, y))"
+  },
+  {
+    "id": 452,
+    "fopl": "∀x (Species(x) ∧ DecliningPopulation(x) ∧ FacesHabitatThreats(x) ∧ HighRiskOfExtinctionInWild(x) → Endangered(x))"
+  },
+  {
+    "id": 453,
+    "fopl": "∀x (Mountain(x) ∧ Trails(x) ∧ ProperWeatherConditions(x) → SuitableForHiking(x))"
+  },
+  {
+    "id": 454,
+    "fopl": "∀x ∀y ∀z (Medicine(x) ∧ Disease(y) ∧ Patient(z) ∧ TargetsCausativeAgent(x, y) ∧ ProducesPositiveOutcome(x, z) → EffectiveAgainstDiseaseForPatient(x, y, z))"
+  },
+  {
+    "id": 455,
+    "fopl": "∀x (Flower(x) ∧ ¬DayBlooming(x) → NightBlooming(x))"
+  },
+  {
+    "id": 456,
+    "fopl": "∀x ∀y (Pesticide(x) ∧ Pest(y) ∧ (Controls(x, y) ∨ Repels(x, y) ∨ Kills(x, y)) → EffectiveAgainst(x, y))"
+  },
+  {
+    "id": 457,
+    "fopl": "∀x (Vehicle(x) ∧ Bicycle(x) → HasTwoWheels(x) ∧ HumanPowered(x))"
+  },
+  {
+    "id": 458,
+    "fopl": "∀x (Substance(x) ∧ ChemicallyReactive(x) ↔ (ReactsWithAcids(x) ⊕ ReactsWithBases(x)))"
+  },
+  {
+    "id": 459,
+    "fopl": "∀x (FoodItem(x) ∧ LimitedShelfLife(x) ∧ RequiresRefrigerationOrFreezing(x) → Perishable(x))"
+  },
+  {
+    "id": 460,
+    "fopl": "∀x (Individual(x) ∧ CanSpeakTwoLanguages(x) ∧ UnderstandsTwoLanguages(x) → Bilingual(x))"
+  },
+  {
+    "id": 461,
+    "fopl": "∀x (NocturnalAnimal(x) → ActiveAtNight(x)) ∧ (DiurnalAnimal(x) → ActiveDuringDay(x))"
+  },
+  {
+    "id": 462,
+    "fopl": "∀x (EffectiveWorkoutRoutine(x) → (CardiovascularExercises(x) ∧ StrengthTraining(x) ∧ FlexibilityExercises(x)))"
+  },
+  {
+    "id": 463,
+    "fopl": "∀x (Dog(x) ∧ Hungry(x) → Barks(x))"
+  },
+  {
+    "id": 464,
+    "fopl": "∀x (Dog(x) → Mammal(x)) ∧ ∃x (Dog(x) ∧ TrainedGuideDog(x))"
+  },
+  {
+    "id": 465,
+    "fopl": "∀x (University(x) ↔ (InstitutionOfHigherLearning(x) ∧ OffersUndergraduateAndGraduateDegreePrograms(x) ∧ ProvidesResearchAndTeachingOpportunitiesForFaculty(x)))"
+  },
+  {
+    "id": 466,
+    "fopl": "∀x (Vacation(x) ∧ Memorable(x) ↔ (UniqueExperiences(x) ∧ ScenicLocations(x) ∧ (OpportunitiesForRelaxation(x) ∨ ExcitingActivities(x))))"
+  },
+  {
+    "id": 467,
+    "fopl": "∀x (Movie(x) → ((Comedy(x) ∧ ¬Drama(x) ∧ ¬Thriller(x)) ∨ (¬Comedy(x) ∧ Drama(x) ∧ ¬Thriller(x)) ∨ (¬Comedy(x) ∧ ¬Drama(x) ∧ Thriller(x))))"
+  },
+  {
+    "id": 468,
+    "fopl": "∀x ∀y ∀z (OnlineShoppingPlatform(x) ∧ Order(y) ∧ Customer(z) ∧ PaymentSuccessful(z) ∧ ItemInStock(y) ∧ ShippingDetailsVerified(y) → Processes(x, y, z))"
+  },
+  {
+    "id": 469,
+    "fopl": "∀x (Event(x) ∧ Outdoors(x) ∧ LargeAudience(x) → Popular(x))"
+  },
+  {
+    "id": 470,
+    "fopl": "∀x (Sculpture(x) ∧ Abstract(x) ↔ ¬DepictsRecognizableObjectsOrFigures(x))"
+  },
+  {
+    "id": 471,
+    "fopl": "∀x (Museum(x) ↔ (InstitutionThatCollectsPreservesAndDisplaysObjects(x) ∧ OfHistoricalArtisticOrScientificInterest(x) ∧ ForPublicEducationAndEnjoyment(x)))"
+  },
+  {
+    "id": 472,
+    "fopl": "∀x∀y (Comet(x) ∧ Earth(y) ∧ IcySurfaceVaporizes(x) ∧ ApproachesSun(x) → (VisibleFromEarth(x, y) ∧ CreatesGlowingTail(x)))"
+  },
+  {
+    "id": 473,
+    "fopl": "∀x (Movie(x) ∧ HighBudget(x) ∧ WellKnownActors(x) ∧ HighBoxOfficeEarnings(x) → Blockbuster(x))"
+  },
+  {
+    "id": 474,
+    "fopl": "∀x (Beverage(x) → (Hot(x) ∨ Cold(x)) ∧ ¬InstantTemperatureChange(x))"
+  },
+  {
+    "id": 475,
+    "fopl": "∀x (Computer(x) ∧ PowerfulProcessor(x) ∧ DedicatedGraphicsCard(x) ∧ AmpleMemory(x) → SuitableForGaming(x)) ∧ (Computer(x) ∧ LowProcessingPower(x) ∧ InsufficientMemory(x) → ¬SuitableForGaming(x))"
+  },
+  {
+    "id": 476,
+    "fopl": "∀x (Bird(x) → (LaysEggs(x) ∧ CanFly(x) ⊕ ¬CanFly(x)))"
+  },
+  {
+    "id": 477,
+    "fopl": "∀x (Square(x) → (AllSidesEqualLength(x) ∧ AllAnglesEqualToNinetyDegrees(x)))"
+  },
+  {
+    "id": 478,
+    "fopl": "∀x (Building(x) ∧ HousesCollectionOfBooks(x) ∧ HousesMultimediaResources(x) ∧ HousesOtherMaterials(x) ∧ (PublicUse(x) ∨ AcademicResearch(x)) → Library(x))"
+  },
+  {
+    "id": 479,
+    "fopl": "∀x (Forest(x) ↔ (Place(x) ∧ LargeArea(x) ∧ CoveredWithTrees(x) ∧ HasUndergrowth(x)))"
+  },
+  {
+    "id": 480,
+    "fopl": "∀x (Structure(x) ∧ MultipleFloors(x) ∧ ConnectedByStairsOrElevators(x) ∧ DesignedForOfficeOrCommercialUse(x) → OfficeBuilding(x))"
+  },
+  {
+    "id": 481,
+    "fopl": "∀x (ElectronicDevice(x) ∧ RecordsAndStoresVideoFootage(x) ∧ UsesLensToCaptureImages(x) ∧ IncludesAudioRecording(x) → VideoCamera(x))"
+  },
+  {
+    "id": 482,
+    "fopl": "∀x ∃y (Office(x) ∧ Employee(y) ∧ WorksAt(y, x))"
+  },
+  {
+    "id": 483,
+    "fopl": "∀x (CommunicationTechnology(x) ∧ UsesRadioWaves(x) → AllowsWirelessDataTransfer(x) ∧ SupportsVariousDevices(x) ∧ HasSpecificRange(x))"
+  },
+  {
+    "id": 484,
+    "fopl": "∀x ∀y ∀z (Alloy(x) ∧ MetallicElement(y) ∧ EnhancedProperty(z) ∧ CombinesElementsAndResultsInMaterialWithEnhancedProperties(x, y, z) → Created(x))"
+  },
+  {
+    "id": 485,
+    "fopl": "∀x∀y∀z (Lion(x) ∧ Prey(y) ∧ Pride(z) → (Hunts(x, y) ∧ LivesIn(x, z)))"
+  },
+  {
+    "id": 486,
+    "fopl": "∀x (TropicalRainforest(x) → (HighRainfall(x) ∧ WarmHumidClimate(x) ∧ VastDiversityOfSpecies(x) ∧ BiologicallyRichEcosystem(x)))"
+  },
+  {
+    "id": 487,
+    "fopl": "∀x ∀y (Zoo(x) ∧ (Mammal(x, y) ∧ (Elephant(y) ∨ Giraffe(y)) ∨ Reptile(x, y) ∧ (Snake(y) ∨ Crocodile(y)) ∨ Bird(x, y) ∧ (Parrot(y) ∨ Penguin(y))))"
+  },
+  {
+    "id": 488,
+    "fopl": "∀x (Desert(x) → Dry(x) ∧ LittleRainfall(x))"
+  },
+  {
+    "id": 489,
+    "fopl": "¬∀x (Artwork(x) → (Painting(x) ∨ Sculpture(x))) ∧ ∃y (Artwork(y) ∧ Installation(y))"
+  },
+  {
+    "id": 490,
+    "fopl": "∀x∀y∀z (SolarSystem(x) ∧ Planet(y) ∧ Moon(z) ∧ OrbitsStar(y, x) ∧ OrbitsPlanet(z, y) → AffectedByStarsGravitationalForce(y, x) ∧ AffectedByStarsGravitationalForce(z, x))"
+  },
+  {
+    "id": 491,
+    "fopl": "∀x (Park(x) ∧ WellMaintainedGreenSpaces(x) ∧ SafePlayAreasForChildren(x) ∧ AccessibleWalkingPaths(x) → PopularDestinationForFamiliesAndOutdoorEnthusiasts(x))"
+  },
+  {
+    "id": 492,
+    "fopl": "∀x ((Film(x) ∧ Comedy(x) ∧ WonAward(x)) → SuccessfulComedyFilm(x))"
+  },
+  {
+    "id": 493,
+    "fopl": "∀x (Artwork(x) ∧ AestheticallyPleasing(x) ∧ RenownedArtist(x) ∧ (Rare(x) ∨ HistoricalSignificance(x)) → Valuable(x))"
+  },
+  {
+    "id": 494,
+    "fopl": "∃x (Dessert(x) ∧ Sweet(x) ∧ Sour(x))"
+  },
+  {
+    "id": 495,
+    "fopl": "∀x (Square(x) → Rectangle(x)) ∧ ∃y (Rectangle(y) ∧ ¬Square(y))"
+  },
+  {
+    "id": 496,
+    "fopl": "∀x (CelestialBody(x) ∧ Planet(x) → OrbitsStar(x) ∧ SphericalShape(x))"
+  },
+  {
+    "id": 497,
+    "fopl": "∀x∀y∀z∀w (Archaeologist(x) ∧ AncientSite(y) ∧ Artifact(z) ∧ PastCivilization(w) → (Excavates(x, y) ∧ Discovers(x, z) ∧ StudiesHistoryAndCulture(x, w)))"
+  },
+  {
+    "id": 498,
+    "fopl": "∀x (Substance(x) ∧ Solid(x) ∧ Shiny(x) ∧ ConductsHeat(x) ∧ ConductsElectricity(x) → Metal(x))"
+  },
+  {
+    "id": 499,
+    "fopl": "∀x (Mountain(x) ∧ ElevationAbove8000Meters(x) → EightThousander(x))"
+  },
+  {
+    "id": 500,
+    "fopl": "∀x (Plant(x) ∧ ReceivesProperCareIncludingPruningAndPestControl(x) → (Thrives(x) ∧ ProducesHigherYields(x)))"
+  },
+  {
+    "id": 501,
+    "fopl": "∃x ∃y ∃z (Astronaut(x) ∧ Explores(x) ∧ Scientist(y) ∧ Researches(y) ∧ Writer(z) ∧ Writes(z))"
+  },
+  {
+    "id": 502,
+    "fopl": "∀x (Rectangle(x) → (HasFourSides(x) ∧ HasFourRightAngles(x)))"
+  },
+  {
+    "id": 503,
+    "fopl": "∀x ∀y ∀z (Novel(x) ∧ DocumentaryFilm(y) ∧ Poem(z) → (Fictional(x) ∧ PresentsFacts(y) ∧ ExpressesEmotions(z)))"
+  },
+  {
+    "id": 504,
+    "fopl": "∀x ∀y (Garden(x) ∧ (Flower(y) ∨ Plant(y)) → (Has(x, y) ∧ Requires(y, Sunlight) ∧ Requires(y, Water)))"
+  },
+  {
+    "id": 505,
+    "fopl": "∀x (Planet(x) ∧ ThinAtmosphere(x) ∧ BelowFreezingPoint(x) → UnsupportiveOfHumanLife(x))"
+  },
+  {
+    "id": 506,
+    "fopl": "¬(∀x (Language(x) → (Written(x) ∨ Spoken(x))))"
+  },
+  {
+    "id": 507,
+    "fopl": "∀x (Cell(x) → (HasNucleus(x) ∨ Prokaryotic(x)))"
+  },
+  {
+    "id": 508,
+    "fopl": "∀x (Lake(x) → (ContainsFish(x) ∧ SupportsAquaticPlants(x) ∧ ServesAsHabitat(x)))"
+  },
+  {
+    "id": 509,
+    "fopl": "∀x (Theater(x) ↔ (HostsLivePerformances(x) ∨ HostsMovies(x)))"
+  },
+  {
+    "id": 510,
+    "fopl": "∀x (EndangeredSpecies(x) → ProtectedByLaw(x))"
+  },
+  {
+    "id": 511,
+    "fopl": "∀x (Smartphone(x) ∧ (IntuitiveInterface(x) ∨ UsefulFeatures(x)) → UserFriendly(x))"
+  },
+  {
+    "id": 512,
+    "fopl": "∀x (Flashlight(x) → (UsefulInDarkPlaces(x) ∨ UsefulDuringPowerOutage(x)))"
+  },
+  {
+    "id": 513,
+    "fopl": "∀x (Movie(x) ∧ IntenseActionScenes(x) ∧ SuspensefulAtmosphere(x) → Thrilling(x))"
+  },
+  {
+    "id": 514,
+    "fopl": "∀x∀y (FoodItem(x) ∧ Grains(y) ∧ MadeFrom(x, y) ∧ TypicallyBaked(x) ∧ StapleInManyCultures(x) → Bread(x))"
+  },
+  {
+    "id": 515,
+    "fopl": "∀x (Bird(x) ∧ (CanFly(x) ∨ BuildsNests(x)) ∧ Insect(x) ∧ (CanCrawl(x) ∨ CanFly(x)))"
+  },
+  {
+    "id": 516,
+    "fopl": "∀x (Mountain(x) → (ExperiencesSnowfall(x) ∧ HasSteepSlopes(x) ∧ AttractsHikers(x)))"
+  },
+  {
+    "id": 517,
+    "fopl": "∀x (Gymnasium(x) ↔ (FacilityEquippedForPhysicalExerciseSportsAndFitnessTraining(x)))"
+  },
+  {
+    "id": 518,
+    "fopl": "∀x (Area(x) ∧ LargeConcentrationOfTreesAndPlants(x) ∧ AbsorbsCarbonDioxide(x) ∧ ProducesOxygen(x) → CarbonSink(x))"
+  },
+  {
+    "id": 519,
+    "fopl": "∀x (Person(x) ∧ Teacher(x) → (HasTeachingDegree(x) ∧ WorksAtEducationalInstitution(x)))"
+  },
+  {
+    "id": 520,
+    "fopl": "∀x (CookingClass(x) ∧ ¬(TraditionalCuisine(x) ∨ BakingClass(x)) → (TeachesVeganDishes(x) ∨ TeachesGlutenFreeDishes(x)))"
+  },
+  {
+    "id": 521,
+    "fopl": "∀x (Apple(x) → Fruit(x))"
+  },
+  {
+    "id": 522,
+    "fopl": "∀x (Building(x) ∧ DedicatedToCollection(x) ∧ DedicatedToPreservation(x) ∧ DedicatedToInterpretation(x) ∧ DedicatedToDisplay(x) → Museum(x))"
+  },
+  {
+    "id": 523,
+    "fopl": "∀x (Smartphone(x) ↔ (CanMakePhoneCalls(x) ∧ CanSendMessages(x) ∧ CanAccessInternet(x)))"
+  },
+  {
+    "id": 524,
+    "fopl": "∀x (Berry(x) → (Fruit(x) ∧ FleshyExocarp(x) ∧ ∃y (MultipleSeeds(y) ∧ HasSeeds(x, y)) ∧ SingleOvary(x)))"
+  },
+  {
+    "id": 525,
+    "fopl": "∀x ∀y (Medication(x) ∧ MedicalCondition(y) ∧ (TargetsUnderlyingCause(x, y) ∨ AlleviatesSymptoms(x, y)) → TreatsCondition(x, y))"
+  },
+  {
+    "id": 526,
+    "fopl": "∀x (MathematicalOperation(x) → (Addition(x) ⊕ Subtraction(x)))"
+  },
+  {
+    "id": 527,
+    "fopl": "∀x (Dentist(x) → (DiagnosesDentalProblems(x) ∧ TreatsDentalProblems(x)))"
+  },
+  {
+    "id": 528,
+    "fopl": "∀x (Country(x) → ∃y (Capital(y) ∧ HasCapital(x, y)))"
+  },
+  {
+    "id": 529,
+    "fopl": "∀x (Bicycle(x) → (HasTwoWheels(x) ∧ PoweredByPedals(x)))"
+  },
+  {
+    "id": 530,
+    "fopl": "∀x∀y∀z (Game(x) ∧ InterestingStoryline(y) ∧ ChallengingGameplay(z) ∧ ImmersiveGraphics(x) → Engaging(x, y, z))"
+  },
+  {
+    "id": 531,
+    "fopl": "∀x (Vehicle(x) ∧ PrimarilyPoweredByElectricMotor(x) ∧ HasRechargeableBattery(x) → ElectricVehicle(x))"
+  },
+  {
+    "id": 532,
+    "fopl": "∀x (Triangle(x) → (ThreeSides(x) ∧ ThreeAngles(x))) ∧ ∀y (Square(y) → (FourSides(y) ∧ FourRightAngles(y)))"
+  },
+  {
+    "id": 533,
+    "fopl": "∀x∀y (Mammal(x) ∧ LiveOffspring(y) → GivesBirthTo(x, y) ∧ ProvidesNourishmentThroughSecretionOfMilkFromMammaryGlands(x))"
+  },
+  {
+    "id": 534,
+    "fopl": "∀x (MobileApp(x) ∧ Popular(x) ↔ (UserFriendlyNavigation(x) ∧ PracticalFunctionality(x) ∧ RegularUpdates(x) ∧ ¬Buggy(x)))"
+  },
+  {
+    "id": 535,
+    "fopl": "∀x (Tree(x) → (ProvidesShade(x) ∧ ProducesOxygen(x) ∧ ProvidesHabitat(x)))"
+  },
+  {
+    "id": 536,
+    "fopl": "∀x (ArchitecturalStyle(x) ∧ Gothic(x) → FeaturesPointedArches(x) ∧ FeaturesRibbedVaults(x) ∧ FeaturesFlyingButtresses(x))"
+  },
+  {
+    "id": 537,
+    "fopl": "∀x (Candidate(x) ∧ (RelevantExperience(x) ∨ StrongCommunicationSkills(x) ∨ DemonstratesAdaptability(x)) → SuitableForJob(x))"
+  },
+  {
+    "id": 538,
+    "fopl": "∀x∀y (Television(x) ∧ Radio(y) → (DisplaysVideo(x) ∧ BroadcastsAudio(y) ∧ ¬DisplaysVideo(y)))"
+  },
+  {
+    "id": 539,
+    "fopl": "∀x (Country(x) ∧ Landlocked(x) → ¬HasCoastline(x))"
+  },
+  {
+    "id": 540,
+    "fopl": "∀x (Spacecraft(x) ∧ HighSpeeds(x) ∧ LongOperationalLifespan(x) ∧ AdvancedPropulsionTechnology(x) → SuitableForLongDurationMissions(x))"
+  },
+  {
+    "id": 541,
+    "fopl": "∀x ∀y ∀z (Planet(x) ∧ LifeForm(y) ∧ StableEnvironment(z) ∧ ProvidesSuitableConditions(z, x, y) → SustainsLife(x, y))"
+  },
+  {
+    "id": 542,
+    "fopl": "∀x (ArtPiece(x) ∧ VisualElements(x) ∧ DigitalTechniques(x) ∧ InteractiveComponents(x) → MultimediaArtwork(x))"
+  },
+  {
+    "id": 543,
+    "fopl": "∀x (Prism(x) → (DispersesLightIntoColors(x) ∧ RefractsDifferentWavelengths(x) ∧ VaryingAngles(x) ∧ CreatesSpectrum(x)))"
+  },
+  {
+    "id": 544,
+    "fopl": "∀x∀y∀z (Gym(x) ∧ Person(y) ∧ Trainer(z) → (Exercises(y, x) ∧ GivesGuidance(z, x) ∧ HasEquipment(x)))"
+  },
+  {
+    "id": 545,
+    "fopl": "∀x (Restaurant(x) ∧ (HighRating(x) ∨ FrequentlyVisited(x)) → Popular(x))"
+  },
+  {
+    "id": 546,
+    "fopl": "∀x (MusicalGenre(x) ∧ OriginatedInAfricanAmericanCommunities(x) ∧ FeaturesImprovisation(x) ∧ IncorporatesSyncopation(x) → Jazz(x))"
+  },
+  {
+    "id": 547,
+    "fopl": "∀x (Film(x) ∧ WonActingAward(x) ∧ WonDirectingAward(x) → CriticallyAcclaimedFilm(x))"
+  },
+  {
+    "id": 548,
+    "fopl": "∀x (Smartphone(x) → RequiresCharging(x))"
+  },
+  {
+    "id": 549,
+    "fopl": "∀x (Novel(x) ∧ ExploresThoughtProvokingThemes(x) ∧ FeaturesMemorableCharacters(x) ∧ DemonstratesExceptionalWriting(x) → CaptivatesReadersAndGarnersCriticalAcclaim(x))"
+  },
+  {
+    "id": 550,
+    "fopl": "∀x (ExerciseEquipmentType(x) → Cardio(x) ⊕ StrengthTraining(x))"
+  },
+  {
+    "id": 551,
+    "fopl": "∀x∀y (Predator(x) ∧ Prey(y) ∧ SuccessfullyHunts(x, y) ↔ (Detects(x, y) ∧ Chases(x, y) ∧ Captures(x, y)))"
+  },
+  {
+    "id": 552,
+    "fopl": "∀x ∀y ∀z (Scientist(x) ∧ Research(y) ∧ Paper(z) ∧ Conducts(x, y) ∧ Writes(x, z) → PresentsAtConference(x, z))"
+  },
+  {
+    "id": 553,
+    "fopl": "∀x (Food(x) ∧ ContainsHotFlavors(x) → Spicy(x))"
+  },
+  {
+    "id": 554,
+    "fopl": "∀x∀y (Bakery(x) ∧ (Cookie(y) ∨ Muffin(y)) → Sells(x, y))"
+  },
+  {
+    "id": 555,
+    "fopl": "∀x (RainyWeather(x) → WetRoads(x))"
+  },
+  {
+    "id": 556,
+    "fopl": "∀x ∀y (Dog(x) ∧ Wolf(y) → (DomesticatedAnimal(x) ∧ WildAnimal(y)))"
+  },
+  {
+    "id": 557,
+    "fopl": "∀x ∀y ∀z (Architect(x) ∧ Engineer(y) ∧ Owner(z) → (DesignsBuildings(x) ∧ ConstructsBuildings(y) ∧ MaintainsBuildings(z)))"
+  },
+  {
+    "id": 558,
+    "fopl": "∀x (Scientist(x) ∧ SpecializesInStudyOfWeatherPatterns(x) ∧ StudiesAtmosphericConditions(x) → Meteorologist(x))"
+  },
+  {
+    "id": 559,
+    "fopl": "∀x∀y (RainyWeather(x) ∧ Road(y) → CausesWet(x, y))"
+  },
+  {
+    "id": 560,
+    "fopl": "∀x∀y (Animal(x) ∧ PrimarilyConsumes(x, y) ∧ PlantMaterial(y) → Herbivore(x))"
+  },
+  {
+    "id": 561,
+    "fopl": "∀x (Liquid(x) ∧ HighResistanceToFlow(x) → Viscous(x))"
+  },
+  {
+    "id": 562,
+    "fopl": "∀x ∀y ∀z (Bus(x) → (LargeVehicle(x) ∧ TransportsMultiplePassengers(x))) ∧ (Motorcycle(y) → (TwoWheeledVehicle(y) ∧ TransportsOneOrTwoPeople(y))) ∧ (Truck(z) → TransportsCargo(z))"
+  },
+  {
+    "id": 563,
+    "fopl": "∀x (Mountain(x) ∧ HasSnow(x) → SuitableForSkiing(x) ∨ SuitableForSnowboarding(x))"
+  },
+  {
+    "id": 564,
+    "fopl": "∀x (Dog(x) → (Bark(x) ∨ Growl(x)))"
+  },
+  {
+    "id": 565,
+    "fopl": "∀x (Snake(x) ∧ HasFangs(x) ∧ HasVenomGlands(x) → Venomous(x))"
+  },
+  {
+    "id": 566,
+    "fopl": "∀x (Bird(x) ∧ ¬BrokenWings(x) → CanFly(x))"
+  },
+  {
+    "id": 567,
+    "fopl": "∀x (Bird(x) ∧ Migrates(x) → TravelsToDifferentRegionsDependingOnSeason(x))"
+  },
+  {
+    "id": 568,
+    "fopl": "∀x ∀y ∀z (City(x) ∧ InternationalAirport(y) ∧ LocatedIn(y, x) → (Attracts(x, z) ∧ (Tourist(z) ∨ BusinessTraveler(z))))"
+  },
+  {
+    "id": 569,
+    "fopl": "∀x (Vehicle(x) ∧ DesignedForTransportingPassengers(x) ∧ TypicallyHasFourWheels(x) → Car(x))"
+  },
+  {
+    "id": 570,
+    "fopl": "∀x∀y (Microwave(x) ∧ Oven(y) → (HeatsFoodWithElectromagneticWaves(x) ∧ CooksFoodWithHeat(y)))"
+  },
+  {
+    "id": 571,
+    "fopl": "∀x∀y (Smartphone(x) ∧ WiFiNetwork(y) ∧ CorrectPassword(x, y) → Connects(x, y))"
+  },
+  {
+    "id": 572,
+    "fopl": "∀x (Book(x) ∧ SellsLargeNumberOfCopies(x) ∧ ReceivesPositiveReviews(x) → Bestseller(x))"
+  },
+  {
+    "id": 573,
+    "fopl": "∀x∀y (Store(x) ∧ Open(x) → (Customer(y) ∧ CanEnter(y, x) ∧ CanPurchase(y, x)))"
+  },
+  {
+    "id": 574,
+    "fopl": "∀x ∀y (Refrigerator(x) ∧ Food(y) ∧ KeepsCold(x, y) → SlowsDownBacterialGrowth(y))"
+  },
+  {
+    "id": 575,
+    "fopl": "∀x (Bird(x) ∧ MimicsSounds(x) ∧ CommunicatesThroughVocalizations(x) ∧ KnownForComplexSongs(x) → Songbird(x))"
+  },
+  {
+    "id": 576,
+    "fopl": "∃x (Insect(x) ∧ ¬HarmfulToPlants(x))"
+  },
+  {
+    "id": 577,
+    "fopl": "∀x (Cinema(x) → (VisualStorytelling(x) ∧ MovingImages(x)))"
+  },
+  {
+    "id": 578,
+    "fopl": "∀x (Triangle(x) → HasSides(x, 3))"
+  },
+  {
+    "id": 579,
+    "fopl": "∀x (Person(x) ∧ CanWriteCode(x) → Programmer(x))"
+  },
+  {
+    "id": 580,
+    "fopl": "∀x ∀y (Sculpture(x) → (MadeFromStone(x) ∨ MadeFromWood(x) ∨ MadeFromMetal(x))) ∧ (Painting(y) → (MadeWithPigments(y) ∧ (OnCanvas(y) ∨ OnPaper(y))))"
+  },
+  {
+    "id": 581,
+    "fopl": "∀x ∀y ∀z (Mercury(x) ∧ Venus(y) ∧ Mars(z) → (CloserToSun(x, Earth) ∧ ThickAtmosphere(y) ∧ TallestVolcano(z)))"
+  },
+  {
+    "id": 582,
+    "fopl": "∀x∀y∀z (Vaccine(x) ∧ Disease(y) ∧ Population(z) ∧ ProvidesImmunityAgainst(x, y) → HelpsInPreventingSpread(x, y, z))"
+  },
+  {
+    "id": 583,
+    "fopl": "∀x ∀y (Country(x) ∧ Country(y) ∧ DemocraticGovernment(x) ∧ AuthoritarianRegime(y) → MoreRespectHumanRights(x, y))"
+  },
+  {
+    "id": 584,
+    "fopl": "∀x (Restaurant(x) ∧ (HasPatio(x) ∨ HasTerrace(x)) ∧ AccommodatesCustomers(x) → OffersOutdoorSeating(x))"
+  },
+  {
+    "id": 585,
+    "fopl": "∀x∀y (Museum(x) ∧ Artifact(y) → (Displays(x, y) ∧ (HostsTemporaryExhibitions(x) ∨ ¬HostsTemporaryExhibitions(x))))"
+  },
+  {
+    "id": 586,
+    "fopl": "Tool(hammer) ∧ DrivesNails(hammer) ∧ MetalHead(hammer)"
+  },
+  {
+    "id": 587,
+    "fopl": "∀x (Person(x) ∧ WritesTheatricalPerformances(x) ∧ DirectsTheatricalPerformances(x) ∧ ProducesTheatricalPerformances(x) ∧ SometimesActsInPerformances(x) → Playwright(x))"
+  },
+  {
+    "id": 588,
+    "fopl": "∀x ∀y ∀z (Researcher(x) ∧ Topic(y) ∧ (NaturalSciences(y) ∨ SocialSciences(y)) ∧ Venue(z) ∧ (AcademicJournal(z) ∨ Conference(z)) → (Studies(x, y) ∧ PublishesIn(x, z) ∨ PresentsAt(x, z)))"
+  },
+  {
+    "id": 589,
+    "fopl": "∀x (MarineAnimal(x) ∧ (Dolphin(x) ∨ Whale(x)) → (Mammal(x) ∧ LivesInOcean(x) ∧ BreathesAir(x)))"
+  },
+  {
+    "id": 590,
+    "fopl": "∀x (Dessert(x) → (Sweet(x) ∧ (Cold(x) ⊕ Hot(x))))"
+  },
+  {
+    "id": 591,
+    "fopl": "∀x (Rain(x) ↔ (CloudsFull(x) ∧ AirPressureDrops(x)))"
+  },
+  {
+    "id": 592,
+    "fopl": "∀x (Plant(x) ∧ ProducesFlowers(x) ∧ SeedsInFruit(x) → Angiosperm(x))"
+  },
+  {
+    "id": 593,
+    "fopl": "∀x (Movie(x) ∧ LargeBudget(x) ∧ HighBoxOffice(x) ∧ PositiveReviews(x) → Blockbuster(x))"
+  },
+  {
+    "id": 594,
+    "fopl": "∀x (Food(x) ∧ (ContainsChiliPeppers(x) ∨ ContainsHotSauce(x)) → Spicy(x))"
+  },
+  {
+    "id": 595,
+    "fopl": "∀x ∀y (Tea(x) ∧ Coffee(y) → (PopularBeverage(x) ∧ PopularBeverage(y) ∧ ContainsCaffeine(x) ∧ ContainsCaffeine(y) ∧ LessCaffeine(x, y)))"
+  },
+  {
+    "id": 596,
+    "fopl": "∀x (Cat(x) → Mammal(x))"
+  },
+  {
+    "id": 597,
+    "fopl": "∀x (Rainbow(x) → AppearsWhenSunlightRefractedReflectedDispersedByWaterDroplets(x))"
+  },
+  {
+    "id": 598,
+    "fopl": "∀x (VacuumCleaner(x) → (RemovesDirt(x) ∧ RemovesDust(x) ∧ CreatesSuction(x) ∧ HasMotor(x)))"
+  },
+  {
+    "id": 599,
+    "fopl": "∀x ∀y ∀z ∀w (Flight(x) ∧ City(y) ∧ City(z) ∧ Airport(w) ∧ Airline(a) → (DepartsFrom(x, w, y) ∧ ArrivesAt(x, w, z) ∧ OperatedBy(x, a)))"
+  },
+  {
+    "id": 600,
+    "fopl": "∀x (Device(x) ∧ ¬RequiresPhysicalConnection(x) → Wireless(x))"
+  },
+  {
+    "id": 601,
+    "fopl": "∀x (OddNumber(x) → ¬DivisibleByTwo(x))"
+  },
+  {
+    "id": 602,
+    "fopl": "∀x ∀y ∀z ((Mountain(x) ∧ Hill(y) ∧ IsHigher(x, y)) ∧ (Hill(y) ∧ Valley(z) ∧ IsHigher(y, z)) ∧ (Valley(z) ∧ Mountain(x) ∧ ¬IsHigher(z, x)))"
+  },
+  {
+    "id": 603,
+    "fopl": "∀x (Person(x) ∧ Scientist(x) → ConductExperiments(x) ⊕ AnalyzeData(x))"
+  },
+  {
+    "id": 604,
+    "fopl": "∀x (EarthquakeResistant(x) → (Building(x) ∧ StrongFoundation(x) ∧ FlexibleStructuralElements(x) ∧ DesignedForGroundMotion(x)))"
+  },
+  {
+    "id": 605,
+    "fopl": "∀x∀y (Student(x) ∧ Course(y) ∧ MeetsPrerequisites(x, y) ∧ SpaceAvailable(y) → CanEnroll(x, y))"
+  },
+  {
+    "id": 606,
+    "fopl": "∀x (Person(x) ∧ HasMedicalDegree(x) ∧ CanTreatPatients(x) → Doctor(x))"
+  },
+  {
+    "id": 607,
+    "fopl": "∀x ∀y (Athlete(x) ∧ Competition(y) ∧ AgeRequirement(x, y) ∧ DrugTest(x, y) ∧ ¬Disqualified(x, y) → Eligible(x, y))"
+  },
+  {
+    "id": 608,
+    "fopl": "∀x (ElectronicDevice(x) → Smartphone(x) ⊕ Tablet(x))"
+  },
+  {
+    "id": 609,
+    "fopl": "∀x (Train(x) → (OperatesOnTracks(x) ∧ (PoweredByElectricity(x) ∨ PoweredByDiesel(x))))"
+  },
+  {
+    "id": 610,
+    "fopl": "∀x∀y (Sculpture(x) ∧ (Stone(y) ∨ Wood(y) ∨ Metal(y)) → CreatedFrom(x, y))"
+  },
+  {
+    "id": 611,
+    "fopl": "∀x (Smartphone(x) ∧ IntuitiveInterface(x) ∧ LongBatteryLife(x) → UserFriendly(x))"
+  },
+  {
+    "id": 612,
+    "fopl": "∃x (Chair(x) ∧ (Broken(x) ∨ ¬InUse(x)))"
+  },
+  {
+    "id": 613,
+    "fopl": "∀x∀y∀z (Gardener(x) ∧ Flower(y) ∧ Garden(z) → PlantsIn(x, y, z))"
+  },
+  {
+    "id": 614,
+    "fopl": "∀x (Event(x) ∧ TakesPlaceEveryFourYears(x) ∧ IncludesMultipleSportingDisciplines(x) ∧ InvolvesParticipantsFromNumerousCountries(x) → OlympicGames(x))"
+  },
+  {
+    "id": 615,
+    "fopl": "∀x∀y (Chef(x) ∧ Restaurant(y) → PreparesMeals(x, y))"
+  },
+  {
+    "id": 616,
+    "fopl": "∀x (Computer(x) ∧ DesignedForEasyTransport(x) ∧ OperatesWithoutFixedPowerSource(x) → Portable(x))"
+  },
+  {
+    "id": 617,
+    "fopl": "∀x (Sport(x) → ((PlayedWithBall(x) ∧ PlayedOnField(x)) ∨ (PlayedWithRacket(x) ∧ PlayedOnCourt(x))))"
+  },
+  {
+    "id": 618,
+    "fopl": "∀x (Book(x) ∧ EngagingContent(x) ∧ WidespreadAvailability(x) ∧ PositiveReviews(x) → Bestseller(x))"
+  },
+  {
+    "id": 619,
+    "fopl": "∀x (Desert(x) ↔ (LowPrecipitation(x) ∧ SparseVegetation(x)))"
+  },
+  {
+    "id": 620,
+    "fopl": "∀x (Chef(x) → (CombineIngredients(x) ∧ FollowRecipe(x)))"
+  },
+  {
+    "id": 621,
+    "fopl": "∃x (Athlete(x) ∧ ((WellRested(x) ∨ HighlyMotivated(x)) ∧ ¬Injured(x) → PerformsBetter(x)))"
+  },
+  {
+    "id": 622,
+    "fopl": "∀x (Structure(x) ∧ ContainsLighthouse(x) ∧ SituatedOnCoastalArea(x) ∧ ServesAsNavigationalAidForMaritimeVessels(x) → Harbor(x))"
+  },
+  {
+    "id": 623,
+    "fopl": "∀x ((Artwork(x) ∧ Painting(x) ∧ OnCanvas(x)) ⊕ (Artwork(x) ∧ Sculpture(x) ∧ ThreeDimensional(x)))"
+  },
+  {
+    "id": 624,
+    "fopl": "∀x (City(x) ∧ (DensePopulation(x) ∧ LimitedSpace(x)) → Crowded(x))"
+  },
+  {
+    "id": 625,
+    "fopl": "∀x (Shape(x) → (Square(x) ∨ Circle(x) ∨ Triangle(x)))"
+  },
+  {
+    "id": 626,
+    "fopl": "∀x (Dog(x) ∧ (Excited(x) ∨ SensesDanger(x)) → Barks(x))"
+  },
+  {
+    "id": 627,
+    "fopl": "∀x (Bicycle(x) → (HasGears(x) ∨ Gearless(x)))"
+  },
+  {
+    "id": 628,
+    "fopl": "∀x (Cell(x) ∧ CellularRespiration(x) ∧ MaintainsHomeostasis(x) → Alive(x))"
+  },
+  {
+    "id": 629,
+    "fopl": "∀x (Item(x) ∧ WorthALotOfMoney(x) → Valuable(x))"
+  },
+  {
+    "id": 630,
+    "fopl": "∀x (Garment(x) ∧ DesignedForUpperBody(x) ∧ HasCollar(x) ∧ HasButtons(x) ∧ HasLongOrShortSleeves(x) → Shirt(x))"
+  },
+  {
+    "id": 631,
+    "fopl": "∀x (Flight(x) → (International(x) ⊕ Domestic(x)) ∧ ¬(International(x) ∧ Domestic(x)))"
+  },
+  {
+    "id": 632,
+    "fopl": "∀x ∀y (Parent(x) ∧ Grandparent(x) ∧ Grandchild(y, x) → TwoGenerationsOlder(x, y))"
+  },
+  {
+    "id": 633,
+    "fopl": "∀x (PieceOfWriting(x) ∧ PresentsFactualInformation(x) ∧ BasedOnReality(x) → NonFiction(x))"
+  },
+  {
+    "id": 634,
+    "fopl": "∀x ∀y (Lion(x) ∧ Elephant(y) → (Carnivore(x) ∧ Herbivore(y)))"
+  },
+  {
+    "id": 635,
+    "fopl": "∀x ∀y (VideoGame(x) ∧ Demographic(y) ∧ AppealsToInterests(x, y) ∧ EngagingGameplay(x) → BecomesPopular(x, y))"
+  },
+  {
+    "id": 636,
+    "fopl": "∀x (Smartphone(x) → (Camera(x) ∨ GPS(x) ∨ InternetAccess(x)))"
+  },
+  {
+    "id": 637,
+    "fopl": "∀x (Elevator(x) → (MovesVertically(x) ∧ TransportsBetweenFloors(x)))"
+  },
+  {
+    "id": 638,
+    "fopl": "∀x∀y∀z (Ecosystem(x) ∧ Diverse(x) → (SupportsVarietyOfSpecies(x, y) ∧ IncludesPlants(y) ∧ IncludesAnimals(y) ∧ IncludesMicroorganisms(z) ∧ InteractAndDependOnOneAnother(x)))"
+  },
+  {
+    "id": 639,
+    "fopl": "∀x (Vehicle(x) ∧ DesignedForTravelOnWater(x) ∧ (PoweredByEngine(x) ∨ PoweredBySails(x)) ∧ HasHull(x) → Boat(x))"
+  },
+  {
+    "id": 640,
+    "fopl": "∀x (Movie(x) → (Silent(x) ∨ HasSound(x)))"
+  },
+  {
+    "id": 641,
+    "fopl": "∀x (MountainClimber(x) → (PossessesPhysicalStrength(x) ∧ PossessesEndurance(x) ∧ KnowsClimbingTechniques(x) ∧ KnowsSafetyProcedures(x)))"
+  },
+  {
+    "id": 642,
+    "fopl": "∀x∀y∀z (Farmer(x) ∧ Crop(y) ∧ Field(z) → GrowsOn(x, y, z))"
+  },
+  {
+    "id": 643,
+    "fopl": "∀x (RenewableEnergySource(x) ∧ ReplenishedNaturally(x) ∧ LowEnvironmentalImpact(x) ∧ EconomicallyViable(x) → Sustainable(x))"
+  },
+  {
+    "id": 644,
+    "fopl": "∀x ∀y (Substance(x) ∧ PHLevel(y) ∧ ChangesColor(x, y) → PHIndicator(x))"
+  },
+  {
+    "id": 645,
+    "fopl": "∀x (Region(x) ∧ LowPrecipitation(x) ∧ SparseVegetation(x) ∧ ExtremeTemperatureVariations(x) → Desert(x))"
+  },
+  {
+    "id": 646,
+    "fopl": "∀x ∀y (Nation(x) ∧ Nation(y) ∧ SharesBorder(x, y) → Neighbors(x, y))"
+  },
+  {
+    "id": 647,
+    "fopl": "∀x ∀y (Apple(x) ∧ Orange(y) → ((Red(x) ∨ Green(x)) ⊕ TypicallyOrange(y)))"
+  },
+  {
+    "id": 648,
+    "fopl": "Cold(Ice)"
+  },
+  {
+    "id": 649,
+    "fopl": "∃x (Shape(x) ∧ ((ThreeSides(x) ∧ FourSides(x) ∧ ¬FiveSides(x)) ∨ (ThreeSides(x) ∧ ¬FourSides(x) ∧ FiveSides(x)) ∨ (¬ThreeSides(x) ∧ FourSides(x) ∧ FiveSides(x))))"
+  },
+  {
+    "id": 650,
+    "fopl": "∀x (Vehicle(x) ∧ AdvancedSafetyFeaturesAndDriverAssistTechnology(x) → (ReducesLikelihoodOfAccidents(x) ∧ ProtectsPassengersEffectively(x)))"
+  },
+  {
+    "id": 651,
+    "fopl": "∀x (Doctor(x) → (DiagnosesIllnesses(x) ∧ TreatsIllnesses(x)))"
+  },
+  {
+    "id": 652,
+    "fopl": "∀x (Mathematics(x) → ∃y∃z∃w (Numbers(y) ∧ Shapes(z) ∧ Patterns(w) ∧ Studies(x, y, z, w)))"
+  },
+  {
+    "id": 653,
+    "fopl": "∃x (Beverage(x) ∧ (((Hot(x) ∧ Sweet(x)) ∨ (Cold(x) ∧ Sweet(x)))))"
+  },
+  {
+    "id": 654,
+    "fopl": "∀x∀y∀z (Chef(x) ∧ Waiter(y) ∧ Cashier(z) → (CooksMeals(x) ∧ ServesCustomers(y) ∧ HandlesPayments(z)))"
+  },
+  {
+    "id": 655,
+    "fopl": "∀x (Room(x) ∧ ¬LightsOn(x) ∧ CurtainsClosed(x) → Dark(x))"
+  },
+  {
+    "id": 656,
+    "fopl": "∀x∀y (Thermometer(x) ∧ Barometer(y) → (MeasuresTemperature(x) ∧ MeasuresAtmosphericPressure(y)))"
+  },
+  {
+    "id": 657,
+    "fopl": "∀x (Object(x) ∧ Old(x) ∧ Valuable(x) ∧ (HistoricalSignificance(x) ∨ CulturalSignificance(x)) → Antique(x))"
+  },
+  {
+    "id": 658,
+    "fopl": "∀x (ChemicalReaction(x) ∧ AbsorbsHeatFromSurroundings(x) ∧ DecreasesTemperature(x) ∧ FormsNewChemicalCompounds(x) → EndothermicReaction(x))"
+  },
+  {
+    "id": 659,
+    "fopl": "∀x (ElectricVehicle(x) ↔ (Car(x) ∧ ∃y (ElectricMotor(y) ∧ PoweredBy(x, y)) ∧ ∃z (Battery(z) ∧ UsesForEnergyStorage(x, z))))"
+  },
+  {
+    "id": 660,
+    "fopl": "∀x (ScientistWork(x) ∧ (AdvancesKnowledge(x) ∨ LeadsToDiscoveries(x)) → Influential(x))"
+  },
+  {
+    "id": 661,
+    "fopl": "∀x (Dentist(x) → TreatsTeeth(x))"
+  },
+  {
+    "id": 662,
+    "fopl": "∀x (Comet(x) ↔ (ComposedOfIce(x) ∧ ComposedOfDust(x) ∧ ComposedOfRock(x) ∧ OrbitsSun(x) ∧ ReleasesGasAndDustNearSun(x)))"
+  },
+  {
+    "id": 663,
+    "fopl": "∀x (Computer(x) ∧ Portable(x) ↔ (Lightweight(x) ∧ Compact(x) ∧ ¬StationaryDesktop(x)))"
+  },
+  {
+    "id": 664,
+    "fopl": "∀x ∀y (Tool(x) ∧ Task(y) ∧ DesignedFor(x, y) ∧ EffectiveInCompleting(x, y) → UsedFor(x, y))"
+  },
+  {
+    "id": 665,
+    "fopl": "∀x (Vehicle(x) ∧ UsesCombinationOfEngineAndMotor(x) ∧ InternalCombustionEngine(x) ∧ ElectricMotor(x) → HybridVehicle(x))"
+  },
+  {
+    "id": 666,
+    "fopl": "∀x (Dessert(x) → (Sweet(x) ∧ ¬(Salty(x) ∨ Spicy(x))))"
+  },
+  {
+    "id": 667,
+    "fopl": "∀x (Artist(x) → CreatesArtwork(x) ∧ (CreatesPainting(x) ∨ CreatesSculpture(x) ∨ CreatesDigitalMedia(x)))"
+  },
+  {
+    "id": 668,
+    "fopl": "∀x (PowerPlant(x) → GeneratesElectricity(x))"
+  },
+  {
+    "id": 669,
+    "fopl": "∀x ∀y ∀z ((PrimaryProducer(x) ∧ (Plant(x) ∨ Algae(x)) ∧ Photosynthesis(x)) ∧ (Consumer(y) ∧ (Herbivore(y) ∨ Carnivore(y)) ∧ EatsOrganisms(y)) ∧ (Decomposer(z) ∧ (Fungi(z) ∨ Bacteria(z)) ∧ BreaksDownOrganicMaterial(z)))"
+  },
+  {
+    "id": 670,
+    "fopl": "∀x (Object(x) ∧ DesignedForSpecificTask(x) → Tool(x))"
+  },
+  {
+    "id": 671,
+    "fopl": "∀x (Pyramid(x) ↔ (Object(x) ∧ PolygonalBase(x) ∧ TriangularFaces(x) ∧ ∃y (SinglePoint(y) ∧ FacesMeetAt(x, y))))"
+  },
+  {
+    "id": 672,
+    "fopl": "∀x (OperatingSystem(x) ∧ IntuitiveInterface(x) ∧ ReliablePerformance(x) ∧ RobustSecurityFeatures(x) → UserFriendly(x))"
+  },
+  {
+    "id": 673,
+    "fopl": "∀x (Painter(x) → (CreatesArtwork(x, paint, canvas)))"
+  },
+  {
+    "id": 674,
+    "fopl": "∀x (Nurse(x) → (ProvidesHealthcare(x) ∧ AssistsDoctors(x)))"
+  },
+  {
+    "id": 675,
+    "fopl": "∀x ∀y (Animal(x) ∧ Human(y) ∧ Adaptability(x) ∧ ManageableTemperament(x) → GoodCandidateForDomestication(x, y))"
+  },
+  {
+    "id": 676,
+    "fopl": "∀x (Museum(x) → ((DisplaysPaintings(x) ∨ DisplaysSculptures(x)) ∧ ¬ExhibitsLiveAnimals(x)))"
+  },
+  {
+    "id": 677,
+    "fopl": "∀x (Raining(x) → ∃y (Person(y) ∧ (UsesUmbrella(y, x) ∨ WearsRaincoat(y, x))))"
+  },
+  {
+    "id": 678,
+    "fopl": "∀x (Beverage(x) → Hot(x) ⊕ Cold(x))"
+  },
+  {
+    "id": 679,
+    "fopl": "∀x (Asteroid(x) ∧ IntersectsEarthOrbit(x) ∧ LargeEnoughToCauseDamage(x) → PosesThreatToEarth(x))"
+  },
+  {
+    "id": 680,
+    "fopl": "∀x (Vacation(x) ∧ UnforgettableExperiences(x) ∧ MeaningfulConnections(x) ∧ RelaxationOpportunities(x) → Memorable(x))"
+  },
+  {
+    "id": 681,
+    "fopl": "∀x∀y (Restaurant(x) ∧ Meal(y) → Serves(x, y))"
+  },
+  {
+    "id": 682,
+    "fopl": "∀x (Painting(x) ∧ CreatedByRenownedArtist(x) ∧ WellPreserved(x) → Valuable(x))"
+  },
+  {
+    "id": 683,
+    "fopl": "∀x (Student(x) ∧ ExcelsInMath(x) ∧ ExcelsInScience(x) → MayPursueCareerInEngineering(x))"
+  },
+  {
+    "id": 684,
+    "fopl": "∀x (Employee(x) ∧ WorksMoreThan40HoursPerWeek(x) ∧ ¬ManagerialPosition(x) → EligibleForOvertimePay(x))"
+  },
+  {
+    "id": 685,
+    "fopl": "∀x ∀y (CarnivorousPlant(x) ∧ Insect(y) ∧ Nutrient(n) ∧ SpecializedStructure(s) → CapturesForNutrients(x, y, n, s))"
+  },
+  {
+    "id": 686,
+    "fopl": "∀x (Cake(x) ∧ Moist(x) ∧ ¬OverlySweet(x) ∧ QualityIngredients(x) → Delicious(x))"
+  },
+  {
+    "id": 687,
+    "fopl": "∀x∀y (Park(x) ∧ RecreationalFacility(y) ∧ (Playground(y) ∨ SportsField(y) ∨ PicnicArea(y)) → Provides(x, y))"
+  },
+  {
+    "id": 688,
+    "fopl": "∀x∀y (Runner(x) ∧ Swimmer(y) → (TrainsByRunningAndPracticingSpeed(x) ∧ TrainsBySwimmingAndImprovingTechnique(y)))"
+  },
+  {
+    "id": 689,
+    "fopl": "∀x (Material(x) ∧ HighElectricalAndThermalConductivity(x) ∧ Malleable(x) ∧ LustrousAppearance(x) → Metal(x))"
+  },
+  {
+    "id": 690,
+    "fopl": "∀x∀y∀z (Plant(x) ∧ SoilType(y) ∧ ClimateCondition(z) → ThrivesIn(x, y, z))"
+  },
+  {
+    "id": 691,
+    "fopl": "∀x ∀y (Hurricane(x) ∧ Tornado(y) → (FormsOverWarmOceanWaters(x) ∧ FormsOverLand(y)))"
+  },
+  {
+    "id": 692,
+    "fopl": "∀x (Cactus(x) → ThrivesInDryAndAridEnvironment(x))"
+  },
+  {
+    "id": 693,
+    "fopl": "∀x (WorkoutRoutine(x) ∧ CardioExercises(x) ∧ StrengthTraining(x) ∧ FlexibilityActivities(x) → Good(x))"
+  },
+  {
+    "id": 694,
+    "fopl": "∀x (Psychologist(x) → (StudiesAndAssessesHumanBehaviorAndMentalProcesses(x) ∧ ProvidesTherapyAndCounseling(x)))"
+  },
+  {
+    "id": 695,
+    "fopl": "∀x (Smartphone(x) ∧ LongLastingBattery(x) ∧ FastCharging(x) → (SuitableForTravelers(x) ∨ SuitableForProfessionals(x)))"
+  },
+  {
+    "id": 696,
+    "fopl": "∀x ∀y (Train(x) ∧ Station(y) ∧ PredeterminedSchedule(x, y) ∧ ¬UnexpectedDelays(x) → ArrivesOnTime(x, y))"
+  },
+  {
+    "id": 697,
+    "fopl": "∀x (GoodSenseOfHumor(x) → MakesSocialSituationsEnjoyable(x))"
+  },
+  {
+    "id": 698,
+    "fopl": "∀x∀y (Student(x) ∧ Exam(y) ∧ Passes(x, y) → Graduate(x))"
+  },
+  {
+    "id": 699,
+    "fopl": "∀x (Tree(x) ∧ LosesLeavesInAutumn(x) ∧ RegrowsLeavesInSpring(x) → Deciduous(x))"
+  },
+  {
+    "id": 700,
+    "fopl": "∀x (Ecosystem(x) ∧ CanRecoverFromDisturbances(x) ∧ MaintainsBiodiversity(x) → Resilient(x))"
+  },
+  {
+    "id": 701,
+    "fopl": "∀x∀y∀z (Engineer(x) ∧ Machine(y) ∧ Factory(z) → DesignsFor(x, y, z))"
+  },
+  {
+    "id": 702,
+    "fopl": "∀x ∀y (Smartphone(x) ∧ LandlinePhone(y) → (Communication(x) ∧ BrowsingInternet(x) ∧ TakingPictures(x) ∧ VoiceCommunication(y)))"
+  },
+  {
+    "id": 703,
+    "fopl": "∀x (Person(x) ∧ Chef(x) → SkilledInCooking(x))"
+  },
+  {
+    "id": 704,
+    "fopl": "∀x ∀y (Car(x) ∧ Bicycle(y) → (MeansOfTransportation(x) ∧ MeansOfTransportation(y) ∧ Motorized(x) ∧ Faster(x) ∧ HumanPowered(y) ∧ EnvironmentallyFriendly(y)))"
+  },
+  {
+    "id": 705,
+    "fopl": "∀x∀y∀z (ConstructionCompany(x) ∧ (ResidentialProject(y) ∨ CommercialProject(y) ∨ IndustrialProject(y)) ∧ (WoodMaterial(z) ∨ SteelMaterial(z) ∨ ConcreteMaterial(z)) → SpecializesInProjectsAndUtilizesMaterials(x, y, z))"
+  },
+  {
+    "id": 706,
+    "fopl": "∀x (Course(x) ∧ (CriticalThinking(x) ∨ ExtensiveProblemSolving(x)) → Challenging(x))"
+  },
+  {
+    "id": 707,
+    "fopl": "∀x ∀y (PineTree(x) → (Evergreen(x) ∧ NeedleLikeLeaves(x))) ∧ (DeciduousTree(y) → (LosesLeavesAnnually(y) ∧ BroadLeaves(y)))"
+  },
+  {
+    "id": 708,
+    "fopl": "∀x (Building(x) ∧ ((FlatRoof(x) ∧ EnoughSpace(x)) ∧ ¬SlantedRoof(x)) → RooftopGarden(x))"
+  },
+  {
+    "id": 709,
+    "fopl": "∀x∀y (Daytime(x) → CharacterizedBySunlight(x)) ∧ (Nighttime(y) → CharacterizedByDarkness(y))"
+  },
+  {
+    "id": 710,
+    "fopl": "∃x (Book(x) ∧ HasIllustrations(x))"
+  },
+  {
+    "id": 711,
+    "fopl": "∀x∀y∀z∀w (Painter(x) ∧ Paint(y) ∧ Surface(z) ∧ Gallery(w) → (AppliesTo(x, y, z) ∧ CreatesArtwork(x, z) ∧ CanBeDisplayedIn(z, w)))"
+  },
+  {
+    "id": 712,
+    "fopl": "∀x (Raincoat(x) ∧ WaterproofMaterial(x) → ProtectsFromRain(x))"
+  },
+  {
+    "id": 713,
+    "fopl": "∀x ∀y (CelestialBody(x) ∧ Star(y) ∧ Orbits(x, y) ∧ MassiveEnoughForSphericalShape(x) ∧ ClearedOrbitOfDebris(x) → Planet(x))"
+  },
+  {
+    "id": 714,
+    "fopl": "∀x (Person(x) ∧ SpeakEnglishFluently(x) ∧ SpeakSpanishFluently(x) → Bilingual(x))"
+  },
+  {
+    "id": 715,
+    "fopl": "∀x∀y (WorkOfArt(x) ∧ Artist(y) ∧ ThreeDimensional(x) ∧ (MadeOfStone(x) ∨ MadeOfMetal(x) ∨ MadeOfClay(x)) ∧ CreatedBy(x, y) → Sculpture(x))"
+  },
+  {
+    "id": 716,
+    "fopl": "∀x (Book(x) ∧ CollectionOfRecipes(x) ∧ CookingTips(x) → Cookbook(x))"
+  },
+  {
+    "id": 717,
+    "fopl": "∀x ∀y (Library(x) ∧ Book(y) → (AvailableForBorrowing(x, y) ⊕ CheckedOut(x, y)))"
+  },
+  {
+    "id": 718,
+    "fopl": "∀x (Event(x) → (Indoor(x) ⊕ Outdoor(x)))"
+  },
+  {
+    "id": 719,
+    "fopl": "∀x (Painting(x) ∧ NonRepresentationalShapesColorsPatterns(x) ∧ ¬DepictsRecognizableObjectsOrScenes(x) → AbstractArtwork(x))"
+  },
+  {
+    "id": 720,
+    "fopl": "∀x (WeatherCondition(x) ∧ (ClearSkies(x) ∨ Clouds(x)) → (Sunny(x) ∨ Rainy(x)))"
+  },
+  {
+    "id": 721,
+    "fopl": "∀x ((Drug(x) ∧ EffectivelyTreatsDisease(x) ∧ MinimalSideEffects(x)) → SafeAndEfficacious(x))"
+  },
+  {
+    "id": 722,
+    "fopl": "FamousPainting(monalisa) ∧ LocatedIn(monalisa, louvremuseum)"
+  },
+  {
+    "id": 723,
+    "fopl": "∀x (Bicycle(x) ∧ ¬(IntendedForChildren(x) ∨ StationaryExerciseBike(x)) → (DesignedForRoadCycling(x) ∨ DesignedForMountainBiking(x)))"
+  },
+  {
+    "id": 724,
+    "fopl": "∀x∀y∀z∀w (Vehicle(x) ∧ SuspensionSystem(y) ∧ Tires(z) ∧ RoadSurface(w) ∧ WellTuned(y) ∧ ProperlyInflated(z) ∧ Even(w) → SmoothRide(x))"
+  },
+  {
+    "id": 725,
+    "fopl": "∀x (Animal(x) ∧ HasFur(x) ∧ FeedsYoungWithMilk(x) ∧ GivesBirthToLiveOffspring(x) → Mammal(x))"
+  },
+  {
+    "id": 726,
+    "fopl": "∀x∀y∀z (Basketball(x) → RoundBall(x)) ∧ (Soccer(y) → LargerRoundBall(y)) ∧ (Rugby(z) → OvalBall(z)) ∧ (TeamSport(x) ∧ TeamSport(y) ∧ TeamSport(z))"
+  },
+  {
+    "id": 727,
+    "fopl": "∀x (Medication(x) ∧ EffectivelyTreatsSymptoms(x) ∧ MinimalSideEffects(x) → MoreLikelyToBePrescribedByDoctors(x))"
+  },
+  {
+    "id": 728,
+    "fopl": "∀x∀y (MusicalInstrument(x) ∧ SpecificPart(y) → ProducesSoundByVibrating(x, y))"
+  },
+  {
+    "id": 729,
+    "fopl": "∀x∀y∀z (Algorithm(x) ∧ Problem(y) ∧ InputData(z) ∧ ProcessesInputData(x, y, z) ∧ GeneratesCorrectOutput(x, y) ∧ OptimalTimeComplexity(x, y, z) → EfficientlySolves(x, y))"
+  },
+  {
+    "id": 730,
+    "fopl": "∀x (Smartphone(x) ∧ UserFriendly(x) ↔ (IntuitiveInterface(x) ∧ ResponsiveTouchScreen(x) ∧ LongBatteryLife(x)))"
+  },
+  {
+    "id": 731,
+    "fopl": "∀x (Movie(x) ∧ Captivating(x) ↔ (StrongStoryline(x) ∧ MemorableCharacters(x) ∧ ImpressiveVisualEffects(x) ∧ ¬SlowPacing(x)))"
+  },
+  {
+    "id": 732,
+    "fopl": "∀x ∀y (Fungus(x) ∧ OrganicMatter(y) ∧ GrowsOn(x, y) ∧ ReleasesSpores(x) → Mold(x))"
+  },
+  {
+    "id": 733,
+    "fopl": "∀x (Film(x) ∧ (RatingG(x) ∨ RatingPG(x)) ∧ ¬ContainsExplicitContent(x) → SuitableForChildren(x))"
+  },
+  {
+    "id": 734,
+    "fopl": "∀x∀y∀z (Artist(x) ∧ Artwork(y) ∧ Gallery(z) → (Creates(x, y) ∧ ExhibitsIn(x, y, z)))"
+  },
+  {
+    "id": 735,
+    "fopl": "¬∀x (Smartphone(x) → LargeScreen(x)) ∧ ∃y (Smartphone(y) ∧ (FastCharging(y) ∨ LongBatteryLife(y)))"
+  },
+  {
+    "id": 736,
+    "fopl": "∀x ∀y (Desert(x) ∧ Rainforest(y) → (ExtremeTemperatures(x) ∧ LittleRainfall(x) ∧ SparseVegetation(x) ⊕ HighRainfall(y) ∧ AbundantBiodiversity(y)))"
+  },
+  {
+    "id": 737,
+    "fopl": "∀x (Musician(x) ∧ PlaysWindInstrument(x) → CreatesSoundByBlowingAir(x))"
+  },
+  {
+    "id": 738,
+    "fopl": "∀x∀y∀z (Vaccine(x) ∧ Disease(y) ∧ ImmuneResponse(z) ∧ Triggers(x, z) ∧ GeneratesAntibodies(x, y) → ProvidesImmunity(x, y))"
+  },
+  {
+    "id": 739,
+    "fopl": "∀x (Bird(x) ∧ ¬Injured(x) → CanFly(x))"
+  },
+  {
+    "id": 740,
+    "fopl": "∀x (Person(x) ∧ CulinaryTraining(x) ∧ WorksInCommercialKitchen(x) → ProfessionalChef(x))"
+  },
+  {
+    "id": 741,
+    "fopl": "∀x (City(x) ∧ LargePopulation(x) ∧ SignificantEconomicInfluence(x) ∧ SignificantCulturalInfluence(x) ∧ SignificantPoliticalInfluence(x) → Metropolis(x))"
+  },
+  {
+    "id": 742,
+    "fopl": "∀x (Person(x) ∧ LivesInUrbanArea(x) ∧ UsesPublicTransportationFrequently(x) → LikelyOwnsMonthlyPass(x))"
+  },
+  {
+    "id": 743,
+    "fopl": "∀x (Country(x) → (Monarchy(x) ⊕ Republic(x)))"
+  },
+  {
+    "id": 744,
+    "fopl": "∀x (Location(x) ∧ Desert(x) → (LowRainfall(x) ∧ ExtremeTemperatures(x)))"
+  },
+  {
+    "id": 745,
+    "fopl": "∀x (Park(x) ∧ PavedPaths(x) ∧ WheelchairRamps(x) ∧ ClearSignage(x) → Accessible(x))"
+  },
+  {
+    "id": 746,
+    "fopl": "∀x (Escalator(x) → MovesPeopleBetweenFloors(x))"
+  },
+  {
+    "id": 747,
+    "fopl": "∀x (Ecosystem(x) ∧ ContainsDiverseSpecies(x) ∧ MaintainsBalancedFoodChain(x) ∧ SupportsNaturalProcessesForNutrientCycling(x) → Thriving(x))"
+  },
+  {
+    "id": 748,
+    "fopl": "∀x (PlantType(x) → Tree(x) ⊕ Shrub(x))"
+  },
+  {
+    "id": 749,
+    "fopl": "∀x ∀y (Substance(x) ∧ StatesOfMatter(y) → (Solid(x) ∨ Liquid(x) ∨ Gas(x) ∧ DependsOnTemperatureAndPressureConditions(x, y)))"
+  },
+  {
+    "id": 750,
+    "fopl": "∀x (Fruit(x) → (Sweet(x) ⊕ Sour(x)) ∧ ¬Tasteless(x))"
+  },
+  {
+    "id": 751,
+    "fopl": "∀x (Astronaut(x) → (ExtensiveTraining(x) ∧ ∃y (SpaceAgency(y) ∧ EmployedBy(x, y))))"
+  },
+  {
+    "id": 752,
+    "fopl": "∀x (Democratic(x) → HoldsElections(x))"
+  },
+  {
+    "id": 753,
+    "fopl": "∀x (Battery(x) → (FullyCharged(x) ⊕ PartiallyCharged(x) ⊕ Depleted(x)))"
+  },
+  {
+    "id": 754,
+    "fopl": "∀x (Meal(x) ∧ Vegetables(x) ∧ Protein(x) → Satisfying(x))"
+  },
+  {
+    "id": 755,
+    "fopl": "∀x (Person(x) ∧ Writer(x) → CreateWrittenWorks(x))"
+  },
+  {
+    "id": 756,
+    "fopl": "∀x∀y (Painting(x) ∧ FamousArtist(y) ∧ CreatedBy(x, y) ∧ GoodCondition(x) ∧ UniqueStyle(x) → Valuable(x))"
+  },
+  {
+    "id": 757,
+    "fopl": "∀x (HighQualityHeadphones(x) → OffersBetterSoundReproduction(x))"
+  },
+  {
+    "id": 758,
+    "fopl": "∀x (Lake(x) ↔ (BodyOfWater(x) ∧ SurroundedByLand(x) ∧ (NaturalFormation(x) ∨ ArtificialFormation(x))))"
+  },
+  {
+    "id": 759,
+    "fopl": "∀x ∀y ∀z (Heart(x) ∧ Lungs(y) ∧ Kidneys(z) → (PumpsBlood(x) ∧ ExchangesGases(y) ∧ FiltersWaste(z)))"
+  },
+  {
+    "id": 760,
+    "fopl": "∀x (Fabric(x) ∧ ¬NaturalFibers(x) ∧ ManMade(x) → Synthetic(x))"
+  },
+  {
+    "id": 761,
+    "fopl": "∀x (CelestialBody(x) ∧ OrbitsStar(x) ∧ ReflectsLight(x) → Planet(x) ∨ Moon(x))"
+  },
+  {
+    "id": 762,
+    "fopl": "∀x (House(x) → (HasBedrooms(x) ∧ HasBathrooms(x) ∧ HasKitchen(x)))"
+  },
+  {
+    "id": 763,
+    "fopl": "∀x (Triangle(x) → (HasThreeSides(x) ∧ HasThreeAngles(x) ∧ SumAngles(x, 180)))"
+  },
+  {
+    "id": 764,
+    "fopl": "∀x (Person(x) ∧ DispensesMedications(x) ∧ ProvidesMedicationInformation(x) → Pharmacist(x))"
+  },
+  {
+    "id": 765,
+    "fopl": "∀x ∀y ∀z (Tree(x) ∧ CarbonDioxide(y) ∧ Oxygen(z) ∧ AbsorbsDuringPhotosynthesis(x, y) ∧ Releases(x, z) → ContributesToCleanerAir(x))"
+  },
+  {
+    "id": 766,
+    "fopl": "∀x (Password(x) ∧ Uppercase(x) ∧ Lowercase(x) ∧ Numbers(x) ∧ SpecialCharacters(x) → Secure(x))"
+  },
+  {
+    "id": 767,
+    "fopl": "∀x (Phone(x) → ConnectsCalls(x))"
+  },
+  {
+    "id": 768,
+    "fopl": "∀x (Polygon(x) ∧ HasSixSides(x) → Hexagon(x)) ∧ (Polygon(x) ∧ HasEightSides(x) → Octagon(x))"
+  },
+  {
+    "id": 769,
+    "fopl": "∀x (Structure(x) ∧ BuiltForHabitation(x) ∧ ProvidesShelter(x) ∧ ComposedOfMultipleRooms(x) → (House(x) ∨ Apartment(x)))"
+  },
+  {
+    "id": 770,
+    "fopl": "∀x ∀y ∀z (Nurse(x) ∧ Lawyer(y) ∧ Teacher(z) → (AssistsPatientCare(x) ∧ ProvidesLegalServices(y) ∧ EducatesStudents(z)))"
+  },
+  {
+    "id": 771,
+    "fopl": "∀x (Process(x) ∧ CombinesSimplerSubstances(x) ∧ RequiresEnergyInput(x) ∧ ResultsInGrowthAndRepair(x) → Anabolism(x))"
+  },
+  {
+    "id": 772,
+    "fopl": "∀x (Coach(x) → (TrainsAthletesInSport(x) ∧ GuidesAthletesInSport(x)))"
+  },
+  {
+    "id": 773,
+    "fopl": "∀x ∀y (Microwave(x) ∧ Oven(y) → (HeatsFoodQuickly(x) ∧ (HeatsFoodSlowly(y) ∧ CanBake(y))))"
+  },
+  {
+    "id": 774,
+    "fopl": "∀x (Volcano(x) → ((Dormant(x) ⊕ Active(x) ⊕ Extinct(x)) ∧ EruptionsCauseChanges(x)))"
+  },
+  {
+    "id": 775,
+    "fopl": "∀x∀y (Square(x) ∧ Rectangle(y) → (HasEqualSides(x, 4) ⊕ (HasFourSides(y) ∧ OppositeSidesEqual(y))))"
+  },
+  {
+    "id": 776,
+    "fopl": "∀x (TallBuilding(x) → CastsLongShadow(x))"
+  },
+  {
+    "id": 777,
+    "fopl": "∃x∃y∃z (Rock(x) ∧ Igneous(x) ∧ Rock(y) ∧ Sedimentary(y) ∧ Rock(z) ∧ Metamorphic(z))"
+  },
+  {
+    "id": 778,
+    "fopl": "∀x (Candle(x) ∧ Burning(x) → ProduceLight(x))"
+  },
+  {
+    "id": 779,
+    "fopl": "∀x∀y (Employee(x) ∧ Company(y) → (WorksFor(x, y) ∧ (ReceivesSalary(x) ∨ ReceivesHourlyWage(x))))"
+  },
+  {
+    "id": 780,
+    "fopl": "∀x (SoftwareTool(x) ∧ DetectsMalware(x) ∧ RemovesMalware(x) ∧ MonitorsSystemPerformance(x) ∧ ProvidesRealTimeProtection(x) → AntivirusProgram(x))"
+  },
+  {
+    "id": 781,
+    "fopl": "∀x (ExcessiveSugarConsumption(x) → HigherRiskOfType2Diabetes(x))"
+  },
+  {
+    "id": 782,
+    "fopl": "∀x (Lake(x) ∧ Salinity(x, <0.5%) → Freshwater(x))"
+  },
+  {
+    "id": 783,
+    "fopl": "∀x (PracticesMindfulnessAndMeditation(x) → (ReducedStress(x) ∧ IncreasedMentalClarity(x)))"
+  },
+  {
+    "id": 784,
+    "fopl": "∀x∀y∀z (Tree(x) ↔ (GrowsIn(x, soil) ∧ Sunlight(y) ∧ Water(z) ∧ Requires(x, y) ∧ Requires(x, z) ∧ ¬FoundIn(x, ocean)))"
+  },
+  {
+    "id": 785,
+    "fopl": "∀x (Turtle(x) → (HasProtectiveShell(x) ∧ HasRetractableLimbs(x)))"
+  },
+  {
+    "id": 786,
+    "fopl": "∀x ∀y (Cave(x) ∨ Sinkhole(x) ∧ LimestoneBedrock(y) → FormsThroughDissolution(x, y, Rainwater, Groundwater, DissolvedCarbonDioxide, CalciumCarbonate))"
+  },
+  {
+    "id": 787,
+    "fopl": "∀x∀y (Airline(x) ∧ (Domestic(y) ∨ International(y)) → OperatesFlightsAndProvidesSeatingOptions(x, y))"
+  },
+  {
+    "id": 788,
+    "fopl": "∀x∀y∀z (Submarine(x) → (CanDiveBelowSurface(x, y) ∧ Water(y) ∧ NavigatesUnderwater(x, z) ∧ (SystemOfBallastTanks(z) ∧ Propulsion(z))))"
+  },
+  {
+    "id": 789,
+    "fopl": "∀x (Dessert(x) ∧ BalancedSweetness(x) ∧ PleasingTexture(x) ∧ ¬TooHeavy(x) → Delicious(x))"
+  },
+  {
+    "id": 790,
+    "fopl": "∀x (NationalPark(x) → ((ForestEcosystem(x) ∧ GrasslandEcosystem(x) ∧ WetlandEcosystem(x)) ∧ (HikingOpportunity(x) ∧ CampingOpportunity(x) ∧ WildlifeWatchingOpportunity(x))))"
+  },
+  {
+    "id": 791,
+    "fopl": "∀x∀y (Cat(x) ∧ Dog(y) → (GroomsSelf(x) ∧ ReliesOnOwnerForGrooming(y)))"
+  },
+  {
+    "id": 792,
+    "fopl": "∀x ∀y ∀z (ComputerNetwork(x) ∧ Device(y) ∧ Device(z) ∧ EnablesDataTransmission(x, y, z) ∧ Communication(x, y, z) → Connects(x, y, z))"
+  },
+  {
+    "id": 793,
+    "fopl": "∀x (Beverage(x) ∧ (Carbonated(x) ∨ Caffeinated(x)) → Refreshing(x))"
+  },
+  {
+    "id": 794,
+    "fopl": "∀x (Scientist(x) ∧ (StudiesPlants(x) ∨ StudiesAnimals(x)) → Biologist(x))"
+  },
+  {
+    "id": 795,
+    "fopl": "∀x (PrefersLivingWithFewerMaterialPossessions(x) → Minimalist(x))"
+  },
+  {
+    "id": 796,
+    "fopl": "∀x (LivingEnvironment(x) ∧ CleanAir(x) ∧ ModerateTemperature(x) ∧ AppropriateNoiseLevel(x) → Comfortable(x))"
+  },
+  {
+    "id": 797,
+    "fopl": "∀x ∀y ∀z (Planet(x) ∧ LiquidWater(y) ∧ SuitableAtmosphere(z) ∧ Has(x, y) ∧ Has(x, z) → Habitable(x))"
+  },
+  {
+    "id": 798,
+    "fopl": "∀x (Engine(x) ∧ ConvertsChemicalEnergy(x) ∧ PowersVehicles(x) ∧ FueledByInternalCombustion(x) → InternalCombustionEngine(x))"
+  },
+  {
+    "id": 799,
+    "fopl": "∀x (Person(x) ∧ ¬EatsMeat(x) → Vegetarian(x))"
+  },
+  {
+    "id": 800,
+    "fopl": "∀x ∀y (Bakery(x) ∧ ButcherShop(y) → (SellsBread(x) ∧ SellsPastries(x) ∧ SellsMeat(y) ∧ SellsPoultry(y)))"
+  },
+  {
+    "id": 801,
+    "fopl": "∀x (Fuel(x) ∧ DerivedFromRenewableResources(x) ∧ EmitsFewerGreenhouseGases(x) ∧ UsedToPowerVehicles(x) → Biofuel(x))"
+  },
+  {
+    "id": 802,
+    "fopl": "∀x ((SolidSubstance(x) ∧ ConductsElectricityWell(x) ∧ Malleable(x) ∧ Ductile(x)) → Metal(x))"
+  },
+  {
+    "id": 803,
+    "fopl": "∀x (Artwork(x) ∧ (SymbolicElements(x) ∨ EvokesEmotions(x)) ∧ ¬CommercialPurposes(x) → ThoughtProvoking(x))"
+  },
+  {
+    "id": 804,
+    "fopl": "∀x ∀y ∀z (Doctor(x) ∧ Medication(y) ∧ Patient(z) ∧ AppropriateForCondition(y, z) ∧ Licensed(x) → Prescribes(x, y, z))"
+  },
+  {
+    "id": 805,
+    "fopl": "∀x∀y (Laptop(x) ∧ DesktopComputer(y) → (PerformsSimilarTasks(x, y) ∧ DifferentPortabilityAndCustomization(x, y)))"
+  },
+  {
+    "id": 806,
+    "fopl": "∀x (Fermentation(x) → (MetabolicProcess(x) ∧ UsedByMicroorganisms(x) ∧ ConvertSugarsIntoOtherProducts(x)))"
+  },
+  {
+    "id": 807,
+    "fopl": "∀x (Hammer(x) → Nails(x)) ∧ (Saw(x) → CutsWood(x)) ∧ (Wrench(x) → TightensBolts(x))"
+  },
+  {
+    "id": 808,
+    "fopl": "∀x (Substance(x) ∧ DefiniteShape(x) ∧ DefiniteVolume(x) → Solid(x))"
+  },
+  {
+    "id": 809,
+    "fopl": "∀x (Location(x) ∧ ShallowWater(x) ∧ SupportsAquaticPlants(x) ∧ DiverseWildlifeHabitat(x) → Wetland(x))"
+  },
+  {
+    "id": 810,
+    "fopl": "∀x (Animal(x) ∧ Reptile(x) → (HasScales(x) ∧ LaysEggs(x)))"
+  },
+  {
+    "id": 811,
+    "fopl": "¬∃x (Car(x) ∧ Convertible(x) ∧ Sedan(x))"
+  },
+  {
+    "id": 812,
+    "fopl": "∀x ∀y (Fruit(x) ∧ Fruit(y) ∧ HigherVitaminCContent(x, y) → BetterPreventScurvy(x, y))"
+  },
+  {
+    "id": 813,
+    "fopl": "∀x ∀y ∀z (Computer(x) ∧ CyberAttack(y) ∧ SecurityMeasures(z) ∧ LacksProtection(x, z, y) → VulnerableToAttack(x, y))"
+  },
+  {
+    "id": 814,
+    "fopl": "∀x (Book(x) ∧ MysteryNovel(x) ∧ Thriller(x) → HybridGenre(x))"
+  },
+  {
+    "id": 815,
+    "fopl": "∀x (NaturalPhenomenon(x) ∧ ReleaseMoltenRock(x) ∧ ReleaseAsh(x) ∧ ReleaseGas(x) → VolcanicEruption(x))"
+  },
+  {
+    "id": 816,
+    "fopl": "∀x (Game(x) → ((SinglePlayer(x) ⊕ Multiplayer(x)) ∧ ¬(Relaxing(x) ∧ Challenging(x))))"
+  },
+  {
+    "id": 817,
+    "fopl": "∀x∀y (Footwear(x) ∧ DesignedForAthleticActivities(x) ∧ ProvidesCushioningAndSupport(x) ∧ RubberSole(y) ∧ Has(x, y) → SportsShoe(x))"
+  },
+  {
+    "id": 818,
+    "fopl": "∀x (Lake(x) → SurroundedByLand(x))"
+  },
+  {
+    "id": 819,
+    "fopl": "∀x∀y (Snow(x) → Cold(x)) ∧ (Lava(y) → Hot(y))"
+  },
+  {
+    "id": 820,
+    "fopl": "∀x ∀y (Chair(x) ∧ Bench(y) → ((HasSeat(x) ∧ HasBackrest(x) ∧ SupportsOnePerson(x)) ∧ (HasSeat(y) ∧ ¬HasBackrest(y) ∧ SupportsMultiplePeople(y))))"
+  },
+  {
+    "id": 821,
+    "fopl": "∀x (Molecule(x) → ∃y∃z (Atom(y) ∧ Atom(z) ∧ BondedTogether(y, z, x)))"
+  },
+  {
+    "id": 822,
+    "fopl": "∀x (Vehicle(x) ∧ PoweredByElectricMotor(x) ∧ PrimarilyUsesElectricity(x) → ElectricCar(x))"
+  },
+  {
+    "id": 823,
+    "fopl": "∀x (Region(x) ∧ ExperiencesLowPrecipitation(x) ∧ SupportsLittleVegetation(x) ∧ DryAridClimate(x) → Desert(x))"
+  },
+  {
+    "id": 824,
+    "fopl": "∀x (Painting(x) ∧ CreatedByRenownedArtist(x) ∧ ExcellentCondition(x) → Valuable(x))"
+  },
+  {
+    "id": 825,
+    "fopl": "∀x ((River(x) ∧ FlowsIntoBodyOfWater(x)) → Tributary(x))"
+  },
+  {
+    "id": 826,
+    "fopl": "∀x∀y (Boat(x) ∧ Airplane(y) → (FloatsOnWater(x) ∧ HasHull(x) ∧ FliesInAir(y) ∧ HasWings(y)))"
+  },
+  {
+    "id": 827,
+    "fopl": "∀x (Workout(x) ∧ (IncreasesHeartRate(x) ∨ BurnsManyCalories(x)) → Intense(x))"
+  },
+  {
+    "id": 828,
+    "fopl": "∀x (Athlete(x) ∧ RigorousTrainingRegimen(x) ∧ WellBalancedDiet(x) ∧ EnoughSleep(x) → MaximizesPerformancePotential(x))"
+  },
+  {
+    "id": 829,
+    "fopl": "¬∀x (Metal(x) → Magnetic(x)) ∧ ∃y (Metal(y) ∧ Magnetic(y))"
+  },
+  {
+    "id": 830,
+    "fopl": "∀x (Car(x) ∧ Electric(x) → PoweredByBattery(x))"
+  },
+  {
+    "id": 831,
+    "fopl": "∀x ∀y ∀z (Tree(x) ∧ Summer(y) ∧ Autumn(z) → (ProvidesShade(x, y) ∧ LosesLeaves(x, z)))"
+  },
+  {
+    "id": 832,
+    "fopl": "∀x (Smartphone(x) ∧ Camera(x) ∧ InternetAccess(x)) ∧ ∀y (FeaturePhone(y) ∧ LimitedInternet(y))"
+  },
+  {
+    "id": 833,
+    "fopl": "∀x (Entity(x) ∧ ElectronicDevice(x) ∧ PerformsCalculationsAndProcessesData(x) ∧ (IncludesCPU(x) ∨ IncludesMemory(x) ∨ IncludesStorage(x)) → Computer(x))"
+  },
+  {
+    "id": 834,
+    "fopl": "∀x (Flower(x) ∧ BloomsAtNight(x) → StrongFragrance(x) ∧ AttractsNocturnalPollinators(x) ∧ LightColoredPetals(x))"
+  },
+  {
+    "id": 835,
+    "fopl": "∀x (Smartphone(x) ∧ IntuitiveInterface(x) ∧ ¬FrequentChargingRequired(x) → EasyToUse(x))"
+  },
+  {
+    "id": 836,
+    "fopl": "∀x (Vehicle(x) ∧ (Electricity(x) ∨ SolarPower(x) ∨ HydrogenFuelCells(x)) → EcoFriendly(x))"
+  },
+  {
+    "id": 837,
+    "fopl": "∀x (Beverage(x) ∧ Alcoholic(x) → (ContainsEthanol(x) ∧ AlcoholContentGreaterThan(x, 0.5)))"
+  },
+  {
+    "id": 838,
+    "fopl": "∀x (Rectangle(x) ∧ FourEqualSides(x) → Square(x))"
+  },
+  {
+    "id": 839,
+    "fopl": "∃x (Fruit(x) ∧ Sweet(x))"
+  },
+  {
+    "id": 840,
+    "fopl": "∀x (Person(x) ∧ CreatesVisualArt(x) ∧ OftenOnCanvasPaperOrOtherSurfaces(x) ∧ UsesPaintBrushesAndVariousTechniques(x) → Painter(x))"
+  },
+  {
+    "id": 841,
+    "fopl": "∀x (ProvidesCareAndSupportToIndividualsWithDisabilities(x) → Caregiver(x))"
+  },
+  {
+    "id": 842,
+    "fopl": "∀x (LargeNaturalSatellite(x) ∧ OrbitsPlanet(x) ∧ HeldByGravitationalForce(x) → Moon(x))"
+  },
+  {
+    "id": 843,
+    "fopl": "∀x (Person(x) ∧ LawDegree(x) ∧ AuthorizedToPracticeLaw(x) → Lawyer(x))"
+  },
+  {
+    "id": 844,
+    "fopl": "∀x (Structure(x) ∧ Barrier(x) ∧ ConstructedAcrossRiverOrStream(x) ∧ ServesMultiplePurposes(x, floodControl, irrigation, hydroelectricPowerGeneration) → Dam(x))"
+  },
+  {
+    "id": 845,
+    "fopl": "∀x (Cat(x) → ((CatchesMice(x) ∨ CatchesBirds(x) ∨ CatchesLizards(x)) ∧ ¬(CatchesMice(x) ∧ CatchesBirds(x) ∧ CatchesLizards(x))))"
+  },
+  {
+    "id": 846,
+    "fopl": "∀x (Vehicle(x) ∧ Hybrid(x) → (UsesGasoline(x) ∧ UsesElectricity(x)))"
+  },
+  {
+    "id": 847,
+    "fopl": "∀x (Plant(x) ∧ Photosynthesis(x) → (SunlightToChemicalEnergy(x) ∧ UsedForGrowth(x) ∧ UsedForReproduction(x)))"
+  },
+  {
+    "id": 848,
+    "fopl": "∀x (Liquid(x) ∧ TemperatureFallsBelowFreezingPoint(x) → Freeze(x))"
+  },
+  {
+    "id": 849,
+    "fopl": "∀x ((Person(x) ∧ PracticesYoga(x) ∧ PracticesMeditation(x)) → MindfulIndividual(x))"
+  },
+  {
+    "id": 850,
+    "fopl": "∀x (Movie(x) ∧ HighBoxOffice(x) ∧ WidespreadAcclaim(x) → Blockbuster(x))"
+  },
+  {
+    "id": 851,
+    "fopl": "∀x (SoftwareDeveloper(x) → (DesignsWritesTestsAndMaintainsComputerProgramsAndApplications(x) ∧ ToSolveProblemsAndPerformTasks(x)))"
+  },
+  {
+    "id": 852,
+    "fopl": "∀x (Bird(x) ∧ HasWings(x) ∧ ¬Flightless(x) → CanFly(x))"
+  },
+  {
+    "id": 853,
+    "fopl": "∀x (Star(x) → EmitsLight(x))"
+  },
+  {
+    "id": 854,
+    "fopl": "∀x (Person(x) ∧ PerformSongs(x) ∧ UsesVoice(x) → Singer(x))"
+  },
+  {
+    "id": 855,
+    "fopl": "∀x (Liquid(x) ∧ UsedToDissolveSubstances(x) ∧ FormsSolution(x) → Solvent(x))"
+  },
+  {
+    "id": 856,
+    "fopl": "∀x (RainyWeather(x) → CarriesUmbrella(x))"
+  },
+  {
+    "id": 857,
+    "fopl": "∀x (Tornado(x) → (WarmMoistAirMeetsCoolDryAir(x) ∧ FormsRotatingColumnOfAir(x) ∧ ExtendsFromThunderstormCloudToGround(x)))"
+  },
+  {
+    "id": 858,
+    "fopl": "∀x (Novel(x) ∧ (FuturisticSettings(x) ∨ AdvancedTechnology(x) ∨ ExtraterrestrialLife(x)) → ScienceFiction(x))"
+  },
+  {
+    "id": 859,
+    "fopl": "∀x ∀y ∀z (Basketball(x) ∧ Football(y) ∧ HockeyPuck(z) → (Round(x) ∧ Elongated(y) ∧ Flat(z)))"
+  },
+  {
+    "id": 860,
+    "fopl": "∀x (Smartphone(x) ∧ ((HighQualityCamera(x) ∧ SleekDesign(x)) ∧ ¬LacksPrivacyFeatures(x) → Attractive(x)))"
+  },
+  {
+    "id": 861,
+    "fopl": "∀x∀y (Fan(x) ∧ AirConditioner(y) → (CirculatesAir(x) ∧ CoolsAir(y) ∧ ¬CirculatesAir(y)))"
+  },
+  {
+    "id": 862,
+    "fopl": "∀x∀y∀z∀w (Gardener(x) ∧ (Flower(y) ∨ Shrub(z) ∨ Tree(w)) → CultivatesInGarden(x, y, z, w))"
+  },
+  {
+    "id": 863,
+    "fopl": "∀x (Beverage(x) ∧ ContainsEthanol(x) ∧ HasAlcoholPercentage(x) → Alcoholic(x))"
+  },
+  {
+    "id": 864,
+    "fopl": "∀x (Lion(x) → Hunt(x)) ∧ ∀y (Koala(y) → Sleep(y)) ∧ ∀z (Hummingbird(z) → Hover(z))"
+  },
+  {
+    "id": 865,
+    "fopl": "∀x (Student(x) ∧ HighGPA(x) ∧ CompletedCreditHours(x) ∧ ParticipatesInExtracurricularActivities(x) → GraduatesWithHonors(x))"
+  },
+  {
+    "id": 866,
+    "fopl": "∀x (Shape(x) ∧ HasFourSides(x) ∧ AllAnglesEqual(x, 90) → Rectangle(x))"
+  },
+  {
+    "id": 867,
+    "fopl": "∀x∀y (Weather(x) ∧ (Rainy(x) → SlipperyRoads(y)) ∧ (Sunny(x) → DryRoads(y)))"
+  },
+  {
+    "id": 868,
+    "fopl": "∀x (Smartphone(x) → (TouchscreenDisplay(x) ∧ InternetAccess(x) ∧ CanDownloadApps(x)))"
+  },
+  {
+    "id": 869,
+    "fopl": "∀x (HealthyLifestyle(x) → RegularPhysicalActivity(x) ∧ BalancedDiet(x) ∧ SufficientSleep(x))"
+  },
+  {
+    "id": 870,
+    "fopl": "∀x (Train(x) ∧ ConsistentlyArrivesOnSchedule(x) ∧ ConsistentlyDepartsOnSchedule(x) → Punctual(x))"
+  },
+  {
+    "id": 871,
+    "fopl": "∀x ∀y ∀z (Camera(x) ∧ Object(y) ∧ Sensor(z) ∧ FocusesLight(x, z) → CapturesImageOf(x, y))"
+  },
+  {
+    "id": 872,
+    "fopl": "∀x (WritingSystem(x) ∧ UsesSymbols(x) ∧ RepresentsSoundsOrWords(x) ∧ (WrittenHorizontally(x) ∨ WrittenVertically(x)) → Script(x))"
+  },
+  {
+    "id": 873,
+    "fopl": "∀x (Volcano(x) ∧ Erupts(x) → (CausesDestruction(x) ∨ EmitsSmoke(x) ∨ EmitsAsh(x) ∨ ChangesEnvironment(x)))"
+  },
+  {
+    "id": 874,
+    "fopl": "∀x (Square(x) ↔ (Rectangle(x) ∧ AllSidesEqual(x)))"
+  },
+  {
+    "id": 875,
+    "fopl": "∀x∀y (Painting(x) ∧ FamousArtist(y) ∧ MadeBy(x, y) → Valuable(x))"
+  },
+  {
+    "id": 876,
+    "fopl": "∀x (Mountain(x) ∧ ElevationAbove8000Meters(x) ∧ PermanentSnow(x) → EightThousander(x))"
+  },
+  {
+    "id": 877,
+    "fopl": "∀x (Mountain(x) → HasPeak(x) ∧ HasSlopes(x))"
+  },
+  {
+    "id": 878,
+    "fopl": "∀x ∀y (DesertEcosystem(x) ∧ (Cacti(y) ∧ StoresWaterInThickStems(x, y)) ∧ (CamouflagedAnimals(x) ∧ BlendsInWithSurroundings(x)))"
+  },
+  {
+    "id": 879,
+    "fopl": "∀x (PlanetInSolarSystem(x) → Orbits(x, sun))"
+  },
+  {
+    "id": 880,
+    "fopl": "∀x∀y (Student(x) ∧ Teacher(y) → (LearnsByAttendingLectures(x, y) ∨ LearnsByParticipatingDiscussions(x, y) ∨ LearnsByCompletingAssignments(x, y)))"
+  },
+  {
+    "id": 881,
+    "fopl": "∀x ∀y (Parent(x) ∧ Child(y) → LegalGuardian(x, y))"
+  },
+  {
+    "id": 882,
+    "fopl": "∀x∀y (Chef(x) ∧ Server(y) → (PreparesMeals(x) ∧ CooksMeals(x) ∧ TakesOrders(y) ∧ DeliversFood(y)))"
+  },
+  {
+    "id": 883,
+    "fopl": "∀x (Flashlight(x) ∧ TurnedOn(x) → EmitsLight(x))"
+  },
+  {
+    "id": 884,
+    "fopl": "∀x (Runner(x) → (ParticipatesIn(x, \"sprints\") ∨ ParticipatesIn(x, \"marathons\") ∨ ParticipatesIn(x, \"relays\")))"
+  },
+  {
+    "id": 885,
+    "fopl": "∀x ∀y ∀z (Museum(x) ∧ Artifact(y) ∧ GuidedTour(z) → (Displays(x, y) ∧ Educates(x, visitors) ∧ Organizes(x, z)))"
+  },
+  {
+    "id": 886,
+    "fopl": "∀x (Game(x) ∧ PlayedWithBall(x) ∧ TwoTeams(x) ∧ ScorePoints(x) ∧ ThrowBallThroughHoop(x) ∧ SpecificHoopHeight(x) → Basketball(x))"
+  },
+  {
+    "id": 887,
+    "fopl": "∀x (Fruit(x) ∧ (Ripe(x) ∨ Overripe(x)) → SuitableForSmoothie(x))"
+  },
+  {
+    "id": 888,
+    "fopl": "∀x (Metal(x) → GoodConductorOfHeat(x) ∧ GoodConductorOfElectricity(x))"
+  },
+  {
+    "id": 889,
+    "fopl": "∀x (Computer(x) ∧ Lightweight(x) ∧ HasBuiltInBattery(x) → Portable(x))"
+  },
+  {
+    "id": 890,
+    "fopl": "∀x (Car(x) → (Engine(x) ∧ Wheels(x) ∧ Chassis(x) ∧ (GasolinePowered(x) ∨ DieselPowered(x) ∨ ElectricPowered(x)) ∧ (TransportationPurpose(x) ∨ RacingPurpose(x) ∨ OffRoadingPurpose(x))))"
+  },
+  {
+    "id": 891,
+    "fopl": "∀x (Event(x) ∧ (InviteOnly(x) ∨ RequiresMembership(x)) → Exclusive(x))"
+  },
+  {
+    "id": 892,
+    "fopl": "∀x (Frog(x) → (LiveOnLand(x) ∧ LiveInWater(x))) ∧ ∀y (Snake(y) → (LiveOnLand(y) ∧ ¬LiveInWater(y)))"
+  },
+  {
+    "id": 893,
+    "fopl": "∀x∀y (Courtroom(x) ∧ Judge(y) ∧ HearsCases(y, x) ∧ EvidenceAndLaws(x) → MakesDecisions(y, x))"
+  },
+  {
+    "id": 894,
+    "fopl": "∀x∀y∀z (Telescope(x) ∧ Astronomer(y) ∧ CelestialObject(z) → (EnablesObservation(x, y, z) ∧ StudyUniverse(y)))"
+  },
+  {
+    "id": 895,
+    "fopl": "∀x (Ecosystem(x) ∧ DiverseSpecies(x) ∧ StableFoodChain(x) ∧ BalancedClimate(x) → Thrives(x))"
+  },
+  {
+    "id": 896,
+    "fopl": "∀x∀y∀z (Lion(x) → Carnivore(x)) ∧ (Cow(y) → Herbivore(y)) ∧ (Human(z) → Omnivore(z))"
+  },
+  {
+    "id": 897,
+    "fopl": "∀x (Area(x) ∧ SaturatedWithWater(x) ∧ SupportsAquaticPlants(x) ∧ ProvidesHabitatForWildlife(x) → Wetland(x))"
+  },
+  {
+    "id": 898,
+    "fopl": "∀x∀y (Smartphone(x) ∧ Device(y) ∧ (ConnectsToWiFi(x) ∨ UsesBluetooth(x)) → CanCommunicateWith(x, y))"
+  },
+  {
+    "id": 899,
+    "fopl": "∀x (Animal(x) ∧ AccessToFood(x) ∧ MinimalThreats(x) ∧ SuccessfulReproduction(x) → ThrivesInHabitat(x))"
+  },
+  {
+    "id": 900,
+    "fopl": "∀x (Novel(x) ↔ (WrittenWork(x) ∧ Fiction(x) ∧ ConnectedNarrative(x) ∧ WellDevelopedCharacters(x)))"
+  },
+  {
+    "id": 901,
+    "fopl": "∀x (Polygon(x) ↔ AtLeastThreeSides(x))"
+  },
+  {
+    "id": 902,
+    "fopl": "∀x (Flower(x) ∧ LivesMoreThanTwoYears(x) → Perennial(x))"
+  },
+  {
+    "id": 903,
+    "fopl": "∀x (Shape(x) → (Square(x) ⊕ Circle(x)))"
+  },
+  {
+    "id": 904,
+    "fopl": "∀x (Mammal(x) ∧ Monotreme(x) → LaysEggs(x)) ∧ ∀y (Mammal(y) ∧ ¬Monotreme(y) → GivesBirthToLiveYoung(y))"
+  },
+  {
+    "id": 905,
+    "fopl": "∀x∀y (City(x) ∧ Resident(y, x) ∧ WellPlanned(x) → (EfficientPublicTransportation(x) ∧ AmpleGreenSpaces(x) ∧ DiverseHousingOptions(x, y)))"
+  },
+  {
+    "id": 906,
+    "fopl": "∀x ∀y ∀z (Artist(x) ∧ Painting(y) ∧ Sculpture(z) → (Creates(x, y) ⊕ Creates(x, z)))"
+  },
+  {
+    "id": 907,
+    "fopl": "∃x (Building(x) ∧ Tall(x) ∧ RooftopGarden(x))"
+  },
+  {
+    "id": 908,
+    "fopl": "∀x (Clothing(x) ∧ MadeOfWool(x) → (AppropriateForWinter(x) ∨ AppropriateForCoolWeather(x)))"
+  },
+  {
+    "id": 909,
+    "fopl": "∀x (Vehicle(x) ∧ DesignedForTransportingCargo(x) ∧ SeparateCompartmentForDriver(x) → Truck(x))"
+  },
+  {
+    "id": 910,
+    "fopl": "∀x∀y∀z (Pilot(x) ∧ Airplane(y) ∧ Destination(z) → FliesTo(x, y, z))"
+  },
+  {
+    "id": 911,
+    "fopl": "∀x (Species(x) ∧ RapidPopulationDecline(x) ∧ HighRiskOfExtinction(x) → Endangered(x))"
+  },
+  {
+    "id": 912,
+    "fopl": "∀x (Artwork(x) ∧ RenownedArtist(y) ∧ CreatedBy(x, y) ∧ GoodCondition(x) ∧ (HistoricalSignificance(x) ∨ CulturalSignificance(x)) → Valuable(x))"
+  },
+  {
+    "id": 913,
+    "fopl": "∀x (Whale(x) → BreatheAir(x))"
+  },
+  {
+    "id": 914,
+    "fopl": "∀x ∀y (Book(x) ∧ Library(y) ∧ ¬ReservedByAnotherPatron(x) → CanBeBorrowedFrom(x, y))"
+  },
+  {
+    "id": 915,
+    "fopl": "∀x (Planet(x) ∧ ResidesInHabitableZoneOfStar(x) ∧ HasStableAtmosphere(x) ∧ PossessesSurfaceWithLiquidWater(x) → Habitable(x))"
+  },
+  {
+    "id": 916,
+    "fopl": "∀x (Animal(x) ∧ (HasHair(x) ∨ HasFur(x)) ∧ GivesBirthToLiveOffspring(x) → Mammal(x))"
+  },
+  {
+    "id": 917,
+    "fopl": "∀x∀y (Book(x) ∧ Author(y) → (WrittenBy(x, y) ∧ HasPages(x)))"
+  },
+  {
+    "id": 918,
+    "fopl": "∀x (WindTurbine(x) ∧ ConvertsKineticEnergy(x, Wind, MechanicalEnergy) → GeneratesElectricity(x))"
+  },
+  {
+    "id": 919,
+    "fopl": "∀x∀y (MobileApplication(x) ∧ OffersPersonalizedFitnessPlans(x) ∧ TracksProgress(x) → (MotivatesUsersToMaintainActiveLifestyle(y) ∧ AchieveGoals(y)))"
+  },
+  {
+    "id": 920,
+    "fopl": "∀x (ComputerAlgorithm(x) ∧ LearnsFromData(x) ∧ ImprovesPerformanceOverTime(x) ∧ MakesPredictionsOrDecisions(x) → MachineLearningAlgorithm(x))"
+  },
+  {
+    "id": 921,
+    "fopl": "∀x (Appliance(x) ∧ (ConservesElectricity(x) ∨ ConservesWater(x)) → Efficient(x))"
+  },
+  {
+    "id": 922,
+    "fopl": "∀x (Clothing(x) ∧ WornAroundNeck(x) ∧ LongNarrowFabric(x) ∧ SilkOrCotton(x) → Scarf(x))"
+  },
+  {
+    "id": 923,
+    "fopl": "∀x (Smartphone(x) ∧ DurableBuildAndWaterResistantFeatures(x) → WithstandsDailyWearAndTearBetter(x))"
+  },
+  {
+    "id": 924,
+    "fopl": "∀x ∀y (Planet(x) ∧ Star(y) → (GravitationalForce(x, y) ∧ Orbit(x, y)))"
+  },
+  {
+    "id": 925,
+    "fopl": "∀x (Insect(x) → (HasSixLegs(x) ∧ HasThreePartBody(x)))"
+  },
+  {
+    "id": 926,
+    "fopl": "∀x (Object(x) ∧ SubmergedInWater(x) ∧ LowerDensityThanWater(x) ∧ ShapeDisplacesWater(x) → Buoyant(x))"
+  },
+  {
+    "id": 927,
+    "fopl": "∀x ∀y (Student(x) ∧ University(y) ∧ ExcellentAcademicRecord(x) ∧ ExtracurricularActivities(x) ∧ CompellingApplication(x) → ReceivesScholarship(x, y))"
+  },
+  {
+    "id": 928,
+    "fopl": "∀x (ElectronicDevice(x) ∧ CommunicatesWithoutPhysicalConnections(x) ∧ TransfersDataWithoutPhysicalConnections(x) → Wireless(x))"
+  },
+  {
+    "id": 929,
+    "fopl": "∀x∀y (Apple(x) ∧ Tree(y) ∧ Ripe(x) → FallsFrom(x, y))"
+  },
+  {
+    "id": 930,
+    "fopl": "∀x (Watch(x) ∧ Waterproof(x) ∧ BuiltInGPS(x) → UsefulForOutdoorEnthusiastsAndAthletes(x))"
+  },
+  {
+    "id": 931,
+    "fopl": "∀x ∀y (River(x) ∧ Lake(y) → (Flows(x) ∧ IsStill(y)))"
+  },
+  {
+    "id": 932,
+    "fopl": "∀x (WorkoutRoutine(x) ∧ TargetsMultipleMuscleGroups(x) ∧ IncorporatesMixOfExercises(x) ∧ PromotesOverallFitness(x) → Effective(x))"
+  },
+  {
+    "id": 933,
+    "fopl": "∀x (Car(x) ∧ PoweredByElectricMotor(x) ∧ RequiresExternalCharging(x) → ElectricVehicle(x))"
+  },
+  {
+    "id": 934,
+    "fopl": "∀x (Ecosystem(x) ∧ BalancedFoodChain(x) ∧ AmpleResources(x) ∧ StableClimateConditions(x) → Thriving(x))"
+  },
+  {
+    "id": 935,
+    "fopl": "∀x (Smartphone(x) ↔ (Device(x) ∧ CanMakeCalls(x) ∧ SendMessages(x) ∧ AccessInternet(x) ∧ TouchScreenInterface(x)))"
+  },
+  {
+    "id": 936,
+    "fopl": "∀x (FlowsIntoOcean(x) ↔ (River(x) ∧ ∃y (Ocean(y) ∧ ConnectsTo(x, y)) ∧ ¬∃z (Lake(z) ∨ Reservoir(z) ∧ TerminatesIn(x, z))))"
+  },
+  {
+    "id": 937,
+    "fopl": "∀x (Train(x) → (TravelsOnTracks(x) ∧ ¬Car(x)))"
+  },
+  {
+    "id": 938,
+    "fopl": "∀x (Location(x) ∧ ExtremelyLowPrecipitation(x) ∧ VeryLowPopulationDensity(x) → Desert(x))"
+  },
+  {
+    "id": 939,
+    "fopl": "∀x (Dessert(x) ∧ MadeFromSpongeCakeLayers(x) ∧ MadeFromFruit(x) ∧ MadeFromCream(x) → Trifle(x))"
+  },
+  {
+    "id": 940,
+    "fopl": "∀x (Telescope(x) → ObservesDistantObjects(x))"
+  },
+  {
+    "id": 941,
+    "fopl": "∀x (CelestialObject(x) ∧ OrbitsPlanet(x) ∧ SmallerThanPlanet(x) → Moon(x))"
+  },
+  {
+    "id": 942,
+    "fopl": "∀x ∀y (Employee(x) ∧ Company(y) ∧ GoodFit(x, y) → ((RelevantSkills(x, y) ∧ AdaptsToCulture(x, y) ∧ StrongWorkEthic(x)) ∧ ¬SourceOfWorkplaceConflict(x, y)))"
+  },
+  {
+    "id": 943,
+    "fopl": "∀x (Painting(x) ∧ VividColor(x) ∧ IntricateDetails(x) ∧ CapturesEssenceOfSubject(x) → Masterpiece(x))"
+  },
+  {
+    "id": 944,
+    "fopl": "∀x (Cat(x) → (∃y (Mouse(y) ∧ Chase(x, y)) ∧ ¬∃z (Elephant(z) ∧ Chase(x, z))))"
+  },
+  {
+    "id": 945,
+    "fopl": "∀x∀y∀z (ConcertVenue(x) ∧ HostsLiveMusicPerformances(x, y) ∧ ShowcasesDiverseGenres(y) ∧ MusicalGenres(z) ∧ ProvidesEntertainment(x, z) → EngagesAttendees(z))"
+  },
+  {
+    "id": 946,
+    "fopl": "∀x (Book(x) ∧ HighSalesVolume(x) ∧ PositiveReviews(x) → Bestseller(x))"
+  },
+  {
+    "id": 947,
+    "fopl": "∀x (Mammal(x) → (LaysEggs(x) ⊕ GivesBirthToLiveYoung(x)))"
+  },
+  {
+    "id": 948,
+    "fopl": "∃x (Laptop(x) ∧ (Lightweight(x) ∨ LongBatteryLife(x)))"
+  },
+  {
+    "id": 949,
+    "fopl": "∀x (Species(x) ∧ RapidPopulationDecline(x) ∧ HighRiskOfExtinction(x) → Endangered(x))"
+  },
+  {
+    "id": 950,
+    "fopl": "∀x (Person(x) ∧ Journalist(x) ↔ GathersAndReportsNews(x))"
+  },
+  {
+    "id": 951,
+    "fopl": "∀x∀y (Laptop(x) ∧ Desktop(y) → (Portable(x) ∧ ¬Portable(y)))"
+  },
+  {
+    "id": 952,
+    "fopl": "∀x ∀y ((Laptop(x) ∧ (PlayVideos(x) ⊕ BrowseInternet(x))) ∧ (Desktop(y) ∧ PlayVideos(y) ∧ BrowseInternet(y)))"
+  },
+  {
+    "id": 953,
+    "fopl": "∀x (CelestialBody(x) ∧ OrbitsPlanet(x, y) ∧ ¬SatelliteOfAnotherBody(x) → Moon(x))"
+  },
+  {
+    "id": 954,
+    "fopl": "∀x ∀y ∀z (Device(x) ∧ SolarPanel(y) ∧ Battery(z) ∧ (ReceivesElectricityFrom(x, y) ∨ ReceivesElectricityFrom(x, z)) → PoweredBy(x, y, z))"
+  },
+  {
+    "id": 955,
+    "fopl": "∀x (Baker(x) → PreparesAndBakesBreadAndPastries(x))"
+  },
+  {
+    "id": 956,
+    "fopl": "∀x (City(x) ∧ HighPopulationDensity(x) ∧ LimitedGreenSpaces(x) → Overcrowded(x))"
+  },
+  {
+    "id": 957,
+    "fopl": "∀x (Recipe(x) → (Ingredients(y) ∧ Instructions(z) ∧ CreateSpecificDish(x, y, z)))"
+  },
+  {
+    "id": 958,
+    "fopl": "∀x (Area(x) ∧ ProtectedAndManagedByGovernment(x) ∧ PreservesNaturalBeautyAndWildlife(x) → NationalPark(x))"
+  },
+  {
+    "id": 959,
+    "fopl": "∀x (Document(x) ∧ AccessRestricted(x) ∧ AuthorizedPersonnel(x) → Confidential(x))"
+  },
+  {
+    "id": 960,
+    "fopl": "∀x ∀y (MailCarrier(x) ∧ (Letter(y) ∨ Package(y)) → ∃z (Recipient(z) ∧ Delivers(x, y, z)))"
+  },
+  {
+    "id": 961,
+    "fopl": "∀x (Chair(x) → HasFourLegs(x))"
+  },
+  {
+    "id": 962,
+    "fopl": "∀x (Shark(x) → (SharpTeeth(x) ∧ CanDetectElectricalSignals(x)))"
+  },
+  {
+    "id": 963,
+    "fopl": "∀x (Bicycle(x) → (TwoWheels(x) ∧ Frame(x) ∧ PropelledByPedaling(x)))"
+  },
+  {
+    "id": 964,
+    "fopl": "∀x ∀y (Apple(x) ∧ Unripe(y) ∧ IsColor(x, y) → Green(x)) ∧ (Apple(x) ∧ Ripe(y) ∧ IsColor(x, y) → (Red(x) ⊕ Yellow(x)))"
+  },
+  {
+    "id": 965,
+    "fopl": "∀x ∃y (Park(x) ∧ RecreationalFacility(y) ∧ LocatedIn(y, x))"
+  },
+  {
+    "id": 966,
+    "fopl": "∃x (Bird(x) ∧ CanFly(x) ∧ CanSwim(x) ∧ ¬CanWalk(x))"
+  },
+  {
+    "id": 967,
+    "fopl": "∀x (Museum(x) → (Institution(x) ∧ CollectsArtifacts(x) ∧ PreservesArtifacts(x) ∧ DisplaysArtifacts(x) ∧ ProvidesEducationalExperiences(x) ∧ ProvidesCulturalExperiences(x)))"
+  },
+  {
+    "id": 968,
+    "fopl": "∀x∀y (Mountain(x) ∧ Hill(y) → Taller(x, y))"
+  },
+  {
+    "id": 969,
+    "fopl": "∀x (Building(x) ∧ HousesCollection(x) ∧ OpenToPublicForViewingAndEducation(x) → Museum(x))"
+  },
+  {
+    "id": 970,
+    "fopl": "∀x (Lighthouse(x) → EmitsPowerfulBeamOfLight(x) ∧ GuidesShipsAndBoats(x) ∧ WarnsOfHazardsOrIndicatesSafePassages(x))"
+  },
+  {
+    "id": 971,
+    "fopl": "∀x (Flower(x) ∧ AttractsInsects(x) ∧ TransfersPollen(x) → InsectPollinated(x))"
+  },
+  {
+    "id": 972,
+    "fopl": "∀x (Beverage(x) ∧ ¬ContainsAlcohol(x) ∧ ¬Fermented(x) → NonAlcoholic(x))"
+  },
+  {
+    "id": 973,
+    "fopl": "∀x (Dog(x) → Barks(x))"
+  },
+  {
+    "id": 974,
+    "fopl": "∃x (SoftwareApplication(x) ∧ OpenSource(x) ∧ GraphicDesign(x))"
+  },
+  {
+    "id": 975,
+    "fopl": "∀x (Smartphone(x) → HasTouchscreenDisplay(x) ∧ CanMakeCalls(x) ∧ CanSendTextMessages(x) ∧ (AccessInternetViaWiFi(x) ∨ AccessInternetViaCellularData(x)))"
+  },
+  {
+    "id": 976,
+    "fopl": "∀x (Meal(x) → (Soup(x) ∨ Salad(x) ∨ Sandwich(x)))"
+  },
+  {
+    "id": 977,
+    "fopl": "∀x (SolarPanel(x) ∧ Sunlight(s) ∧ Electricity(e) ∧ PhotovoltaicEffect(p) → ConvertsThrough(x, s, e, p))"
+  },
+  {
+    "id": 978,
+    "fopl": "∀x ∀y (Computer(x) ∧ Company(y) ∧ DesignedBy(x, y) ∧ AssembledBy(x, y) ∧ MarketedBy(x, y) → ManufacturedBy(x, y))"
+  },
+  {
+    "id": 979,
+    "fopl": "∀x ∀y ∀z (Mountain(x) ∧ Hill(y) ∧ Valley(z) → (NaturalLandform(x) ∧ NaturalLandform(y) ∧ NaturalLandform(z)))"
+  },
+  {
+    "id": 980,
+    "fopl": "∀x (Psychologist(x) → (StudiesHumanBehavior(x) ∧ AnalyzesMentalProcesses(x)))"
+  },
+  {
+    "id": 981,
+    "fopl": "∀x (ValidEmailAddress(x) ↔ ∃y∃z (AtSymbol(y) ∧ DomainName(z) ∧ Contains(x, y) ∧ Contains(x, z)))"
+  },
+  {
+    "id": 982,
+    "fopl": "∀x (ResearchPaper(x) ∧ NovelFindings(x) ∧ StrongMethodology(x, y) ∧ CitedByNumerousPapers(x, z) → Influential(x))"
+  },
+  {
+    "id": 983,
+    "fopl": "∀x (TouristDestination(x) ∧ (¬Historical(x) ∨ ¬Natural(x) ∨ ¬Entertaining(x)) → ¬VisitedFrequently(x))"
+  },
+  {
+    "id": 984,
+    "fopl": "∀x (Device(x) ∧ Portable(x) ↔ (CompactSize(x) ∧ Lightweight(x) ∧ (BatteryPower(x) ∨ AlternativePower(x))))"
+  },
+  {
+    "id": 985,
+    "fopl": "∀x (Bus(x) ↔ (TransportsPassengers(x) ∧ FixedRoute(x) ∧ ¬Taxi(x)))"
+  },
+  {
+    "id": 986,
+    "fopl": "∀x (Dog(x) ∧ (Happy(x) ∨ WantsAttention(x)) → Barks(x))"
+  },
+  {
+    "id": 987,
+    "fopl": "∀x (Pencil(x) → (HasGraphiteCore(x) ∧ CanBeSharpened(x)))"
+  },
+  {
+    "id": 988,
+    "fopl": "∀x (Writer(x) → ∃y (Novel(y) ∧ Creates(x, y))) ∧ ∀z (Poet(z) → ∃w (Poem(w) ∧ Composes(z, w)))"
+  },
+  {
+    "id": 989,
+    "fopl": "∀x (WellDesignedSpace(x) ↔ (Functional(x) ∧ VisuallyAppealing(x) ∧ ComfortableForUsers(x)))"
+  },
+  {
+    "id": 990,
+    "fopl": "∃x (Flower(x) ∧ (BloomsIn(x, spring) ∨ BloomsIn(x, summer) ∨ BloomsIn(x, autumn) ∨ BloomsIn(x, winter)))"
+  },
+  {
+    "id": 991,
+    "fopl": "∀x (Job(x) ∧ Remote(x) ↔ ¬RequiresPhysicalPresence(x))"
+  },
+  {
+    "id": 992,
+    "fopl": "∀x (Vehicle(x) ∧ UsesTracks(x) ∧ DesignedForSnowyTerrain(x) → Snowmobile(x))"
+  },
+  {
+    "id": 993,
+    "fopl": "∀x∀y∀z (Iceberg(x) ∧ Glacier(y) ∧ Ocean(z) ∧ BreaksOff(y, x) ∧ FloatsIn(x, z) → FormedFrom(x, y))"
+  },
+  {
+    "id": 994,
+    "fopl": "∀x (Precipitation(x) ∧ FormsFromWaterDroplets(x) ∧ FreezesIntoIceCrystals(x) → Snow(x))"
+  },
+  {
+    "id": 995,
+    "fopl": "∀x (Device(x) → ((On(x) ⊕ Off(x))))"
+  },
+  {
+    "id": 996,
+    "fopl": "∀x ∀y ∀z ∀s (Planet(x) ∧ Star(s) ∧ Moon(y) ∧ Comet(z) → (OrbitsAround(x, s) ∧ OrbitsAround(y, x) ∧ FollowsEllipticalPath(z, s)))"
+  },
+  {
+    "id": 997,
+    "fopl": "∀x (Book(x) ∧ WorkOfFiction(x) ∧ NarrativeStructure(x) ∧ PresentsStoryWithCharactersAndEvents(x) → Novel(x))"
+  },
+  {
+    "id": 998,
+    "fopl": "∀x∀y (Chair(x) ∧ Table(y) → (SupportsSitting(x) ∧ SupportsPlacingItems(y)))"
+  },
+  {
+    "id": 999,
+    "fopl": "∀x (Bird(x) ∧ CanFlyLongDistances(x) ∧ Migrates(x) ∧ DistinctiveCall(x) → MigratoryBird(x))"
+  },
+  {
+    "id": 1000,
+    "fopl": "∀x∀y (Astronomer(x) ∧ Telescope(y) → (ObservesCelestialObjects(x, y) ∧ GathersData(x, y) ∧ ExpandsUnderstandingOfUniverse(x)))"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "fopl": "∀x (Vacation(x) ∧ Relaxing(x) → (BeautifulScenery(x) ∧ EnjoyableActivities(x)))"
+  },
+  {
+    "id": 2,
+    "fopl": "∀x (Gemstone(x) → ((Diamond(x) ∧ ¬(Ruby(x) ∨ Emerald(x))) ∨ (Ruby(x) ∧ ¬(Diamond(x) ∨ Emerald(x))) ∨ (Emerald(x) ∧ ¬(Diamond(x) ∨ Ruby(x)))))"
+  }
+]

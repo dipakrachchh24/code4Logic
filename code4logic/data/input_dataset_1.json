@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "input_text": "A vacation is relaxing if it includes beautiful scenery and enjoyable activities."
+  },
+  {
+    "id": 2,
+    "input_text": "A gemstone can be a diamond, a ruby, or an emerald, but not more than one type of gemstone."
+  },
+  {
+    "id": 3,
+    "input_text": "People who speak more than one language are bilingual or multilingual."
+  },
+  {
+    "id": 4,
+    "input_text": "An organization is non-profit if it has a charitable mission, does not distribute profits to owners, and primarily relies on donations."
+  },
+  {
+    "id": 5,
+    "input_text": "A flower is characterized as a monocot if it has a single cotyledon, parallel-veined leaves, and flower parts in multiples of three."
+  },
+  {
+    "id": 6,
+    "input_text": "A fabric that is lightweight, breathable, and absorbs moisture is suitable for athletic wear."
+  },
+  {
+    "id": 7,
+    "input_text": "A place is considered a library if it houses a collection of books, periodicals, and other media for public use and study."
+  },
+  {
+    "id": 8,
+    "input_text": "Birds possess feathers, have a beak, and lay eggs, while their ability to fly is facilitated by their lightweight bones and specialized muscles."
+  },
+  {
+    "id": 9,
+    "input_text": "A child plays with a toy in a playground."
+  },
+  {
+    "id": 10,
+    "input_text": "A person is considered a physicist if they study the nature and properties of matter and energy."
+  },
+  {
+    "id": 11,
+    "input_text": "A well-insulated building conserves energy by maintaining a stable temperature."
+  },
+  {
+    "id": 12,
+    "input_text": "To be eligible for a promotion, an employee must have worked at the company for at least two years and have a good performance record, unless they have a recommendation from a supervisor."
+  },
+  {
+    "id": 13,
+    "input_text": "Not all flowers bloom in spring."
+  },
+  {
+    "id": 14,
+    "input_text": "A movie is classified as a romantic comedy if it has elements of both romance and comedy."
+  },
+  {
+    "id": 15,
+    "input_text": "Chefs prepare meals, waiters serve meals, and customers enjoy meals at a restaurant."
+  },
+  {
+    "id": 16,
+    "input_text": "If a vehicle can travel on both land and water, it is an amphibious vehicle."
+  },
+  {
+    "id": 17,
+    "input_text": "A tool with a long handle, a flat blade, and is used for lifting and moving loose material is a shovel."
+  },
+  {
+    "id": 18,
+    "input_text": "A camera can capture photos or record videos."
+  },
+  {
+    "id": 19,
+    "input_text": "A balanced diet that includes a variety of fruits, vegetables, and lean proteins can provide essential nutrients and promote overall health and wellness."
+  },
+  {
+    "id": 20,
+    "input_text": "A vehicle that is designed for traveling on snow, equipped with skis or tracks, and powered by an engine is a snowmobile."
+  },
+  {
+    "id": 21,
+    "input_text": "A sports event could be played indoors or outdoors, not both."
+  },
+  {
+    "id": 22,
+    "input_text": "A product is eco-friendly if it is made from sustainable materials, has a low carbon footprint, or encourages conservation of resources."
+  },
+  {
+    "id": 23,
+    "input_text": "A tsunami can be triggered by underwater earthquakes, volcanic eruptions, or landslides, causing a series of massive waves that devastate coastal areas."
+  },
+  {
+    "id": 24,
+    "input_text": "A device that uses electricity and emits light is a light-emitting device."
+  },
+  {
+    "id": 25,
+    "input_text": "If a person works in the news industry and reports on events, they are considered a journalist."
+  },
+  {
+    "id": 26,
+    "input_text": "All triangles with equal sides have equal angles."
+  },
+  {
+    "id": 27,
+    "input_text": "Some bicycles are lightweight, durable, and suitable for off-road use."
+  },
+  {
+    "id": 28,
+    "input_text": "A bird flies if it has wings."
+  },
+  {
+    "id": 29,
+    "input_text": "A garment that is worn on the lower part of the body, has separate openings for each leg, and is made of fabric is a pair of pants or a skirt."
+  },
+  {
+    "id": 30,
+    "input_text": "A polygon with three sides and three angles is a triangle."
+  },
+  {
+    "id": 31,
+    "input_text": "A sport that is played between two teams on a field with a ball and the objective is to score points by getting the ball into the opposing team's goal is a goal-based sport."
+  },
+  {
+    "id": 32,
+    "input_text": "An orchestra performs a concert with musicians playing various instruments."
+  },
+  {
+    "id": 33,
+    "input_text": "A detective solves crimes by gathering evidence and analyzing clues."
+  },
+  {
+    "id": 34,
+    "input_text": "Some paintings are abstract and created by famous artists."
+  },
+  {
+    "id": 35,
+    "input_text": "An instrument is either a string instrument or a wind instrument, but not both."
+  },
+  {
+    "id": 36,
+    "input_text": "Mammals give birth to live young and nurse their offspring with milk produced by the mother."
+  },
+  {
+    "id": 37,
+    "input_text": "A vaccine that is effective provides immunity, reduces the risk of infection, and often contributes to herd immunity in a population."
+  },
+  {
+    "id": 38,
+    "input_text": "A satellite orbits Earth, transmitting and receiving data, enabling services such as weather forecasting, global positioning, and communication."
+  },
+  {
+    "id": 39,
+    "input_text": "A flower blooms in spring if it requires a specific amount of sunlight and warmth for its growth and development."
+  },
+  {
+    "id": 40,
+    "input_text": "A tree loses its leaves in the autumn, while an evergreen tree retains its leaves throughout the year."
+  },
+  {
+    "id": 41,
+    "input_text": "A smartphone can be used for communication, entertainment, and productivity."
+  },
+  {
+    "id": 42,
+    "input_text": "When a bird migrates, it travels long distances, often across continents, and usually follows a seasonal pattern to find resources."
+  },
+  {
+    "id": 43,
+    "input_text": "An electron can be found in either an orbital or a suborbital, but not in both simultaneously."
+  },
+  {
+    "id": 44,
+    "input_text": "A coat is appropriate for cold weather if it is made of wool, has a hood, and is insulated."
+  },
+  {
+    "id": 45,
+    "input_text": "A type of music that originated in African American communities, features improvisation, and uses syncopation is called jazz."
+  },
+  {
+    "id": 46,
+    "input_text": "A country has a coastline if it is bordered by an ocean or a sea."
+  },
+  {
+    "id": 47,
+    "input_text": "A prism disperses white light into a spectrum of colors."
+  },
+  {
+    "id": 48,
+    "input_text": "A book becomes a bestseller when it has a high sales volume and positive reviews."
+  },
+  {
+    "id": 49,
+    "input_text": "Farmers grow crops, while miners extract minerals."
+  },
+  {
+    "id": 50,
+    "input_text": "If an individual participates in community events, they are more likely to have a strong sense of belonging and connection with their community."
+  },
+  {
+    "id": 51,
+    "input_text": "Winter is cold, and summer is hot."
+  },
+  {
+    "id": 52,
+    "input_text": "A beverage that contains caffeine, is served hot, and is made from roasted seeds is coffee."
+  },
+  {
+    "id": 53,
+    "input_text": "A planet with an atmosphere containing oxygen can support human life."
+  },
+  {
+    "id": 54,
+    "input_text": "A building with proper insulation, energy-efficient windows, and solar panels is considered energy efficient."
+  },
+  {
+    "id": 55,
+    "input_text": "A river flows from its source, often in the mountains, through various landscapes until it reaches a larger body of water, such as an ocean or lake."
+  },
+  {
+    "id": 56,
+    "input_text": "A dessert is frozen if it requires refrigeration, is served cold, and isn't a baked good."
+  },
+  {
+    "id": 57,
+    "input_text": "A clock measures time, and a scale measures weight."
+  },
+  {
+    "id": 58,
+    "input_text": "A company that produces electronics and has a global presence is an international electronics manufacturer."
+  },
+  {
+    "id": 59,
+    "input_text": "A building has either an elevator or stairs, but not both."
+  },
+  {
+    "id": 60,
+    "input_text": "A computer requires an input device, such as a keyboard or a mouse, and an output device, like a monitor or speakers."
+  },
+  {
+    "id": 61,
+    "input_text": "Trees absorb carbon dioxide, while cars emit carbon dioxide, and factories release carbon dioxide as a byproduct."
+  },
+  {
+    "id": 62,
+    "input_text": "A person who designs and creates video games is called a game developer."
+  },
+  {
+    "id": 63,
+    "input_text": "An apple is red or green, but not both."
+  },
+  {
+    "id": 64,
+    "input_text": "Organisms that can produce their own food through photosynthesis, provide energy for other organisms, and do not consume other organisms are primary producers."
+  },
+  {
+    "id": 65,
+    "input_text": "A device that converts thermal energy into electrical energy by using a temperature difference is a thermoelectric generator."
+  },
+  {
+    "id": 66,
+    "input_text": "A dessert that is made from milk, sugar, and flavorings and is frozen is ice cream."
+  },
+  {
+    "id": 67,
+    "input_text": "Birds migrate when the season changes and the temperature becomes unsuitable for their survival."
+  },
+  {
+    "id": 68,
+    "input_text": "A food product is labeled organic if it is produced without synthetic pesticides and meets certain regulatory standards."
+  },
+  {
+    "id": 69,
+    "input_text": "An electronic device that displays the time, receives radio signals for accurate timekeeping, and is powered by a battery is a radio-controlled clock."
+  },
+  {
+    "id": 70,
+    "input_text": "When a cell phone battery is depleted, it needs to be recharged."
+  },
+  {
+    "id": 71,
+    "input_text": "A healthy diet consisting of a variety of fruits, vegetables, whole grains, and lean proteins promotes overall well-being and reduces the risk of chronic diseases."
+  },
+  {
+    "id": 72,
+    "input_text": "A fruit is ripe if it is ready to be eaten and has reached its full flavor."
+  },
+  {
+    "id": 73,
+    "input_text": "A book is a bestseller if it has sold over one million copies."
+  },
+  {
+    "id": 74,
+    "input_text": "A place is considered a theater if it is a venue for live stage performances, often with a stage, curtains, and audience seating, and hosting plays, musicals, or other productions."
+  },
+  {
+    "id": 75,
+    "input_text": "A beverage is classified as a soft drink if it does not contain alcohol and is typically carbonated."
+  },
+  {
+    "id": 76,
+    "input_text": "A smartphone connects to the internet, makes calls, and sends messages."
+  },
+  {
+    "id": 77,
+    "input_text": "A mountain forms from tectonic forces, has an elevation, and can be climbed."
+  },
+  {
+    "id": 78,
+    "input_text": "An artistic expression that involves movement and is not a dance is either a theater performance or a circus act."
+  },
+  {
+    "id": 79,
+    "input_text": "A bird can fly and not swim, or swim and not fly."
+  },
+  {
+    "id": 80,
+    "input_text": "An object is buoyant if it floats on the surface of a liquid."
+  },
+  {
+    "id": 81,
+    "input_text": "A bat is a mammal and can fly, while a turtle is a reptile and cannot fly."
+  },
+  {
+    "id": 82,
+    "input_text": "A bicycle is a mountain bike if it has thick tires and is not designed for road use."
+  },
+  {
+    "id": 83,
+    "input_text": "A red apple is sweet and a green apple is sour, while a yellow apple is a balance between sweet and sour."
+  },
+  {
+    "id": 84,
+    "input_text": "Some animals are herbivores and eat only plants, while others are carnivores and eat only other animals."
+  },
+  {
+    "id": 85,
+    "input_text": "A refrigerator preserves perishables but not electronics."
+  },
+  {
+    "id": 86,
+    "input_text": "A battery stores electrical energy and provides power to devices."
+  },
+  {
+    "id": 87,
+    "input_text": "A vehicle is considered a motorcycle if it has two wheels and an engine."
+  },
+  {
+    "id": 88,
+    "input_text": "A city has buildings, a park has trees, and a beach has sand."
+  },
+  {
+    "id": 89,
+    "input_text": "An oven is used for baking and cooking food."
+  },
+  {
+    "id": 90,
+    "input_text": "A beverage that is made from fermented grains, has a specific alcohol content, and is popular in a particular region is typically a beer or an ale."
+  },
+  {
+    "id": 91,
+    "input_text": "Sun rises in the east, sets in the west, and shines during the day."
+  },
+  {
+    "id": 92,
+    "input_text": "Wolves howl, while birds chirp."
+  },
+  {
+    "id": 93,
+    "input_text": "A person is a volunteer if they offer their time and skills for a cause without expecting compensation."
+  },
+  {
+    "id": 94,
+    "input_text": "A vehicle is considered a bicycle if it has two wheels, is powered by human effort, and is ridden by a rider who sits on a seat and pedals."
+  },
+  {
+    "id": 95,
+    "input_text": "A versatile musician plays different instruments, such as piano or guitar, and performs in various styles, like jazz or rock."
+  },
+  {
+    "id": 96,
+    "input_text": "A polygon with four sides is called a quadrilateral."
+  },
+  {
+    "id": 97,
+    "input_text": "A waterfall is a natural feature where water flows over a vertical drop or a series of steep drops, often found in mountainous areas or along rivers."
+  },
+  {
+    "id": 98,
+    "input_text": "A student is an honor student if they have good grades and participate in extracurricular activities."
+  },
+  {
+    "id": 99,
+    "input_text": "A game played on a rectangular surface, involves two teams, and has the objective of scoring points by putting a ball into the opposing team's goal is classified as soccer."
+  },
+  {
+    "id": 100,
+    "input_text": "A thunderstorm occurs when warm air rises, creating instability in the atmosphere."
+  },
+  {
+    "id": 101,
+    "input_text": "A fruit ripens when it receives ethylene gas, has reached its maturity, and is not exposed to cold temperatures."
+  },
+  {
+    "id": 102,
+    "input_text": "A language x is considered a dead language if x is no longer spoken as a native language or used in daily communication."
+  },
+  {
+    "id": 103,
+    "input_text": "There exist shapes that are neither squares nor circles nor triangles."
+  },
+  {
+    "id": 104,
+    "input_text": "A key opens a lock, but it does not close it."
+  },
+  {
+    "id": 105,
+    "input_text": "Rain occurs when clouds release water droplets."
+  },
+  {
+    "id": 106,
+    "input_text": "Chemists study chemical reactions, while biologists examine living organisms."
+  },
+  {
+    "id": 107,
+    "input_text": "A liquid turns into a gas if it reaches its boiling point."
+  },
+  {
+    "id": 108,
+    "input_text": "A smartphone is water-resistant if it has a protective casing and sealed ports."
+  },
+  {
+    "id": 109,
+    "input_text": "A computer can have a desktop, laptop, or tablet form factor, but not more than one form factor."
+  },
+  {
+    "id": 110,
+    "input_text": "A musical instrument is considered versatile if it can produce a wide range of tones and is suitable for various musical styles."
+  },
+  {
+    "id": 111,
+    "input_text": "A dancer performs on a stage."
+  },
+  {
+    "id": 112,
+    "input_text": "A planet orbits a star only when it has a stable elliptical path, and it is not a moon."
+  },
+  {
+    "id": 113,
+    "input_text": "A material is considered elastic if it returns to its original shape after being stretched or compressed."
+  },
+  {
+    "id": 114,
+    "input_text": "A bicycle has two wheels, a frame, and a seat, and can be used for transportation or exercise."
+  },
+  {
+    "id": 115,
+    "input_text": "Wearing a helmet reduces the risk of head injuries."
+  },
+  {
+    "id": 116,
+    "input_text": "Some chairs are not made of wood."
+  },
+  {
+    "id": 117,
+    "input_text": "A musical instrument x produces a pleasant sound if it is well-tuned and played by a skilled musician y."
+  },
+  {
+    "id": 118,
+    "input_text": "Dolphins communicate with each other using sounds and body movements."
+  },
+  {
+    "id": 119,
+    "input_text": "A bird is classified as migratory if it travels long distances, has specific breeding and wintering grounds, and follows a seasonal pattern."
+  },
+  {
+    "id": 120,
+    "input_text": "Volcanoes can be dormant, active, or extinct, depending on their current state of eruption activity."
+  },
+  {
+    "id": 121,
+    "input_text": "A movie is not both silent and having a soundtrack."
+  },
+  {
+    "id": 122,
+    "input_text": "A meal is satisfying if it's flavorful, has a variety of textures, and doesn't leave one feeling overly full or still hungry."
+  },
+  {
+    "id": 123,
+    "input_text": "A tree that grows in a desert environment and has deep roots is adapted to store water for extended periods of time."
+  },
+  {
+    "id": 124,
+    "input_text": "A student passes a course when they attend regularly and score above the passing grade, or they may pass if they score exceptionally high on the final exam."
+  },
+  {
+    "id": 125,
+    "input_text": "A vibrant community organizes engaging events, promotes inclusivity, and fosters a sense of belonging among its members."
+  },
+  {
+    "id": 126,
+    "input_text": "A robust security system detects intrusions, sends alerts to property owners, and ensures the safety of occupants within a building."
+  },
+  {
+    "id": 127,
+    "input_text": "A dog that is trained to assist people with disabilities and has passed certification tests is a service dog."
+  },
+  {
+    "id": 128,
+    "input_text": "A musical performance can be live and in-person, or it can be pre-recorded and streamed."
+  },
+  {
+    "id": 129,
+    "input_text": "Snow forms at freezing temperatures, while rain occurs at temperatures above freezing."
+  },
+  {
+    "id": 130,
+    "input_text": "A device that stores and retrieves data and can be connected to a computer is a storage device."
+  },
+  {
+    "id": 131,
+    "input_text": "A movie can be classified as either a comedy, drama, or action film."
+  },
+  {
+    "id": 132,
+    "input_text": "A vehicle that can travel both on land and water is called an amphibious vehicle."
+  },
+  {
+    "id": 133,
+    "input_text": "A triangle is equilateral or isosceles, but not both."
+  },
+  {
+    "id": 134,
+    "input_text": "A device is a smartphone if it has a touchscreen interface, internet access, and can run applications for various purposes."
+  },
+  {
+    "id": 135,
+    "input_text": "A ball is red or a cube is blue, but not both."
+  },
+  {
+    "id": 136,
+    "input_text": "An animal that has feathers, lays eggs, and is warm-blooded is classified as a bird."
+  },
+  {
+    "id": 137,
+    "input_text": "A product is in high demand if it is innovative, well-advertised, and solves a common problem."
+  },
+  {
+    "id": 138,
+    "input_text": "A train and a bus are both means of public transportation."
+  },
+  {
+    "id": 139,
+    "input_text": "A cake is sweet and is made from flour."
+  },
+  {
+    "id": 140,
+    "input_text": "Sharks have cartilaginous skeletons, live in the ocean, and are carnivorous."
+  },
+  {
+    "id": 141,
+    "input_text": "A smartphone facilitates communication and access to information, enabling users to stay connected and enhancing their productivity."
+  },
+  {
+    "id": 142,
+    "input_text": "A laptop has a built-in keyboard and a display screen."
+  },
+  {
+    "id": 143,
+    "input_text": "If a food is spicy, it contains hot ingredients."
+  },
+  {
+    "id": 144,
+    "input_text": "A square has four sides of equal length and four right angles."
+  },
+  {
+    "id": 145,
+    "input_text": "A movie that is critically acclaimed has an engaging storyline and excellent acting."
+  },
+  {
+    "id": 146,
+    "input_text": "A baker bakes bread."
+  },
+  {
+    "id": 147,
+    "input_text": "Some athletes compete in individual sports, team sports, or both."
+  },
+  {
+    "id": 148,
+    "input_text": "A triangle has three sides, whereas a square has four sides."
+  },
+  {
+    "id": 149,
+    "input_text": "A dish is a dessert if it is sweet, served after a meal, and not part of the main course."
+  },
+  {
+    "id": 150,
+    "input_text": "Some ice cream flavors are not sweet."
+  },
+  {
+    "id": 151,
+    "input_text": "A student receives a scholarship if they demonstrate academic excellence or financial need."
+  },
+  {
+    "id": 152,
+    "input_text": "If a student studies diligently, they may pass an exam with a high score or fail due to external factors."
+  },
+  {
+    "id": 153,
+    "input_text": "A cinema displays movies."
+  },
+  {
+    "id": 154,
+    "input_text": "A solar panel generates electricity by capturing sunlight and converting it into electrical energy."
+  },
+  {
+    "id": 155,
+    "input_text": "A vaccine provides immunity against a specific pathogen by stimulating the immune system to recognize and respond to the pathogen without causing illness."
+  },
+  {
+    "id": 156,
+    "input_text": "Mountains can influence climate by affecting wind patterns, precipitation, and temperature."
+  },
+  {
+    "id": 157,
+    "input_text": "A laptop computer is portable, can run on battery power, and typically includes a built-in keyboard, touchpad, and display screen."
+  },
+  {
+    "id": 158,
+    "input_text": "A student graduates from a university if they have completed their degree requirements and received a diploma from the university."
+  },
+  {
+    "id": 159,
+    "input_text": "A dessert can be sweet or sour, a main course is savory, and a side dish can be salty or spicy."
+  },
+  {
+    "id": 160,
+    "input_text": "A lawyer defends clients in criminal, civil, or family cases."
+  },
+  {
+    "id": 161,
+    "input_text": "A zoo is home to a diverse assortment of animal species, providing them with habitats that closely resemble their natural environments."
+  },
+  {
+    "id": 162,
+    "input_text": "A garden is thriving when it has a diverse range of plants and (receives adequate sunlight or benefits from fertile soil)."
+  },
+  {
+    "id": 163,
+    "input_text": "Cyclists ride bicycles, motorcyclists ride motorcycles, and drivers operate cars, but pedestrians travel on foot."
+  },
+  {
+    "id": 164,
+    "input_text": "A celestial object that orbits a planet is a moon."
+  },
+  {
+    "id": 165,
+    "input_text": "Cats have fur, dogs have tails, and birds have feathers."
+  },
+  {
+    "id": 166,
+    "input_text": "A smartphone can send text messages."
+  },
+  {
+    "id": 167,
+    "input_text": "A student studies math xor history."
+  },
+  {
+    "id": 168,
+    "input_text": "A number is even if it is divisible by two."
+  },
+  {
+    "id": 169,
+    "input_text": "Museums display artifacts, and libraries lend books to visitors."
+  },
+  {
+    "id": 170,
+    "input_text": "A musical performance is memorable if it showcases exceptional talent, unique stage presence, or an emotional connection with the audience."
+  },
+  {
+    "id": 171,
+    "input_text": "A student studies mathematics, while a teacher teaches chemistry."
+  },
+  {
+    "id": 172,
+    "input_text": "If a plant is a type of grass, then it is not a tree."
+  },
+  {
+    "id": 173,
+    "input_text": "When a plant receives adequate sunlight, proper watering, and essential nutrients, it can thrive and grow healthily."
+  },
+  {
+    "id": 174,
+    "input_text": "Two elements form a compound if they bond together through chemical reactions."
+  },
+  {
+    "id": 175,
+    "input_text": "An electronic device is either in a powered-on state or a powered-off state, but not both at the same time."
+  },
+  {
+    "id": 176,
+    "input_text": "An animal is a mammal if it has hair, gives birth to live young, and produces milk."
+  },
+  {
+    "id": 177,
+    "input_text": "An exercise routine is effective when it targets different muscle groups and is performed regularly."
+  },
+  {
+    "id": 178,
+    "input_text": "An airplane requires fuel to fly, while a hot air balloon relies on heated air for lift and a parachute uses air resistance to slow descent."
+  },
+  {
+    "id": 179,
+    "input_text": "A vehicle passes an emissions test if it is equipped with a catalytic converter and meets emission standards."
+  },
+  {
+    "id": 180,
+    "input_text": "A weather condition characterized by the presence of ice crystals or snowflakes in the air and low visibility is called snowfall."
+  },
+  {
+    "id": 181,
+    "input_text": "Rainforests are home to a variety of species, while cities are populated by humans and have infrastructure."
+  },
+  {
+    "id": 182,
+    "input_text": "A plant x needs watering if the soil is dry and it is not a drought-tolerant species."
+  },
+  {
+    "id": 183,
+    "input_text": "Medication can alleviate symptoms of certain illnesses."
+  },
+  {
+    "id": 184,
+    "input_text": "Cacti store water in their thick stems, while ferns require constant moisture."
+  },
+  {
+    "id": 185,
+    "input_text": "A clock can be either analog or digital."
+  },
+  {
+    "id": 186,
+    "input_text": "A vessel that is designed to travel on water, carries people or goods, and is propelled by engines or sails is known as a boat."
+  },
+  {
+    "id": 187,
+    "input_text": "A watch displays time using hands or a digital display."
+  },
+  {
+    "id": 188,
+    "input_text": "A pencil is a writing instrument made of wood and graphite, but it is not a pen."
+  },
+  {
+    "id": 189,
+    "input_text": "An animal is classified as a reptile if it has a cold-blooded metabolism, scaly skin, and usually lays eggs."
+  },
+  {
+    "id": 190,
+    "input_text": "A professional athlete maintains a strict training schedule, adheres to a healthy diet, and prioritizes rest and recovery."
+  },
+  {
+    "id": 191,
+    "input_text": "A desert receives very little precipitation and has extreme temperature fluctuations."
+  },
+  {
+    "id": 192,
+    "input_text": "A healthy diet includes fruits, vegetables, and lean proteins, but avoids excessive sugar and saturated fats."
+  },
+  {
+    "id": 193,
+    "input_text": "An atom is a metal or a non-metal, but not both."
+  },
+  {
+    "id": 194,
+    "input_text": "An amphibian can live both on land and in water and undergoes metamorphosis during its life cycle."
+  },
+  {
+    "id": 195,
+    "input_text": "A movie that has an engaging plot, well-developed characters, and excellent cinematography often receives positive reviews."
+  },
+  {
+    "id": 196,
+    "input_text": "A book can be borrowed from a library if its status is available."
+  },
+  {
+    "id": 197,
+    "input_text": "An event that is not ticketed, is held outdoors, and features live music attracts a diverse crowd."
+  },
+  {
+    "id": 198,
+    "input_text": "An appliance x is a refrigerator if it is used for cooling and preserving food."
+  },
+  {
+    "id": 199,
+    "input_text": "Cats enjoy sleeping during the day and being active at night."
+  },
+  {
+    "id": 200,
+    "input_text": "In a basketball game, a team scores either two or three points per successful shot, but not both."
+  },
+  {
+    "id": 201,
+    "input_text": "An antibiotic effectively treats a bacterial infection if it targets the specific bacteria causing the illness and does not cause adverse reactions in the patient."
+  },
+  {
+    "id": 202,
+    "input_text": "An electric circuit includes a power source, conductive pathways, and electrical components that allow the flow of electric current, enabling various electronic functions."
+  },
+  {
+    "id": 203,
+    "input_text": "A bank holds customers' money."
+  },
+  {
+    "id": 204,
+    "input_text": "A vacation destination is popular among tourists if it offers beautiful scenery, interesting attractions, and a range of accommodations, but it is not favored by travelers seeking urban experiences."
+  },
+  {
+    "id": 205,
+    "input_text": "A museum that displays a diverse range of artifacts and offers interactive exhibits can provide an engaging educational experience."
+  },
+  {
+    "id": 206,
+    "input_text": "An illness that causes fever, cough, and difficulty breathing is a respiratory illness."
+  },
+  {
+    "id": 207,
+    "input_text": "Farmers grow crops on fertile land."
+  },
+  {
+    "id": 208,
+    "input_text": "No stars are planets."
+  },
+  {
+    "id": 209,
+    "input_text": "An architect designs a building that optimizes space utilization, is structurally sound, and aesthetically pleasing."
+  },
+  {
+    "id": 210,
+    "input_text": "A restaurant serves vegan food, vegetarian food, or both, but not neither."
+  },
+  {
+    "id": 211,
+    "input_text": "In an electrical circuit, a resistor reduces the flow of current and dissipates energy in the form of heat."
+  },
+  {
+    "id": 212,
+    "input_text": "An object is heavy if it weighs more than 100 kilograms or if it has a high density."
+  },
+  {
+    "id": 213,
+    "input_text": "A painting technique that uses water, pigments, and a brush is watercolor or gouache."
+  },
+  {
+    "id": 214,
+    "input_text": "If a planet is habitable, it has water and an atmosphere."
+  },
+  {
+    "id": 215,
+    "input_text": "A successful entrepreneur is innovative, adaptable, and persistent, in addition to having a strong network and understanding of their target market."
+  },
+  {
+    "id": 216,
+    "input_text": "Carpenters build furniture."
+  },
+  {
+    "id": 217,
+    "input_text": "A river flows downstream and eventually empties into a larger body of water, while a spring emerges from the ground and feeds into a river or a stream."
+  },
+  {
+    "id": 218,
+    "input_text": "Wind can move leaves."
+  },
+  {
+    "id": 219,
+    "input_text": "A species becomes endangered when its population declines significantly due to factors such as habitat loss, pollution, or overhunting."
+  },
+  {
+    "id": 220,
+    "input_text": "Not all methods of transportation are land-based, air-based, or water-based."
+  },
+  {
+    "id": 221,
+    "input_text": "An island is surrounded by water and is not connected to any mainland."
+  },
+  {
+    "id": 222,
+    "input_text": "Books are written by authors and published by publishers."
+  },
+  {
+    "id": 223,
+    "input_text": "Artwork in a museum is valuable if it is created by a famous artist, has historical significance, or is a rare piece."
+  },
+  {
+    "id": 224,
+    "input_text": "A building is residential if it is primarily used for housing people."
+  },
+  {
+    "id": 225,
+    "input_text": "A device needs charging if its battery level is low."
+  },
+  {
+    "id": 226,
+    "input_text": "To be a valuable investment, an asset must appreciate over time, generate income, and offer diversification benefits."
+  },
+  {
+    "id": 227,
+    "input_text": "An employee who works overtime without pay is being exploited."
+  },
+  {
+    "id": 228,
+    "input_text": "A smartphone supports wireless charging when it is equipped with a compatible charging receiver and not in a metal case."
+  },
+  {
+    "id": 229,
+    "input_text": "An apple is a fruit and grows on a tree, while a carrot is a vegetable and grows underground."
+  },
+  {
+    "id": 230,
+    "input_text": "If a person creates, designs, and tests new products, they are considered a product designer."
+  },
+  {
+    "id": 231,
+    "input_text": "A wetland that serves as a habitat for various bird species, filters pollutants from water, and absorbs excess floodwater contributes to ecosystem stability."
+  },
+  {
+    "id": 232,
+    "input_text": "A volcano eruption can lead to the release of ash, gas, and molten rock, causing potential hazards and disruptions."
+  },
+  {
+    "id": 233,
+    "input_text": "Living organisms reproduce either sexually, involving two parents, or asexually, involving only one parent."
+  },
+  {
+    "id": 234,
+    "input_text": "An innovative product meets customer needs, has a unique design, and utilizes advanced technology."
+  },
+  {
+    "id": 235,
+    "input_text": "An aquatic animal that can breathe through gills, has fins, and is covered in scales is a fish."
+  },
+  {
+    "id": 236,
+    "input_text": "A person is a dentist if they are trained and licensed to diagnose and treat issues related to teeth and oral health."
+  },
+  {
+    "id": 237,
+    "input_text": "A student excels in an academic subject when they possess a strong understanding of the material, demonstrate effective study habits, and consistently perform well on exams."
+  },
+  {
+    "id": 238,
+    "input_text": "A gemstone is valuable and can be cut into different shapes."
+  },
+  {
+    "id": 239,
+    "input_text": "A garden contains plants and is maintained by a gardener."
+  },
+  {
+    "id": 240,
+    "input_text": "A car is fuel-efficient if it has low fuel consumption, reduced emissions, and optimal engine performance."
+  },
+  {
+    "id": 241,
+    "input_text": "A party is successful if it has entertaining activities, delicious food, or a diverse guest list."
+  },
+  {
+    "id": 242,
+    "input_text": "A shape is either round or has edges."
+  },
+  {
+    "id": 243,
+    "input_text": "In a democracy, citizens have the right to vote and freedom of speech."
+  },
+  {
+    "id": 244,
+    "input_text": "A library contains a collection of books, journals, and digital resources, organized by subject, author, or publication date."
+  },
+  {
+    "id": 245,
+    "input_text": "The greenhouse effect occurs when certain gases in Earth's atmosphere trap heat, leading to a warming of the planet's surface."
+  },
+  {
+    "id": 246,
+    "input_text": "A type of food can be either a fruit or a vegetable."
+  },
+  {
+    "id": 247,
+    "input_text": "A tropical rainforest receives high rainfall, has high humidity, and is characterized by a dense canopy and diverse plant and animal species."
+  },
+  {
+    "id": 248,
+    "input_text": "A book consists of pages containing text and images, bound together and protected by a cover."
+  },
+  {
+    "id": 249,
+    "input_text": "A surface that reflects light, but does not transmit or absorb it, is a mirror."
+  },
+  {
+    "id": 250,
+    "input_text": "A restaurant is awarded a Michelin star if it demonstrates exceptional culinary skill, uses high-quality ingredients, and offers outstanding customer service."
+  },
+  {
+    "id": 251,
+    "input_text": "Fruits that are rich in vitamin C, such as oranges and lemons, can help strengthen the immune system."
+  },
+  {
+    "id": 252,
+    "input_text": "A refrigerator keeps food cold, has a door, and runs on electricity, while a gas stove cooks food, has burners, and runs on gas."
+  },
+  {
+    "id": 253,
+    "input_text": "Some games are neither single-player nor multiplayer."
+  },
+  {
+    "id": 254,
+    "input_text": "A film is a box-office hit if it has a high production budget, an all-star cast, or generates significant revenue within the first few weeks of release."
+  },
+  {
+    "id": 255,
+    "input_text": "A houseplant needs water and sunlight, can have various types such as succulents, ferns, or flowering plants, and may require specific care instructions depending on the species."
+  },
+  {
+    "id": 256,
+    "input_text": "If two countries share a border, they are neighboring countries."
+  },
+  {
+    "id": 257,
+    "input_text": "A meal is considered healthy if it contains a balanced proportion of proteins, carbohydrates, and fats."
+  },
+  {
+    "id": 258,
+    "input_text": "A medicine is effective in treating a disease if it targets the cause and has minimal side effects, but not if it's expired."
+  },
+  {
+    "id": 259,
+    "input_text": "All cats have whiskers and sharp claws."
+  },
+  {
+    "id": 260,
+    "input_text": "Not every music genre is fast-paced; some are slow, and others have a moderate tempo."
+  },
+  {
+    "id": 261,
+    "input_text": "Butterflies undergo metamorphosis, transforming from caterpillars to their adult form."
+  },
+  {
+    "id": 262,
+    "input_text": "A place is a park if it has green spaces, is open to the public, and offers recreational activities."
+  },
+  {
+    "id": 263,
+    "input_text": "A plant is identified as a succulent if it stores water in its leaves or stems and thrives in arid environments."
+  },
+  {
+    "id": 264,
+    "input_text": "Birds can fly, while fish can swim, and elephants can neither fly nor swim."
+  },
+  {
+    "id": 265,
+    "input_text": "A flower x blooms in season y if the temperature, precipitation, and sunlight conditions are met during that period."
+  },
+  {
+    "id": 266,
+    "input_text": "A circle has no sides, a pentagon has five sides, and a hexagon has six sides."
+  },
+  {
+    "id": 267,
+    "input_text": "A type of disease that is caused by a malfunction of the immune system, attacks the body's own tissues, and can lead to chronic inflammation is called an autoimmune disease."
+  },
+  {
+    "id": 268,
+    "input_text": "All squares have four right angles."
+  },
+  {
+    "id": 269,
+    "input_text": "In a healthy ecosystem, there exists a balance between predators and prey."
+  },
+  {
+    "id": 270,
+    "input_text": "A piece of art that is created using pigment on a surface, typically canvas or paper, and portrays realistic images is a painting."
+  },
+  {
+    "id": 271,
+    "input_text": "An informative lecture engages the audience, clearly explains concepts, and encourages questions."
+  },
+  {
+    "id": 272,
+    "input_text": "A region with distinct climatic conditions, characterized by specific vegetation and wildlife, is a biome."
+  },
+  {
+    "id": 273,
+    "input_text": "Birds that are nocturnal and have excellent night vision are likely to hunt in the dark."
+  },
+  {
+    "id": 274,
+    "input_text": "A programmer develops software, tests it for bugs, and deploys it to users."
+  },
+  {
+    "id": 275,
+    "input_text": "A plant that produces oxygen, absorbs carbon dioxide, and grows in soil is typically considered a tree or a shrub."
+  },
+  {
+    "id": 276,
+    "input_text": "A student is considered hardworking if they study regularly and complete assignments on time."
+  },
+  {
+    "id": 277,
+    "input_text": "A planet orbits a star and is not a satellite of another planet."
+  },
+  {
+    "id": 278,
+    "input_text": "A comet is composed of ice, dust, and rock, and orbits the sun, leaving a visible tail as it travels through space."
+  },
+  {
+    "id": 279,
+    "input_text": "A celestial object is a comet if it orbits the Sun, has a tail, and is composed mostly of ice and dust."
+  },
+  {
+    "id": 280,
+    "input_text": "A game is a board game if it is played on a flat surface with pieces that are moved according to a set of rules."
+  },
+  {
+    "id": 281,
+    "input_text": "A compass indicates direction by aligning its needle with the Earth's magnetic field."
+  },
+  {
+    "id": 282,
+    "input_text": "A car is powered by an engine, has features such as a transmission, wheels, and brakes, and can be used for transportation, commercial purposes, or recreational activities."
+  },
+  {
+    "id": 283,
+    "input_text": "A fruit is either sweet or sour, and it is not a vegetable."
+  },
+  {
+    "id": 284,
+    "input_text": "A person is considered a nurse if they provide healthcare services and support to patients under the supervision of a doctor."
+  },
+  {
+    "id": 285,
+    "input_text": "A movie is popular when it attracts a large audience."
+  },
+  {
+    "id": 286,
+    "input_text": "An award-winning film can have a captivating plot, outstanding performances, or exceptional cinematography."
+  },
+  {
+    "id": 287,
+    "input_text": "A celestial body that isn't a star might be a planet or an asteroid."
+  },
+  {
+    "id": 288,
+    "input_text": "A tree is deemed mature if it has reached its full height and produces seeds or fruits."
+  },
+  {
+    "id": 289,
+    "input_text": "A fabric is suitable for outdoor use if it is UV-resistant, water-resistant, and durable."
+  },
+  {
+    "id": 290,
+    "input_text": "A room with a window is brighter than a room without a window."
+  },
+  {
+    "id": 291,
+    "input_text": "A valid passport and a visa are required to enter a country if it has strict immigration policies."
+  },
+  {
+    "id": 292,
+    "input_text": "A tourist attraction draws visitors due to its historical significance, natural beauty, or cultural importance."
+  },
+  {
+    "id": 293,
+    "input_text": "A library is a place where books, magazines, and other media are stored, organized, and made available for borrowing or reference."
+  },
+  {
+    "id": 294,
+    "input_text": "Baking requires an oven, blending requires a blender, and boiling requires a stove."
+  },
+  {
+    "id": 295,
+    "input_text": "A type of footwear with a flat sole and a flexible upper part that covers the toes is a sandal."
+  },
+  {
+    "id": 296,
+    "input_text": "Washing hands frequently prevents the spread of germs, while touching the face increases the risk of infection."
+  },
+  {
+    "id": 297,
+    "input_text": "A submarine can navigate underwater by adjusting its buoyancy using ballast tanks."
+  },
+  {
+    "id": 298,
+    "input_text": "A student can pass or fail a test."
+  },
+  {
+    "id": 299,
+    "input_text": "A flower's color can either attract pollinators or deter potential predators."
+  },
+  {
+    "id": 300,
+    "input_text": "A dog is a domesticated animal that barks and has a wagging tail."
+  },
+  {
+    "id": 301,
+    "input_text": "A hammer is for pounding nails, and a saw is for cutting wood."
+  },
+  {
+    "id": 302,
+    "input_text": "A person is a pilot if they are trained and certified to operate and navigate aircraft."
+  },
+  {
+    "id": 303,
+    "input_text": "A city that has an efficient public transportation system, ample green spaces, and a low crime rate is considered livable."
+  },
+  {
+    "id": 304,
+    "input_text": "A material is a metal if it is a good conductor of heat and electricity and has a characteristic lustrous appearance."
+  },
+  {
+    "id": 305,
+    "input_text": "A smartphone needs to be charged when its battery level is low, or it will not function properly."
+  },
+  {
+    "id": 306,
+    "input_text": "A solar panel converts sunlight into electricity, making it a renewable and environmentally friendly energy source."
+  },
+  {
+    "id": 307,
+    "input_text": "A parent can have multiple children, and a child can have multiple siblings."
+  },
+  {
+    "id": 308,
+    "input_text": "There are substances that are neither acidic nor basic."
+  },
+  {
+    "id": 309,
+    "input_text": "Musical instruments like the piano or violin produce sound through the vibration of strings."
+  },
+  {
+    "id": 310,
+    "input_text": "If a musical instrument is a string instrument, then it produces sound through vibrating strings."
+  },
+  {
+    "id": 311,
+    "input_text": "Sneezing spreads germs in the air."
+  },
+  {
+    "id": 312,
+    "input_text": "A theater hosts plays, concerts, or movie screenings, with actors or musicians performing."
+  },
+  {
+    "id": 313,
+    "input_text": "Instruments that produce sound by vibration are called musical instruments."
+  },
+  {
+    "id": 314,
+    "input_text": "A transportation method that travels on a fixed route, operates on a schedule, and carries multiple passengers is a bus or a train."
+  },
+  {
+    "id": 315,
+    "input_text": "A movie is a thriller if it has suspense, excitement, and a surprise ending."
+  },
+  {
+    "id": 316,
+    "input_text": "A shopping mall houses various types of stores, such as clothing, electronics, and grocery, while also providing entertainment options like movie theaters and arcades."
+  },
+  {
+    "id": 317,
+    "input_text": "Fish swim, birds fly, and horses run."
+  },
+  {
+    "id": 318,
+    "input_text": "If a person is a counselor, they provide guidance and support."
+  },
+  {
+    "id": 319,
+    "input_text": "A film that combines captivating visuals and an emotionally engaging storyline can achieve critical acclaim."
+  },
+  {
+    "id": 320,
+    "input_text": "An appliance can be small or large, designed for the kitchen or laundry room, and powered by electricity, gas, or batteries."
+  },
+  {
+    "id": 321,
+    "input_text": "If a person is a meteorologist, they study weather patterns and phenomena."
+  },
+  {
+    "id": 322,
+    "input_text": "A keyboard is used to input text."
+  },
+  {
+    "id": 323,
+    "input_text": "A watch uses gears to keep time, while a digital clock uses a crystal oscillator."
+  },
+  {
+    "id": 324,
+    "input_text": "A beverage is classified as a cocktail if it contains alcohol, is a mixture of different ingredients, and is typically served at social events or in bars."
+  },
+  {
+    "id": 325,
+    "input_text": "If a person catches a cold, they might have a fever or a runny nose."
+  },
+  {
+    "id": 326,
+    "input_text": "A type of clothing can be either formal or casual."
+  },
+  {
+    "id": 327,
+    "input_text": "A fashion choice is stylish if it is trendy, comfortable, and either colorful or has interesting patterns."
+  },
+  {
+    "id": 328,
+    "input_text": "A book contains pages with text and illustrations that convey information, stories, or ideas."
+  },
+  {
+    "id": 329,
+    "input_text": "An energy-efficient building uses renewable energy sources and sustainable materials, reducing its environmental impact."
+  },
+  {
+    "id": 330,
+    "input_text": "A carnivore is an organism that primarily feeds on other animals, an herbivore is an organism that primarily feeds on plants, and an omnivore is an organism that feeds on both animals and plants."
+  },
+  {
+    "id": 331,
+    "input_text": "A dessert is delicious if it has a pleasant taste and an appealing texture."
+  },
+  {
+    "id": 332,
+    "input_text": "A fish swims in water, while a bird flies in the air."
+  },
+  {
+    "id": 333,
+    "input_text": "A circle has no corners, a triangle has three corners, and a square has four corners."
+  },
+  {
+    "id": 334,
+    "input_text": "Healthy teeth require regular brushing and flossing."
+  },
+  {
+    "id": 335,
+    "input_text": "A medication that effectively treats symptoms, has minimal side effects, and can be administered easily is often preferred by healthcare professionals."
+  },
+  {
+    "id": 336,
+    "input_text": "Dogs bark, babies cry, and sirens wail."
+  },
+  {
+    "id": 337,
+    "input_text": "In a democratic country, citizens have the right to vote and the right to express their opinions freely."
+  },
+  {
+    "id": 338,
+    "input_text": "A product becomes a bestseller if it has innovative features, reasonable pricing, and effective marketing, but not if it has manufacturing defects or poor customer support."
+  },
+  {
+    "id": 339,
+    "input_text": "A celestial object that orbits a star, reflects light, and is not a satellite is a planet."
+  },
+  {
+    "id": 340,
+    "input_text": "An island is volcanic if it was formed by volcanic activity, has a volcanic cone, and shows signs of geothermal activity."
+  },
+  {
+    "id": 341,
+    "input_text": "Factories manufacture goods from raw materials, employing workers to operate machinery."
+  },
+  {
+    "id": 342,
+    "input_text": "Washing your hands with soap and water is effective in removing dirt and germs."
+  },
+  {
+    "id": 343,
+    "input_text": "A type of dance can be either ballet or contemporary."
+  },
+  {
+    "id": 344,
+    "input_text": "A predator hunts and consumes prey for sustenance, while the prey population affects the abundance of predators in an ecosystem."
+  },
+  {
+    "id": 345,
+    "input_text": "When a material is a good conductor of electricity, it allows electric current to flow through it easily."
+  },
+  {
+    "id": 346,
+    "input_text": "An object is a microscope when it is an optical instrument that magnifies small specimens, often used in scientific research, and provides detailed images of otherwise unseen structures."
+  },
+  {
+    "id": 347,
+    "input_text": "A worker who is skilled, experienced, and knowledgeable is an expert."
+  },
+  {
+    "id": 348,
+    "input_text": "An artwork that is made with watercolors and is created on paper is considered a watercolor painting."
+  },
+  {
+    "id": 349,
+    "input_text": "An airplane requires maintenance when it has flown a certain number of hours or has experienced mechanical issues."
+  },
+  {
+    "id": 350,
+    "input_text": "Insects have wings, while arachnids do not."
+  },
+  {
+    "id": 351,
+    "input_text": "Museums display artifacts and artworks to educate and inspire visitors."
+  },
+  {
+    "id": 352,
+    "input_text": "A stadium is considered iconic when it has a unique architectural design and historical significance."
+  },
+  {
+    "id": 353,
+    "input_text": "A film is categorized as a documentary if it presents factual information, features real-life events, and is intended for educational purposes."
+  },
+  {
+    "id": 354,
+    "input_text": "An event that occurs rarely and has a significant impact is considered an outlier."
+  },
+  {
+    "id": 355,
+    "input_text": "A film can be a blockbuster if it generates significant revenue and receives positive reviews."
+  },
+  {
+    "id": 356,
+    "input_text": "A person is considered wealthy if they own a mansion or a private jet."
+  },
+  {
+    "id": 357,
+    "input_text": "An element is a noble gas if it has a full electron shell and exhibits low chemical reactivity."
+  },
+  {
+    "id": 358,
+    "input_text": "An architect designs buildings, considers structural and aesthetic elements, and complies with regulations."
+  },
+  {
+    "id": 359,
+    "input_text": "A beverage is classified as alcoholic if it contains ethanol and has a minimum legal drinking age."
+  },
+  {
+    "id": 360,
+    "input_text": "A lawyer represents a client in court or during negotiations."
+  },
+  {
+    "id": 361,
+    "input_text": "A type of job can be either full-time or part-time."
+  },
+  {
+    "id": 362,
+    "input_text": "A book is written in a language and contains a collection of pages with printed text or illustrations."
+  },
+  {
+    "id": 363,
+    "input_text": "A farmer grows a crop in a particular soil type if the crop thrives in that soil and the farmer's land consists of that soil type."
+  },
+  {
+    "id": 364,
+    "input_text": "A software is an operating system when it is a collection of programs, manages computer hardware and software resources, and provides an interface for users to interact with the computer and run applications."
+  },
+  {
+    "id": 365,
+    "input_text": "A smartphone enables communication and access to information."
+  },
+  {
+    "id": 366,
+    "input_text": "A person can become a professional athlete if they possess exceptional skills and train rigorously."
+  },
+  {
+    "id": 367,
+    "input_text": "Doctors prescribe medication, and pharmacists dispense it to patients."
+  },
+  {
+    "id": 368,
+    "input_text": "A book becomes a bestseller by having a compelling story, receiving positive reviews, or generating strong word of mouth."
+  },
+  {
+    "id": 369,
+    "input_text": "A firewall provides security when it is properly configured, updated regularly, and monitors incoming and outgoing traffic."
+  },
+  {
+    "id": 370,
+    "input_text": "A violin is played with a bow, and a guitar is played with fingers or a pick."
+  },
+  {
+    "id": 371,
+    "input_text": "In a library, books are organized by subject and author, while periodicals are organized by publication date and title."
+  },
+  {
+    "id": 372,
+    "input_text": "A player wins a chess match if they checkmate the opponent's king or the opponent resigns."
+  },
+  {
+    "id": 373,
+    "input_text": "A vehicle is considered a motorcycle if it is a two-wheeled motor vehicle, often powered by an internal combustion engine, and used for transportation, sport, or recreation."
+  },
+  {
+    "id": 374,
+    "input_text": "A restaurant serves vegetarian or vegan options, but not if it's a steakhouse or if it only offers a seafood menu."
+  },
+  {
+    "id": 375,
+    "input_text": "If a person is a singer, they perform songs."
+  },
+  {
+    "id": 376,
+    "input_text": "Volcanoes can be active, dormant, or extinct."
+  },
+  {
+    "id": 377,
+    "input_text": "A fish swims faster when it senses danger, has a streamlined body, and the water is calm."
+  },
+  {
+    "id": 378,
+    "input_text": "A room is dark if there is no light source."
+  },
+  {
+    "id": 379,
+    "input_text": "A smartphone can send text messages and make calls, while a pager can receive messages but cannot make calls."
+  },
+  {
+    "id": 380,
+    "input_text": "An ice cream flavor is popular if it's sweet or fruity, but not if it's salty."
+  },
+  {
+    "id": 381,
+    "input_text": "A plant is considered a tree if it has a woody stem and is typically tall."
+  },
+  {
+    "id": 382,
+    "input_text": "A dessert is more appealing if it has a rich flavor or pleasing presentation, but not if it's high in calories."
+  },
+  {
+    "id": 383,
+    "input_text": "Not all birds can fly, but all penguins are flightless birds."
+  },
+  {
+    "id": 384,
+    "input_text": "A garage is used to store vehicles."
+  },
+  {
+    "id": 385,
+    "input_text": "An element is a noble gas if it has a full valence electron shell and does not form compounds under normal conditions."
+  },
+  {
+    "id": 386,
+    "input_text": "A nutritious meal contains a balance of protein, carbohydrates, and healthy fats while providing essential vitamins and minerals."
+  },
+  {
+    "id": 387,
+    "input_text": "A snake sheds its skin and has no legs."
+  },
+  {
+    "id": 388,
+    "input_text": "A building is a skyscraper if it has more than 50 floors."
+  },
+  {
+    "id": 389,
+    "input_text": "A food is classified as junk food if it has high calories, low nutritional value, and contains excessive amounts of sugar, fat, or salt."
+  },
+  {
+    "id": 390,
+    "input_text": "A sushi restaurant serves Japanese sushi dishes, a pizzeria serves Italian pizza, and a burger joint serves American-style burgers."
+  },
+  {
+    "id": 391,
+    "input_text": "A door can be open or closed, but not partially open."
+  },
+  {
+    "id": 392,
+    "input_text": "A museum displays artifacts and can offer guided tours to visitors."
+  },
+  {
+    "id": 393,
+    "input_text": "A vehicle is either a car or a motorcycle."
+  },
+  {
+    "id": 394,
+    "input_text": "If a person is a pilot, they must operate and navigate aircraft, such as airplanes and helicopters, for transportation, recreation, or other purposes."
+  },
+  {
+    "id": 395,
+    "input_text": "A telescope is an optical instrument used for observing distant objects."
+  },
+  {
+    "id": 396,
+    "input_text": "An attractive tourist destination offers diverse cultural experiences, breathtaking scenery, and unique local cuisine."
+  },
+  {
+    "id": 397,
+    "input_text": "A book becomes a bestseller when it attracts a large readership, receives positive reviews from critics, and generates significant sales revenue."
+  },
+  {
+    "id": 398,
+    "input_text": "A person is a vegetarian if they do not consume meat or fish."
+  },
+  {
+    "id": 399,
+    "input_text": "If an item of clothing is made from cotton, it can be a shirt, pants, or a dress."
+  },
+  {
+    "id": 400,
+    "input_text": "Rainbows form after rain and sunlight."
+  },
+  {
+    "id": 401,
+    "input_text": "A person who cultivates and harvests crops is called a farmer."
+  },
+  {
+    "id": 402,
+    "input_text": "All mammals have hair or fur, and they produce milk to feed their young."
+  },
+  {
+    "id": 403,
+    "input_text": "Ice melts into water when heated."
+  },
+  {
+    "id": 404,
+    "input_text": "No plant can survive without sunlight."
+  },
+  {
+    "id": 405,
+    "input_text": "A person is considered an omnivore if they consume both plants and animals for sustenance."
+  },
+  {
+    "id": 406,
+    "input_text": "If a person is an architect, they design buildings and structures."
+  },
+  {
+    "id": 407,
+    "input_text": "A musical instrument that doesn't use strings can be a drum, a flute, or a trumpet."
+  },
+  {
+    "id": 408,
+    "input_text": "Rainforests provide habitat for a diverse range of plant and animal species."
+  },
+  {
+    "id": 409,
+    "input_text": "When the temperature is below freezing, water turns into ice."
+  },
+  {
+    "id": 410,
+    "input_text": "A country achieves economic growth if it experiences an increase in gross domestic product, a decrease in unemployment rates, and an improvement in living standards."
+  },
+  {
+    "id": 411,
+    "input_text": "A bird can fly by flapping its wings or by gliding on air currents."
+  },
+  {
+    "id": 412,
+    "input_text": "A mammal is considered a carnivore if its diet consists primarily of other animals."
+  },
+  {
+    "id": 413,
+    "input_text": "A sport is a team sport if it involves two or more players on each side, has a set of rules, and requires cooperation to achieve a common goal."
+  },
+  {
+    "id": 414,
+    "input_text": "A book becomes a bestseller when it sells many copies, receives positive reviews, and gains widespread recognition."
+  },
+  {
+    "id": 415,
+    "input_text": "A television show becomes popular if it attracts a large audience, receives positive reviews, or wins awards."
+  },
+  {
+    "id": 416,
+    "input_text": "A person is considered a dentist if they diagnose, treat, and prevent oral health issues, often in a dental office setting, and provide care for teeth, gums, and other mouth structures."
+  },
+  {
+    "id": 417,
+    "input_text": "Rainy weather can cause slippery roads."
+  },
+  {
+    "id": 418,
+    "input_text": "Fossil fuels, such as coal, oil, and natural gas, are nonrenewable energy sources that release greenhouse gases when burned for energy production."
+  },
+  {
+    "id": 419,
+    "input_text": "Artists create paintings, sculptures, or drawings."
+  },
+  {
+    "id": 420,
+    "input_text": "A sunflower is a plant that follows the sun's movement, while a cactus is a plant that can store water in its tissues."
+  },
+  {
+    "id": 421,
+    "input_text": "A book becomes a bestseller when it achieves high sales and receives positive reviews from readers and critics."
+  },
+  {
+    "id": 422,
+    "input_text": "A medicine is effective if it reduces symptoms."
+  },
+  {
+    "id": 423,
+    "input_text": "Insects typically have six legs and three body segments, while arachnids have eight legs and two body segments."
+  },
+  {
+    "id": 424,
+    "input_text": "An electronic device that receives radio waves and converts them into sound waves is a radio receiver."
+  },
+  {
+    "id": 425,
+    "input_text": "In a solar system, planets orbit around a star and can have moons that orbit them."
+  },
+  {
+    "id": 426,
+    "input_text": "Sedimentary rocks form from the accumulation and compaction of sediments, which often contain fossils of ancient organisms."
+  },
+  {
+    "id": 427,
+    "input_text": "A vehicle that travels on water, powered by sails or an engine, is a boat."
+  },
+  {
+    "id": 428,
+    "input_text": "A person can be healthy if they have a normal body temperature and do not have any severe illnesses."
+  },
+  {
+    "id": 429,
+    "input_text": "A strawberry is red or green, depending on its ripeness."
+  },
+  {
+    "id": 430,
+    "input_text": "A smartphone connects to the internet through Wi-Fi, mobile data, or a tethered device, but not all three simultaneously."
+  },
+  {
+    "id": 431,
+    "input_text": "A mountain x is climbable if it is not too steep and not restricted."
+  },
+  {
+    "id": 432,
+    "input_text": "A healthy diet includes a variety of fruits, vegetables, whole grains, and lean proteins."
+  },
+  {
+    "id": 433,
+    "input_text": "No smartphone without a camera can use video chat applications."
+  },
+  {
+    "id": 434,
+    "input_text": "Lions hunt in groups called prides, while tigers are solitary hunters."
+  },
+  {
+    "id": 435,
+    "input_text": "A building has a foundation, supports its structure, and is designed by an architect."
+  },
+  {
+    "id": 436,
+    "input_text": "An animal shelter provides care and temporary housing for homeless animals."
+  },
+  {
+    "id": 437,
+    "input_text": "A doctor examines a patient, prescribes medication, and schedules a follow-up appointment."
+  },
+  {
+    "id": 438,
+    "input_text": "A boat floats if it is buoyant and not overloaded."
+  },
+  {
+    "id": 439,
+    "input_text": "A park is inviting if it features green spaces and well-maintained facilities."
+  },
+  {
+    "id": 440,
+    "input_text": "A person can be a parent only if they have at least one child."
+  },
+  {
+    "id": 441,
+    "input_text": "Stars emit light due to nuclear fusion occurring in their cores."
+  },
+  {
+    "id": 442,
+    "input_text": "A place is considered a zoo if it is a facility that houses and displays various animals for public viewing, education, and conservation purposes."
+  },
+  {
+    "id": 443,
+    "input_text": "An animal is herbivorous when its diet primarily consists of plants, and it possesses specialized teeth and digestive systems adapted for breaking down cellulose."
+  },
+  {
+    "id": 444,
+    "input_text": "A city x implements a new public transportation system y when the population density surpasses a predetermined threshold and sufficient funding is available."
+  },
+  {
+    "id": 445,
+    "input_text": "A coffee shop is relaxing if it has comfortable seating or a quiet atmosphere, but not if it is also frequently overcrowded."
+  },
+  {
+    "id": 446,
+    "input_text": "A region is a desert if it receives minimal rainfall and has arid conditions."
+  },
+  {
+    "id": 447,
+    "input_text": "An airport connects domestic and international flights for passengers to travel."
+  },
+  {
+    "id": 448,
+    "input_text": "Students study in libraries, while athletes train in gyms."
+  },
+  {
+    "id": 449,
+    "input_text": "An animal is considered an amphibian if it is a cold-blooded vertebrate that can live both on land and in water and undergoes metamorphosis."
+  },
+  {
+    "id": 450,
+    "input_text": "A mirror reflects light to form images."
+  },
+  {
+    "id": 451,
+    "input_text": "A city is considered a capital if it is the administrative center of a country."
+  },
+  {
+    "id": 452,
+    "input_text": "A species is considered endangered if it has a declining population, faces threats to its habitat, and has a high risk of extinction in the wild."
+  },
+  {
+    "id": 453,
+    "input_text": "Mountains are suitable for hiking when they have trails and proper weather conditions."
+  },
+  {
+    "id": 454,
+    "input_text": "A medicine x is effective against a disease y for a patient z if it targets the causative agent of y and produces a positive outcome in the health condition of z."
+  },
+  {
+    "id": 455,
+    "input_text": "Not all flowers bloom during the day, some open at night."
+  },
+  {
+    "id": 456,
+    "input_text": "A pesticide x is effective against a pest y if x can control, repel, or kill y to protect plants or animals from damage."
+  },
+  {
+    "id": 457,
+    "input_text": "If a vehicle is a bicycle, then it has two wheels and is human-powered."
+  },
+  {
+    "id": 458,
+    "input_text": "A substance is chemically reactive if it reacts easily with acids or bases, but not with both."
+  },
+  {
+    "id": 459,
+    "input_text": "A food item is perishable if it has a limited shelf life and requires refrigeration or freezing."
+  },
+  {
+    "id": 460,
+    "input_text": "An individual is considered bilingual if they can speak and understand two languages fluently."
+  },
+  {
+    "id": 461,
+    "input_text": "Only nocturnal animals are active during the night, while diurnal animals are active during the day."
+  },
+  {
+    "id": 462,
+    "input_text": "An effective workout routine typically includes a combination of cardiovascular exercises, strength training, and flexibility exercises."
+  },
+  {
+    "id": 463,
+    "input_text": "A dog barks when it's hungry."
+  },
+  {
+    "id": 464,
+    "input_text": "All dogs are mammals, and some dogs are trained to be guide dogs."
+  },
+  {
+    "id": 465,
+    "input_text": "A place is considered a university if it is an institution of higher learning that offers undergraduate and graduate degree programs, as well as research and teaching opportunities for faculty."
+  },
+  {
+    "id": 466,
+    "input_text": "A vacation is memorable when it includes unique experiences, scenic locations, and (provides opportunities for relaxation or features exciting activities)."
+  },
+  {
+    "id": 467,
+    "input_text": "A movie can be a comedy, a drama, or a thriller, but it cannot belong to all genres."
+  },
+  {
+    "id": 468,
+    "input_text": "An online shopping platform processes an order when the customer's payment is successful, the item is in stock, and shipping details are verified."
+  },
+  {
+    "id": 469,
+    "input_text": "An event that occurs outdoors and has a large audience is popular."
+  },
+  {
+    "id": 470,
+    "input_text": "A sculpture is considered abstract if it does not depict recognizable objects or figures."
+  },
+  {
+    "id": 471,
+    "input_text": "A place is considered a museum if it is an institution that collects, preserves, and displays objects of historical, artistic, or scientific interest for public education and enjoyment."
+  },
+  {
+    "id": 472,
+    "input_text": "A comet becomes visible from Earth when its icy surface vaporizes, creating a glowing tail as it approaches the sun."
+  },
+  {
+    "id": 473,
+    "input_text": "A movie is a blockbuster if it has a high budget, features well-known actors, and earns a significant amount at the box office."
+  },
+  {
+    "id": 474,
+    "input_text": "A beverage can be hot or cold, but it cannot change its temperature instantaneously."
+  },
+  {
+    "id": 475,
+    "input_text": "A computer is suitable for gaming if it has a powerful processor, a dedicated graphics card, and ample memory, but it is not suitable for gaming if it has low processing power and insufficient memory."
+  },
+  {
+    "id": 476,
+    "input_text": "All birds lay eggs, and most birds can fly."
+  },
+  {
+    "id": 477,
+    "input_text": "A square has all sides of equal length and all angles equal to 90 degrees."
+  },
+  {
+    "id": 478,
+    "input_text": "A building is a library if it houses a collection of books, multimedia resources, and other materials for public use or academic research."
+  },
+  {
+    "id": 479,
+    "input_text": "A place is a forest if it is a large area covered with trees and undergrowth."
+  },
+  {
+    "id": 480,
+    "input_text": "A structure with multiple floors, connected by stairs or elevators, and designed for office or commercial use is called an office building."
+  },
+  {
+    "id": 481,
+    "input_text": "An electronic device that records and stores video footage, uses a lens to capture images, and often includes audio recording is a video camera."
+  },
+  {
+    "id": 482,
+    "input_text": "An office has employees."
+  },
+  {
+    "id": 483,
+    "input_text": "A communication technology that uses radio waves allows wireless data transfer, supports various devices, and has a specific range."
+  },
+  {
+    "id": 484,
+    "input_text": "An alloy is created when two or more metallic elements are combined, resulting in a material with enhanced properties, such as increased strength or corrosion resistance."
+  },
+  {
+    "id": 485,
+    "input_text": "Lions hunt prey and live in prides."
+  },
+  {
+    "id": 486,
+    "input_text": "A tropical rainforest, characterized by high levels of rainfall and a warm, humid climate, contains a vast diversity of plant and animal species, making it one of the most biologically rich ecosystems on Earth."
+  },
+  {
+    "id": 487,
+    "input_text": "A zoo houses various animal species, such as mammals like elephants and giraffes, reptiles like snakes and crocodiles, and birds like parrots and penguins."
+  },
+  {
+    "id": 488,
+    "input_text": "If a place is a desert, then it is dry and has little rainfall."
+  },
+  {
+    "id": 489,
+    "input_text": "Not every artwork is a painting or a sculpture, but some are installations."
+  },
+  {
+    "id": 490,
+    "input_text": "In a solar system, planets orbit a star while moons orbit planets, and both types of celestial bodies are affected by the star's gravitational force."
+  },
+  {
+    "id": 491,
+    "input_text": "A park that features well-maintained green spaces, safe play areas for children, and accessible walking paths can be a popular destination for families and outdoor enthusiasts."
+  },
+  {
+    "id": 492,
+    "input_text": "A film that is a comedy and has won an award is a successful comedy film."
+  },
+  {
+    "id": 493,
+    "input_text": "An artwork is valuable if it is aesthetically pleasing, created by a renowned artist, and either rare or has historical significance."
+  },
+  {
+    "id": 494,
+    "input_text": "There is a dessert that is both sweet and sour."
+  },
+  {
+    "id": 495,
+    "input_text": "A square is a rectangle, but not every rectangle is a square."
+  },
+  {
+    "id": 496,
+    "input_text": "If a celestial body is a planet, it orbits a star and has a spherical shape."
+  },
+  {
+    "id": 497,
+    "input_text": "An archaeologist excavates ancient sites, discovers artifacts, and studies the history and culture of past civilizations."
+  },
+  {
+    "id": 498,
+    "input_text": "A substance is considered a metal if it is solid, shiny, and conducts heat and electricity."
+  },
+  {
+    "id": 499,
+    "input_text": "Mountains with an elevation above 8,000 meters are referred to as \"eight-thousanders.\""
+  },
+  {
+    "id": 500,
+    "input_text": "Plants that receive proper care, including pruning and pest control, are more likely to thrive and produce higher yields."
+  },
+  {
+    "id": 501,
+    "input_text": "An astronaut explores, a scientist researches, and a writer writes."
+  },
+  {
+    "id": 502,
+    "input_text": "All rectangles have four sides and four right angles."
+  },
+  {
+    "id": 503,
+    "input_text": "A novel is fictional, while a documentary film presents facts and a poem expresses emotions."
+  },
+  {
+    "id": 504,
+    "input_text": "A garden has flowers and plants that require sunlight and water to grow."
+  },
+  {
+    "id": 505,
+    "input_text": "A planet with a thin atmosphere and temperatures below freezing point is unsuitable for supporting human life."
+  },
+  {
+    "id": 506,
+    "input_text": "Not every language is written or spoken."
+  },
+  {
+    "id": 507,
+    "input_text": "All cells have a nucleus, except for prokaryotic cells."
+  },
+  {
+    "id": 508,
+    "input_text": "A lake contains fish, supports aquatic plants, and serves as a habitat for various species."
+  },
+  {
+    "id": 509,
+    "input_text": "A place is considered a theater if it hosts live performances or movies."
+  },
+  {
+    "id": 510,
+    "input_text": "An endangered species is protected by law to prevent its extinction."
+  },
+  {
+    "id": 511,
+    "input_text": "A smartphone is user-friendly if it has an intuitive interface or useful features."
+  },
+  {
+    "id": 512,
+    "input_text": "A flashlight is useful in dark places or during power outages."
+  },
+  {
+    "id": 513,
+    "input_text": "A movie is thrilling when it has intense action scenes and a suspenseful atmosphere."
+  },
+  {
+    "id": 514,
+    "input_text": "A food item that is made from grains, is typically baked, and is a staple in many cultures is bread."
+  },
+  {
+    "id": 515,
+    "input_text": "A bird can fly and build nests, while an insect can crawl and sometimes fly as well."
+  },
+  {
+    "id": 516,
+    "input_text": "Mountains experience snowfall, have steep slopes, and attract hikers."
+  },
+  {
+    "id": 517,
+    "input_text": "A place is considered a gymnasium if it is a facility equipped for physical exercise, sports, and other forms of fitness training."
+  },
+  {
+    "id": 518,
+    "input_text": "An area with a large concentration of trees and plants that absorb carbon dioxide and produce oxygen is called a carbon sink."
+  },
+  {
+    "id": 519,
+    "input_text": "If a person is a teacher, they have a teaching degree and work at an educational institution."
+  },
+  {
+    "id": 520,
+    "input_text": "A cooking class can teach students how to prepare vegan or gluten-free dishes, but not if the class is focused on traditional cuisine or if it's a baking class."
+  },
+  {
+    "id": 521,
+    "input_text": "All apples are fruits."
+  },
+  {
+    "id": 522,
+    "input_text": "A building x is a museum if it is dedicated to the collection, preservation, interpretation, and display of objects of artistic, cultural, or scientific importance."
+  },
+  {
+    "id": 523,
+    "input_text": "A device is a smartphone if it can make phone calls, send messages, and access the internet."
+  },
+  {
+    "id": 524,
+    "input_text": "A fruit is a berry if it has a fleshy exocarp, multiple seeds, and is derived from a single ovary."
+  },
+  {
+    "id": 525,
+    "input_text": "A medication treats a specific medical condition if it targets the underlying cause or alleviates the symptoms of that condition."
+  },
+  {
+    "id": 526,
+    "input_text": "A mathematical operation is either addition or subtraction, but not both."
+  },
+  {
+    "id": 527,
+    "input_text": "If a person is a dentist, they diagnose and treat dental problems."
+  },
+  {
+    "id": 528,
+    "input_text": "Countries have capitals."
+  },
+  {
+    "id": 529,
+    "input_text": "A bicycle has two wheels and is powered by pedals."
+  },
+  {
+    "id": 530,
+    "input_text": "A game is engaging if it has an interesting storyline, challenging gameplay, and immersive graphics."
+  },
+  {
+    "id": 531,
+    "input_text": "A vehicle that is primarily powered by an electric motor and has a rechargeable battery system is considered an electric vehicle."
+  },
+  {
+    "id": 532,
+    "input_text": "A triangle has three sides and three angles, while a square has four sides and four right angles."
+  },
+  {
+    "id": 533,
+    "input_text": "Mammals give birth to live offspring and provide nourishment through the secretion of milk from mammary glands."
+  },
+  {
+    "id": 534,
+    "input_text": "A mobile app gains popularity when it offers user-friendly navigation, practical functionality, and regular updates, but not if it's plagued with bugs."
+  },
+  {
+    "id": 535,
+    "input_text": "Trees provide shade, oxygen, and habitat for various creatures."
+  },
+  {
+    "id": 536,
+    "input_text": "An architectural style that is characterized as Gothic features pointed arches, ribbed vaults, and flying buttresses."
+  },
+  {
+    "id": 537,
+    "input_text": "A candidate is suitable for a job if they possess relevant experience, have strong communication skills, or demonstrate adaptability."
+  },
+  {
+    "id": 538,
+    "input_text": "A television displays video content, while a radio broadcasts audio content and doesn't display video content."
+  },
+  {
+    "id": 539,
+    "input_text": "Countries that are landlocked do not have a coastline."
+  },
+  {
+    "id": 540,
+    "input_text": "A spacecraft that can travel at high speeds, has a long operational lifespan, and utilizes advanced propulsion technology is suitable for long-duration space missions."
+  },
+  {
+    "id": 541,
+    "input_text": "A planet x sustains life form y if it has a stable environment z that provides suitable conditions for y to survive and thrive."
+  },
+  {
+    "id": 542,
+    "input_text": "An art piece that uses visual elements, digital techniques, and interactive components is a multimedia artwork."
+  },
+  {
+    "id": 543,
+    "input_text": "A prism disperses light into its constituent colors by refracting the different wavelengths of light at varying angles, creating a spectrum."
+  },
+  {
+    "id": 544,
+    "input_text": "In a gym, people exercise, trainers give guidance, and equipment is available for use."
+  },
+  {
+    "id": 545,
+    "input_text": "A restaurant is popular if it has a high rating or is frequently visited."
+  },
+  {
+    "id": 546,
+    "input_text": "A musical genre that originated in African American communities, features improvisation, and incorporates syncopation is often referred to as jazz."
+  },
+  {
+    "id": 547,
+    "input_text": "A film that has won awards for both acting and directing is a critically acclaimed film."
+  },
+  {
+    "id": 548,
+    "input_text": "A smartphone requires charging."
+  },
+  {
+    "id": 549,
+    "input_text": "A novel that explores thought-provoking themes, features memorable characters, and demonstrates exceptional writing can captivate readers and garner critical acclaim."
+  },
+  {
+    "id": 550,
+    "input_text": "A type of exercise equipment can be either for cardio or strength training."
+  },
+  {
+    "id": 551,
+    "input_text": "A predator successfully hunts its prey if it can detect, chase, and capture the target."
+  },
+  {
+    "id": 552,
+    "input_text": "A scientist conducts research, writes a paper, and presents the findings at a conference."
+  },
+  {
+    "id": 553,
+    "input_text": "A food is considered spicy if it contains hot flavors."
+  },
+  {
+    "id": 554,
+    "input_text": "A bakery sells cookies and muffins."
+  },
+  {
+    "id": 555,
+    "input_text": "Rainy weather leads to wet roads."
+  },
+  {
+    "id": 556,
+    "input_text": "Dogs are domesticated animals, while wolves are wild animals."
+  },
+  {
+    "id": 557,
+    "input_text": "Architects design buildings, engineers construct buildings, and owners maintain buildings."
+  },
+  {
+    "id": 558,
+    "input_text": "A scientist who specializes in the study of weather patterns and atmospheric conditions is a meteorologist."
+  },
+  {
+    "id": 559,
+    "input_text": "Rainy weather can cause wet roads."
+  },
+  {
+    "id": 560,
+    "input_text": "An animal that primarily consumes plant material is called an herbivore."
+  },
+  {
+    "id": 561,
+    "input_text": "A liquid is considered viscous if it has a high resistance to flow."
+  },
+  {
+    "id": 562,
+    "input_text": "A bus is a large vehicle that can transport multiple passengers, a motorcycle is a two-wheeled vehicle for one or two people, and a truck is a vehicle designed for transporting cargo."
+  },
+  {
+    "id": 563,
+    "input_text": "A mountain with snow is suitable for skiing or snowboarding."
+  },
+  {
+    "id": 564,
+    "input_text": "Dogs can bark or growl."
+  },
+  {
+    "id": 565,
+    "input_text": "A snake can be venomous if it has fangs and venom glands."
+  },
+  {
+    "id": 566,
+    "input_text": "A bird can fly if it doesn't have broken wings."
+  },
+  {
+    "id": 567,
+    "input_text": "When a bird migrates, it travels to different regions depending on the season."
+  },
+  {
+    "id": 568,
+    "input_text": "Cities with international airports attract tourists and business travelers."
+  },
+  {
+    "id": 569,
+    "input_text": "A vehicle is considered a car if it is primarily designed for transporting passengers and typically has four wheels."
+  },
+  {
+    "id": 570,
+    "input_text": "A microwave heats food using electromagnetic waves, while an oven cooks food with heat from gas or electricity."
+  },
+  {
+    "id": 571,
+    "input_text": "A smartphone connects to a Wi-Fi network with the correct password."
+  },
+  {
+    "id": 572,
+    "input_text": "A book is a bestseller if it sells a large number of copies and receives positive reviews."
+  },
+  {
+    "id": 573,
+    "input_text": "When a store is open, customers can enter and make purchases."
+  },
+  {
+    "id": 574,
+    "input_text": "Refrigerators keep food cold to slow down bacterial growth."
+  },
+  {
+    "id": 575,
+    "input_text": "A bird that can mimic various sounds, communicate through vocalizations, and is known for its complex songs is called a songbird."
+  },
+  {
+    "id": 576,
+    "input_text": "Some insects are not harmful to plants."
+  },
+  {
+    "id": 577,
+    "input_text": "Cinema is a form of visual storytelling through moving images."
+  },
+  {
+    "id": 578,
+    "input_text": "Triangles have three sides."
+  },
+  {
+    "id": 579,
+    "input_text": "A person is considered a programmer if they can write computer code."
+  },
+  {
+    "id": 580,
+    "input_text": "Sculptures can be made from materials such as stone, wood, or metal, while paintings are made using pigments on surfaces like canvas or paper."
+  },
+  {
+    "id": 581,
+    "input_text": "Mercury is closer to the sun than Earth, Venus has a thick atmosphere, and Mars has the tallest volcano in the solar system."
+  },
+  {
+    "id": 582,
+    "input_text": "A vaccine provides immunity against a specific disease, which helps in preventing its spread among the population."
+  },
+  {
+    "id": 583,
+    "input_text": "Countries with a democratic government tend to respect human rights more than those with authoritarian regimes."
+  },
+  {
+    "id": 584,
+    "input_text": "A restaurant offers outdoor seating if it has a patio or a terrace that can accommodate customers."
+  },
+  {
+    "id": 585,
+    "input_text": "A museum displays artifacts and may host temporary exhibitions."
+  },
+  {
+    "id": 586,
+    "input_text": "A hammer is a tool, used for driving nails, and has a metal head."
+  },
+  {
+    "id": 587,
+    "input_text": "A person who writes, directs, produces, and sometimes acts in theatrical performances, such as plays and musicals, is a playwright."
+  },
+  {
+    "id": 588,
+    "input_text": "Researchers study a range of topics, including natural sciences or social sciences, and publish their findings in academic journals or present at conferences."
+  },
+  {
+    "id": 589,
+    "input_text": "Some marine animals, like dolphins and whales, are mammals that live in the ocean and breathe air."
+  },
+  {
+    "id": 590,
+    "input_text": "A dessert is sweet and either cold or hot, but not both."
+  },
+  {
+    "id": 591,
+    "input_text": "Rain occurs when clouds are full and air pressure drops."
+  },
+  {
+    "id": 592,
+    "input_text": "All plants that produce flowers and have seeds enclosed in a fruit are classified as angiosperms."
+  },
+  {
+    "id": 593,
+    "input_text": "A movie is a blockbuster if it has a large budget, high box office revenue, and positive reviews."
+  },
+  {
+    "id": 594,
+    "input_text": "A food is considered spicy if it contains chili peppers or hot sauce."
+  },
+  {
+    "id": 595,
+    "input_text": "Tea and coffee are popular beverages that contain caffeine, but tea typically has less caffeine than coffee."
+  },
+  {
+    "id": 596,
+    "input_text": "A cat is a type of mammal."
+  },
+  {
+    "id": 597,
+    "input_text": "A rainbow appears when sunlight is refracted, reflected, and dispersed by water droplets in the air, creating a spectrum of colors."
+  },
+  {
+    "id": 598,
+    "input_text": "A vacuum cleaner removes dirt and dust from surfaces by creating suction with a motor."
+  },
+  {
+    "id": 599,
+    "input_text": "A flight connects two cities, departing from one airport and arriving at another, operated by an airline."
+  },
+  {
+    "id": 600,
+    "input_text": "A device is considered wireless if it doesn't require a physical connection to function."
+  },
+  {
+    "id": 601,
+    "input_text": "Every odd number is not divisible by 2."
+  },
+  {
+    "id": 602,
+    "input_text": "A mountain is higher than a hill, a hill is higher than a valley, and a valley is not higher than a mountain."
+  },
+  {
+    "id": 603,
+    "input_text": "If a person is a scientist, they either conduct experiments or analyze data."
+  },
+  {
+    "id": 604,
+    "input_text": "A building is considered earthquake-resistant if it has a strong foundation, flexible structural elements, and is designed to withstand ground motion."
+  },
+  {
+    "id": 605,
+    "input_text": "A student can enroll in a course if they meet the prerequisites and there is space available."
+  },
+  {
+    "id": 606,
+    "input_text": "A person is considered a doctor if they have a medical degree and can treat patients."
+  },
+  {
+    "id": 607,
+    "input_text": "An athlete is eligible for a competition if they meet the age requirement, pass a drug test, and are not disqualified for any other reason."
+  },
+  {
+    "id": 608,
+    "input_text": "An electronic device can be either a smartphone or a tablet."
+  },
+  {
+    "id": 609,
+    "input_text": "A train operates on tracks and is powered by electricity or diesel."
+  },
+  {
+    "id": 610,
+    "input_text": "A sculpture is created from materials such as stone, wood, or metal."
+  },
+  {
+    "id": 611,
+    "input_text": "A smartphone is deemed user-friendly when it possesses an intuitive interface and a long battery life."
+  },
+  {
+    "id": 612,
+    "input_text": "A chair is broken or not in use."
+  },
+  {
+    "id": 613,
+    "input_text": "A gardener plants flowers in a garden."
+  },
+  {
+    "id": 614,
+    "input_text": "An event that takes place every four years, includes multiple sporting disciplines, and involves participants from numerous countries is an Olympic Games."
+  },
+  {
+    "id": 615,
+    "input_text": "A chef prepares meals in a restaurant."
+  },
+  {
+    "id": 616,
+    "input_text": "A computer is portable if it is designed for easy transport and can be operated without a fixed power source."
+  },
+  {
+    "id": 617,
+    "input_text": "A sport is played with a ball and on a field, or it is played with a racket and on a court."
+  },
+  {
+    "id": 618,
+    "input_text": "A book becomes a bestseller if it has engaging content, widespread availability, and positive reviews."
+  },
+  {
+    "id": 619,
+    "input_text": "A desert is an area with low precipitation and has sparse vegetation."
+  },
+  {
+    "id": 620,
+    "input_text": "Chefs create dishes by combining ingredients according to a recipe."
+  },
+  {
+    "id": 621,
+    "input_text": "An athlete performs better when they are well-rested or highly motivated, but not if they are injured."
+  },
+  {
+    "id": 622,
+    "input_text": "A structure containing a lighthouse, situated on a coastal area, and serving as a navigational aid for maritime vessels is a harbor."
+  },
+  {
+    "id": 623,
+    "input_text": "An artwork is either a painting and on canvas, or a sculpture and three-dimensional, but not both."
+  },
+  {
+    "id": 624,
+    "input_text": "A city is crowded if it has a dense population and limited space."
+  },
+  {
+    "id": 625,
+    "input_text": "A shape can be a square, circle, or triangle."
+  },
+  {
+    "id": 626,
+    "input_text": "Dogs bark when they are excited or sense danger."
+  },
+  {
+    "id": 627,
+    "input_text": "A bicycle has gears or is gearless."
+  },
+  {
+    "id": 628,
+    "input_text": "A cell is alive if it performs cellular respiration and maintains homeostasis."
+  },
+  {
+    "id": 629,
+    "input_text": "An item is considered valuable if it is worth a lot of money."
+  },
+  {
+    "id": 630,
+    "input_text": "A garment designed to be worn on the upper body, with a collar, buttons, and long or short sleeves, is a shirt."
+  },
+  {
+    "id": 631,
+    "input_text": "A flight can be either international or domestic, but it cannot be both."
+  },
+  {
+    "id": 632,
+    "input_text": "If someone is a parent and a grandparent, they must be at least two generations older than their grandchild."
+  },
+  {
+    "id": 633,
+    "input_text": "A piece of writing is classified as non-fiction if it presents factual information and is based on reality."
+  },
+  {
+    "id": 634,
+    "input_text": "Lions are carnivores, and elephants are herbivores."
+  },
+  {
+    "id": 635,
+    "input_text": "A video game x becomes popular in demographic y when it appeals to their interests and has engaging gameplay elements."
+  },
+  {
+    "id": 636,
+    "input_text": "A smartphone must have at least one of the following: camera, GPS, or internet access."
+  },
+  {
+    "id": 637,
+    "input_text": "An elevator moves vertically and transports people or goods between floors."
+  },
+  {
+    "id": 638,
+    "input_text": "A diverse ecosystem supports a variety of species, such as plants, animals, and microorganisms, which interact and depend on one another for survival."
+  },
+  {
+    "id": 639,
+    "input_text": "A vehicle that is designed for travel on water, is powered by an engine or sails, and has a hull is a boat."
+  },
+  {
+    "id": 640,
+    "input_text": "Movies can be silent or have sound."
+  },
+  {
+    "id": 641,
+    "input_text": "A mountain climber must possess physical strength and endurance, as well as knowledge of climbing techniques and safety procedures."
+  },
+  {
+    "id": 642,
+    "input_text": "Farmers grow crops on fields."
+  },
+  {
+    "id": 643,
+    "input_text": "A renewable energy source is sustainable if it can be replenished naturally, has a low environmental impact, and is economically viable."
+  },
+  {
+    "id": 644,
+    "input_text": "A substance that changes color when exposed to different pH levels is a pH indicator."
+  },
+  {
+    "id": 645,
+    "input_text": "A region is classified as a desert if it receives low precipitation, has sparse vegetation, and experiences extreme temperature variations between day and night."
+  },
+  {
+    "id": 646,
+    "input_text": "When two nations share a border, they are neighboring countries."
+  },
+  {
+    "id": 647,
+    "input_text": "An apple can be red or green, but an orange is typically orange in color."
+  },
+  {
+    "id": 648,
+    "input_text": "Ice is cold."
+  },
+  {
+    "id": 649,
+    "input_text": "A shape may have three sides, four sides, or five sides, but not all three."
+  },
+  {
+    "id": 650,
+    "input_text": "Vehicles equipped with advanced safety features and driver-assist technology can reduce the likelihood of accidents and protect passengers more effectively."
+  },
+  {
+    "id": 651,
+    "input_text": "A person who is a doctor diagnoses and treats illnesses."
+  },
+  {
+    "id": 652,
+    "input_text": "Mathematics involves the study of numbers, shapes, and patterns."
+  },
+  {
+    "id": 653,
+    "input_text": "Some beverages are hot and sweet, others are cold and sweet."
+  },
+  {
+    "id": 654,
+    "input_text": "A chef cooks meals, a waiter serves customers, and a cashier handles payments."
+  },
+  {
+    "id": 655,
+    "input_text": "A room is dark if no lights are on and the curtains are closed."
+  },
+  {
+    "id": 656,
+    "input_text": "A thermometer measures temperature, and a barometer measures atmospheric pressure."
+  },
+  {
+    "id": 657,
+    "input_text": "An object is considered antique if it is old, valuable, and has historical or cultural significance."
+  },
+  {
+    "id": 658,
+    "input_text": "A chemical reaction that absorbs heat from its surroundings, results in a decrease in temperature, and forms new chemical compounds is classified as an endothermic reaction."
+  },
+  {
+    "id": 659,
+    "input_text": "A car is considered an electric vehicle if it is powered by an electric motor and uses batteries for energy storage."
+  },
+  {
+    "id": 660,
+    "input_text": "A scientist's work is influential if it advances knowledge or leads to new discoveries."
+  },
+  {
+    "id": 661,
+    "input_text": "A dentist treats teeth."
+  },
+  {
+    "id": 662,
+    "input_text": "A comet is composed of ice, dust, and rock, and orbits the sun, releasing gas and dust as it gets closer to the sun."
+  },
+  {
+    "id": 663,
+    "input_text": "A computer is portable if it is lightweight and compact, but not a stationary desktop model."
+  },
+  {
+    "id": 664,
+    "input_text": "A tool x is used for task y if x is specifically designed to perform y and is effective in completing y."
+  },
+  {
+    "id": 665,
+    "input_text": "A vehicle is a hybrid vehicle if it uses a combination of an internal combustion engine and an electric motor to propel itself."
+  },
+  {
+    "id": 666,
+    "input_text": "A dessert is sweet, but not salty or spicy."
+  },
+  {
+    "id": 667,
+    "input_text": "An artist creates artwork in various forms, such as painting, sculpture, or digital media."
+  },
+  {
+    "id": 668,
+    "input_text": "A power plant generates electricity."
+  },
+  {
+    "id": 669,
+    "input_text": "In an ecosystem, primary producers, such as plants or algae, convert sunlight into energy through photosynthesis, while consumers, like herbivores or carnivores, obtain energy by eating other organisms, and decomposers, like fungi or bacteria, break down dead organic material and recycle nutrients."
+  },
+  {
+    "id": 670,
+    "input_text": "An object is considered a tool if it is designed to help perform a specific task or function."
+  },
+  {
+    "id": 671,
+    "input_text": "An object is a pyramid if it has a polygonal base and triangular faces that meet at a single point."
+  },
+  {
+    "id": 672,
+    "input_text": "An operating system is user-friendly if it offers an intuitive interface, delivers reliable performance, and provides robust security features."
+  },
+  {
+    "id": 673,
+    "input_text": "Painters create artwork using paint on canvas."
+  },
+  {
+    "id": 674,
+    "input_text": "A person who is a nurse provides healthcare and assists doctors."
+  },
+  {
+    "id": 675,
+    "input_text": "An animal x is a good candidate for domestication if it has traits such as adaptability and a manageable temperament, which are desirable for humans y."
+  },
+  {
+    "id": 676,
+    "input_text": "A museum can display paintings, sculptures, or both, but it cannot exhibit live animals."
+  },
+  {
+    "id": 677,
+    "input_text": "If it is raining, people usually use umbrellas or raincoats."
+  },
+  {
+    "id": 678,
+    "input_text": "A beverage can be either hot or cold."
+  },
+  {
+    "id": 679,
+    "input_text": "An asteroid poses a threat to Earth if its trajectory intersects with Earth's orbit and its size is large enough to cause significant damage."
+  },
+  {
+    "id": 680,
+    "input_text": "A vacation is deemed memorable when it offers unforgettable experiences, fosters meaningful connections, and provides opportunities for relaxation."
+  },
+  {
+    "id": 681,
+    "input_text": "A restaurant serves meals."
+  },
+  {
+    "id": 682,
+    "input_text": "A painting is considered valuable if it was created by a renowned artist and is well-preserved."
+  },
+  {
+    "id": 683,
+    "input_text": "A student who excels in math and science may pursue a career in engineering."
+  },
+  {
+    "id": 684,
+    "input_text": "An employee who works more than 40 hours per week is eligible for overtime pay, unless they are in a managerial position."
+  },
+  {
+    "id": 685,
+    "input_text": "Carnivorous plants, like Venus flytraps and pitcher plants, capture insects for nutrients, using specialized structures to trap their prey."
+  },
+  {
+    "id": 686,
+    "input_text": "A cake is delicious if it is moist, not overly sweet, and made with quality ingredients."
+  },
+  {
+    "id": 687,
+    "input_text": "A park provides recreational facilities, such as playgrounds, sports fields, and picnic areas."
+  },
+  {
+    "id": 688,
+    "input_text": "A runner trains by running long distances and practicing speed, while a swimmer trains by swimming in water and improving technique."
+  },
+  {
+    "id": 689,
+    "input_text": "A material is deemed a metal if it exhibits high electrical and thermal conductivity, malleability, and a lustrous appearance."
+  },
+  {
+    "id": 690,
+    "input_text": "Certain plants thrive in specific soil types and climate conditions."
+  },
+  {
+    "id": 691,
+    "input_text": "Hurricanes form over warm ocean waters, while tornadoes form over land."
+  },
+  {
+    "id": 692,
+    "input_text": "Cacti thrive in dry and arid environments."
+  },
+  {
+    "id": 693,
+    "input_text": "A good workout routine combines cardio exercises, strength training, and flexibility activities."
+  },
+  {
+    "id": 694,
+    "input_text": "If a person is a psychologist, they must study and assess human behavior and mental processes, often providing therapy and counseling services."
+  },
+  {
+    "id": 695,
+    "input_text": "A smartphone with a long-lasting battery and fast-charging capabilities is suitable for travelers or professionals who need to stay connected."
+  },
+  {
+    "id": 696,
+    "input_text": "A train arrives at a station on time if it follows the predetermined schedule and does not experience any unexpected delays."
+  },
+  {
+    "id": 697,
+    "input_text": "A good sense of humor can make social situations more enjoyable."
+  },
+  {
+    "id": 698,
+    "input_text": "A student must pass all exams to graduate."
+  },
+  {
+    "id": 699,
+    "input_text": "A tree that loses its leaves in autumn and regrows them in spring is classified as deciduous."
+  },
+  {
+    "id": 700,
+    "input_text": "A resilient ecosystem can recover from disturbances and maintain its biodiversity."
+  },
+  {
+    "id": 701,
+    "input_text": "Engineers design machines for factories."
+  },
+  {
+    "id": 702,
+    "input_text": "A smartphone can be used for communication, browsing the internet, and taking pictures, while a landline phone is limited to voice communication."
+  },
+  {
+    "id": 703,
+    "input_text": "If a person is a chef, they are skilled in cooking."
+  },
+  {
+    "id": 704,
+    "input_text": "Cars and bicycles are means of transportation, with cars being motorized and faster, while bicycles are human-powered and more environmentally friendly."
+  },
+  {
+    "id": 705,
+    "input_text": "A construction company specializes in various types of projects, like residential, commercial, and industrial, and utilizes diverse building materials, such as wood, steel, and concrete."
+  },
+  {
+    "id": 706,
+    "input_text": "A course is challenging if it requires critical thinking or extensive problem-solving."
+  },
+  {
+    "id": 707,
+    "input_text": "Pine trees are evergreen and have needle-like leaves, while deciduous trees lose their leaves annually and have broad leaves."
+  },
+  {
+    "id": 708,
+    "input_text": "A building can have a rooftop garden if the roof is flat and has enough space, but not if the roof is slanted."
+  },
+  {
+    "id": 709,
+    "input_text": "Daytime is characterized by sunlight, while nighttime is characterized by darkness."
+  },
+  {
+    "id": 710,
+    "input_text": "Some books have illustrations."
+  },
+  {
+    "id": 711,
+    "input_text": "A painter applies paint to a surface, creating artwork, which can be displayed in a gallery."
+  },
+  {
+    "id": 712,
+    "input_text": "A raincoat provides protection from rain by repelling water with its waterproof material."
+  },
+  {
+    "id": 713,
+    "input_text": "A celestial body orbiting a star, massive enough to be shaped by its own gravity into a spherical shape, and has cleared its orbit of other debris is a planet."
+  },
+  {
+    "id": 714,
+    "input_text": "A person is considered bilingual if they can speak English and Spanish fluently."
+  },
+  {
+    "id": 715,
+    "input_text": "A work of art is a sculpture if it is a three-dimensional object made of materials like stone, metal, or clay, and is created by an artist."
+  },
+  {
+    "id": 716,
+    "input_text": "A book that is a collection of recipes and cooking tips is called a cookbook."
+  },
+  {
+    "id": 717,
+    "input_text": "Books in a library are either available for borrowing or currently checked out by someone."
+  },
+  {
+    "id": 718,
+    "input_text": "An event is either indoor or outdoor, but not both."
+  },
+  {
+    "id": 719,
+    "input_text": "A painting is an abstract artwork if it consists of non-representational shapes, colors, or patterns and does not depict recognizable objects or scenes."
+  },
+  {
+    "id": 720,
+    "input_text": "A weather condition is either sunny or rainy if there are clear skies or clouds."
+  },
+  {
+    "id": 721,
+    "input_text": "A drug that effectively treats a disease and has minimal side effects is considered safe and efficacious."
+  },
+  {
+    "id": 722,
+    "input_text": "The Mona Lisa is a famous painting that is located in the Louvre Museum."
+  },
+  {
+    "id": 723,
+    "input_text": "A bicycle can be designed for road cycling or mountain biking, but not if it's intended for children or if it's a stationary exercise bike."
+  },
+  {
+    "id": 724,
+    "input_text": "A vehicle offers a smooth ride when its suspension system is well-tuned, the tires are properly inflated, and the road surface is even."
+  },
+  {
+    "id": 725,
+    "input_text": "An animal that has fur, feeds its young with milk, and gives birth to live offspring is a mammal."
+  },
+  {
+    "id": 726,
+    "input_text": "Basketball is played with a round ball, soccer uses a larger round ball, and rugby features an oval ball; still, all are team sports."
+  },
+  {
+    "id": 727,
+    "input_text": "A medication that effectively treats symptoms and has minimal side effects is more likely to be prescribed by doctors."
+  },
+  {
+    "id": 728,
+    "input_text": "A musical instrument produces sound by vibrating a specific part, such as a string or a membrane."
+  },
+  {
+    "id": 729,
+    "input_text": "An algorithm solves a given problem efficiently if it can process the input data, generate correct output, and the time complexity is optimal for the problem size."
+  },
+  {
+    "id": 730,
+    "input_text": "A smartphone is user-friendly if it has an intuitive interface, responsive touch screen, and long battery life."
+  },
+  {
+    "id": 731,
+    "input_text": "A movie captivates audiences when it combines a strong storyline, memorable characters, and impressive visual effects, but fails to do so if the pacing is slow."
+  },
+  {
+    "id": 732,
+    "input_text": "A type of fungus that grows on organic matter and releases spores is a mold."
+  },
+  {
+    "id": 733,
+    "input_text": "A film is suitable for children if it has a rating of G or PG and does not contain explicit content."
+  },
+  {
+    "id": 734,
+    "input_text": "An artist creates artwork and exhibits them in galleries."
+  },
+  {
+    "id": 735,
+    "input_text": "Not every smartphone has a large screen, and some smartphones support fast charging or have a long battery life."
+  },
+  {
+    "id": 736,
+    "input_text": "Deserts are characterized by extreme temperatures, little rainfall, and sparse vegetation, while rainforests have high rainfall and abundant biodiversity."
+  },
+  {
+    "id": 737,
+    "input_text": "Musicians who play wind instruments, such as flutes and saxophones, create sound by blowing air into the instrument."
+  },
+  {
+    "id": 738,
+    "input_text": "A vaccine provides immunity to a disease if it triggers an immune response and generates specific antibodies."
+  },
+  {
+    "id": 739,
+    "input_text": "A bird can fly if it is not injured."
+  },
+  {
+    "id": 740,
+    "input_text": "A person is considered a professional chef if they have culinary training and work in a commercial kitchen."
+  },
+  {
+    "id": 741,
+    "input_text": "A city is considered a metropolis if it has a large population and significant economic, cultural, and political influence."
+  },
+  {
+    "id": 742,
+    "input_text": "People who live in urban areas and use public transportation frequently are more likely to own a monthly pass."
+  },
+  {
+    "id": 743,
+    "input_text": "A country can have a monarchy or a republic system, but not both."
+  },
+  {
+    "id": 744,
+    "input_text": "If a location is a desert, it has low rainfall and extreme temperatures."
+  },
+  {
+    "id": 745,
+    "input_text": "A park is considered accessible when it has paved paths, ramps for wheelchairs, and clear signage."
+  },
+  {
+    "id": 746,
+    "input_text": "An escalator moves people between floors."
+  },
+  {
+    "id": 747,
+    "input_text": "A thriving ecosystem contains diverse species, maintains a balanced food chain, and supports natural processes for nutrient cycling."
+  },
+  {
+    "id": 748,
+    "input_text": "A type of plant can be either a tree or a shrub."
+  },
+  {
+    "id": 749,
+    "input_text": "Substances can exist in different states of matter, such as solid, liquid, or gas, depending on their temperature and pressure conditions."
+  },
+  {
+    "id": 750,
+    "input_text": "A fruit is either sweet or sour, but not tasteless."
+  },
+  {
+    "id": 751,
+    "input_text": "If a person is an astronaut, they must have completed extensive training and be employed by a space agency."
+  },
+  {
+    "id": 752,
+    "input_text": "If a country is democratic, it holds elections."
+  },
+  {
+    "id": 753,
+    "input_text": "A battery is either fully charged, partially charged, or depleted, but not more than one of these states at the same time."
+  },
+  {
+    "id": 754,
+    "input_text": "A meal is satisfying when it has vegetables and protein."
+  },
+  {
+    "id": 755,
+    "input_text": "If a person is a writer, they create written works."
+  },
+  {
+    "id": 756,
+    "input_text": "A painting is valuable if it is created by a famous artist, preserved in good condition, and has a unique style."
+  },
+  {
+    "id": 757,
+    "input_text": "High-quality headphones offer better sound reproduction."
+  },
+  {
+    "id": 758,
+    "input_text": "A lake is a body of water surrounded by land and can be a natural or artificial formation."
+  },
+  {
+    "id": 759,
+    "input_text": "A heart pumps blood, lungs exchange gases, and kidneys filter waste."
+  },
+  {
+    "id": 760,
+    "input_text": "A fabric is synthetic when it isn't made from natural fibers and is man-made."
+  },
+  {
+    "id": 761,
+    "input_text": "A celestial body that orbits a star and reflects light is a planet or a moon."
+  },
+  {
+    "id": 762,
+    "input_text": "A house is composed of rooms, such as bedrooms, bathrooms, and a kitchen."
+  },
+  {
+    "id": 763,
+    "input_text": "A triangle has three sides and three angles that sum up to 180 degrees."
+  },
+  {
+    "id": 764,
+    "input_text": "A person is considered a pharmacist if they dispense medications prescribed by healthcare professionals and provide information about those medications."
+  },
+  {
+    "id": 765,
+    "input_text": "Trees absorb carbon dioxide during photosynthesis and release oxygen, contributing to cleaner air."
+  },
+  {
+    "id": 766,
+    "input_text": "A password is considered secure if it contains a mix of uppercase and lowercase letters, numbers, and special characters."
+  },
+  {
+    "id": 767,
+    "input_text": "A phone connects calls."
+  },
+  {
+    "id": 768,
+    "input_text": "A polygon with six sides is called a hexagon, while a polygon with eight sides is called an octagon."
+  },
+  {
+    "id": 769,
+    "input_text": "A structure that is built for habitation, provides shelter, and is composed of multiple rooms is a house or an apartment."
+  },
+  {
+    "id": 770,
+    "input_text": "A nurse assists in patient care, a lawyer provides legal services, and a teacher educates students."
+  },
+  {
+    "id": 771,
+    "input_text": "A process that involves the combination of simpler substances to form more complex substances, requires energy input, and results in the growth and repair of tissues is called anabolism."
+  },
+  {
+    "id": 772,
+    "input_text": "If a person is a coach, they train and guide athletes in a specific sport."
+  },
+  {
+    "id": 773,
+    "input_text": "A microwave heats food quickly, while an oven takes longer to heat food but can also be used for baking."
+  },
+  {
+    "id": 774,
+    "input_text": "Volcanoes can be dormant, active, or extinct, and their eruptions can cause significant geological and environmental changes."
+  },
+  {
+    "id": 775,
+    "input_text": "A square has four equal sides, while a rectangle has four sides with opposite sides equal."
+  },
+  {
+    "id": 776,
+    "input_text": "Tall buildings cast long shadows."
+  },
+  {
+    "id": 777,
+    "input_text": "Some rocks are igneous, others are sedimentary, and yet others are metamorphic."
+  },
+  {
+    "id": 778,
+    "input_text": "Candles produce light when burning."
+  },
+  {
+    "id": 779,
+    "input_text": "An employee works for a company, and they can receive a salary or an hourly wage."
+  },
+  {
+    "id": 780,
+    "input_text": "A software tool that can detect and remove malware, monitor system performance, and provide real-time protection is classified as an antivirus program."
+  },
+  {
+    "id": 781,
+    "input_text": "A person who consumes excessive amounts of sugar is at a higher risk of developing type 2 diabetes."
+  },
+  {
+    "id": 782,
+    "input_text": "A lake is classified as freshwater if its salinity is less than 0.5%."
+  },
+  {
+    "id": 783,
+    "input_text": "If a person practices mindfulness and meditation, they are more likely to experience reduced stress and increased mental clarity."
+  },
+  {
+    "id": 784,
+    "input_text": "Trees grow in soil, require sunlight and water, and are not found in the ocean."
+  },
+  {
+    "id": 785,
+    "input_text": "A turtle has a protective shell and retractable limbs."
+  },
+  {
+    "id": 786,
+    "input_text": "Caves and sinkholes form in limestone bedrock through the process of dissolution, as rainwater and groundwater, which contain dissolved carbon dioxide, react with the calcium carbonate in the rock."
+  },
+  {
+    "id": 787,
+    "input_text": "An airline operates flights to domestic and international destinations, providing various types of seating options, like economy, business, or first-class."
+  },
+  {
+    "id": 788,
+    "input_text": "A submarine can dive below the surface of the water and navigate underwater using a system of ballast tanks and propulsion."
+  },
+  {
+    "id": 789,
+    "input_text": "A dessert is delicious if it has a balanced sweetness, a pleasing texture, and is not too heavy."
+  },
+  {
+    "id": 790,
+    "input_text": "A national park comprises diverse ecosystems, including forests, grasslands, and wetlands, and provides opportunities for outdoor activities like hiking, camping, or wildlife watching."
+  },
+  {
+    "id": 791,
+    "input_text": "Cats groom themselves regularly, while dogs rely on their owners for grooming."
+  },
+  {
+    "id": 792,
+    "input_text": "A computer network connects multiple devices if it enables data transmission and communication between the devices."
+  },
+  {
+    "id": 793,
+    "input_text": "A beverage that is carbonated or caffeinated can be considered refreshing."
+  },
+  {
+    "id": 794,
+    "input_text": "A scientist who studies plants or animals is a biologist."
+  },
+  {
+    "id": 795,
+    "input_text": "A person is considered a minimalist if they prefer to live with fewer material possessions."
+  },
+  {
+    "id": 796,
+    "input_text": "A comfortable living environment requires clean air, moderate temperatures, and appropriate noise levels."
+  },
+  {
+    "id": 797,
+    "input_text": "A planet is habitable if it has liquid water and a suitable atmosphere for life."
+  },
+  {
+    "id": 798,
+    "input_text": "An engine that converts chemical energy into mechanical work, powers vehicles, and is fueled by internal combustion is called an internal combustion engine."
+  },
+  {
+    "id": 799,
+    "input_text": "A person is a vegetarian if they do not eat meat."
+  },
+  {
+    "id": 800,
+    "input_text": "A bakery sells bread and pastries, while a butcher shop sells meat and poultry."
+  },
+  {
+    "id": 801,
+    "input_text": "A type of fuel that is derived from renewable resources, emits fewer greenhouse gases, and is used to power vehicles is a biofuel."
+  },
+  {
+    "id": 802,
+    "input_text": "A solid substance that conducts electricity well and is malleable and ductile is a metal."
+  },
+  {
+    "id": 803,
+    "input_text": "An artwork is considered thought-provoking if it incorporates symbolic elements or evokes emotions, but not if it's made for commercial purposes."
+  },
+  {
+    "id": 804,
+    "input_text": "A doctor x prescribes a medication y to a patient z if y is appropriate for z's condition and x is licensed."
+  },
+  {
+    "id": 805,
+    "input_text": "A laptop and a desktop computer can perform similar tasks, but they have different levels of portability and customization."
+  },
+  {
+    "id": 806,
+    "input_text": "Fermentation is a metabolic process used by microorganisms, such as yeast and bacteria, to convert sugars into other products, like alcohol or lactic acid."
+  },
+  {
+    "id": 807,
+    "input_text": "A hammer nails, a saw cuts wood, and a wrench tightens bolts."
+  },
+  {
+    "id": 808,
+    "input_text": "A substance is considered a solid if it has a definite shape and volume."
+  },
+  {
+    "id": 809,
+    "input_text": "A location is considered a wetland if it is covered by shallow water, supports aquatic plants, and provides habitat for diverse wildlife."
+  },
+  {
+    "id": 810,
+    "input_text": "If an animal is a reptile, it has scales and lays eggs."
+  },
+  {
+    "id": 811,
+    "input_text": "No car can be both a convertible and a sedan."
+  },
+  {
+    "id": 812,
+    "input_text": "Fruits with a higher vitamin C content are better at preventing scurvy than those with lower amounts."
+  },
+  {
+    "id": 813,
+    "input_text": "A computer x is vulnerable to a cyber attack y if it lacks security measures z that protect against the attack."
+  },
+  {
+    "id": 814,
+    "input_text": "A book that is both a mystery novel and a thriller is considered a hybrid genre."
+  },
+  {
+    "id": 815,
+    "input_text": "A natural phenomenon is a volcanic eruption if it involves the release of molten rock, ash, and gas from a volcano."
+  },
+  {
+    "id": 816,
+    "input_text": "A game can be single-player or multiplayer but not both relaxing and challenging."
+  },
+  {
+    "id": 817,
+    "input_text": "A type of footwear that is designed for athletic activities, provides cushioning and support, and has a rubber sole is a sports shoe."
+  },
+  {
+    "id": 818,
+    "input_text": "Lakes are surrounded by land."
+  },
+  {
+    "id": 819,
+    "input_text": "Snow is cold, while lava is hot."
+  },
+  {
+    "id": 820,
+    "input_text": "A chair has a seat, a backrest, and supports one person, while a bench has a seat, no backrest, and supports multiple people."
+  },
+  {
+    "id": 821,
+    "input_text": "A molecule contains atoms bonded together."
+  },
+  {
+    "id": 822,
+    "input_text": "A vehicle is considered an electric car if it is powered by an electric motor and primarily uses electricity as its energy source."
+  },
+  {
+    "id": 823,
+    "input_text": "A region is classified as a desert when it experiences low precipitation, supports little vegetation, and has a dry, arid climate."
+  },
+  {
+    "id": 824,
+    "input_text": "A painting is considered valuable if it is created by a renowned artist and is in excellent condition."
+  },
+  {
+    "id": 825,
+    "input_text": "A river that flows into another body of water, such as a lake or an ocean, is called a tributary."
+  },
+  {
+    "id": 826,
+    "input_text": "A boat floats on water and has a hull, while an airplane flies in the air and has wings."
+  },
+  {
+    "id": 827,
+    "input_text": "A workout is intense if it increases heart rate or burns many calories."
+  },
+  {
+    "id": 828,
+    "input_text": "An athlete who follows a rigorous training regimen, consumes a well-balanced diet, and gets enough sleep can maximize their performance potential."
+  },
+  {
+    "id": 829,
+    "input_text": "Not all metals are magnetic, but some exhibit this property."
+  },
+  {
+    "id": 830,
+    "input_text": "If a car is electric, then it is powered by a battery."
+  },
+  {
+    "id": 831,
+    "input_text": "A tree provides shade in summer and loses leaves in autumn."
+  },
+  {
+    "id": 832,
+    "input_text": "A smartphone has a camera and can access the internet, while a feature phone has limited internet capabilities."
+  },
+  {
+    "id": 833,
+    "input_text": "An entity is identified as a computer if it is an electronic device, capable of performing calculations and processing data, and may include components such as a central processing unit, memory, and storage."
+  },
+  {
+    "id": 834,
+    "input_text": "A flower that blooms at night typically has a strong fragrance, attracts nocturnal pollinators, and has light-colored petals."
+  },
+  {
+    "id": 835,
+    "input_text": "A smartphone is easy to use when it has an intuitive interface and does not require frequent charging."
+  },
+  {
+    "id": 836,
+    "input_text": "A vehicle is considered eco-friendly if it uses electricity, solar power, or hydrogen fuel cells as its primary energy source."
+  },
+  {
+    "id": 837,
+    "input_text": "A beverage is alcoholic if it contains ethanol and has an alcohol content greater than 0.5% by volume."
+  },
+  {
+    "id": 838,
+    "input_text": "A rectangle is a square if it has four equal sides."
+  },
+  {
+    "id": 839,
+    "input_text": "Some fruits are sweet."
+  },
+  {
+    "id": 840,
+    "input_text": "A person is considered a painter if they create visual art, often on canvas, paper, or other surfaces, using paint, brushes, and various techniques to express ideas or emotions."
+  },
+  {
+    "id": 841,
+    "input_text": "A person who provides care and support to individuals with disabilities is called a caregiver."
+  },
+  {
+    "id": 842,
+    "input_text": "A large, natural satellite that orbits a planet and is held in place by the planet's gravitational force is referred to as a moon."
+  },
+  {
+    "id": 843,
+    "input_text": "A person is considered a lawyer if they have a law degree and are authorized to practice law."
+  },
+  {
+    "id": 844,
+    "input_text": "A structure is a dam when it is a barrier, constructed across a river or stream, and serves multiple purposes, such as flood control, irrigation, and hydroelectric power generation."
+  },
+  {
+    "id": 845,
+    "input_text": "A cat catches mice, birds, or lizards, but not all three at the same time."
+  },
+  {
+    "id": 846,
+    "input_text": "If a vehicle is a hybrid, it uses both gasoline and electricity as energy sources."
+  },
+  {
+    "id": 847,
+    "input_text": "During photosynthesis, plants convert sunlight into chemical energy, which is then used for growth and reproduction."
+  },
+  {
+    "id": 848,
+    "input_text": "A liquid will freeze if its temperature falls below its freezing point."
+  },
+  {
+    "id": 849,
+    "input_text": "A person who practices yoga and meditation regularly is considered a mindful individual."
+  },
+  {
+    "id": 850,
+    "input_text": "A movie is a blockbuster if it has a high box office revenue and receives widespread acclaim."
+  },
+  {
+    "id": 851,
+    "input_text": "If a person is a software developer, they must design, write, test, and maintain computer programs and applications to solve problems and perform tasks."
+  },
+  {
+    "id": 852,
+    "input_text": "A bird can fly if it has wings and is not flightless."
+  },
+  {
+    "id": 853,
+    "input_text": "All stars emit light."
+  },
+  {
+    "id": 854,
+    "input_text": "A person is considered a singer if they perform songs using their voice."
+  },
+  {
+    "id": 855,
+    "input_text": "A liquid is classified as a solvent when it is used to dissolve other substances, forming a solution."
+  },
+  {
+    "id": 856,
+    "input_text": "Rainy weather causes people to carry umbrellas."
+  },
+  {
+    "id": 857,
+    "input_text": "A tornado forms when warm, moist air meets cool, dry air, causing the formation of a rotating column of air extending from the base of a thunderstorm cloud to the ground."
+  },
+  {
+    "id": 858,
+    "input_text": "A novel belongs to the science fiction genre when it contains futuristic settings, advanced technology, or extraterrestrial life."
+  },
+  {
+    "id": 859,
+    "input_text": "A basketball is round, a football is elongated, and a hockey puck is flat."
+  },
+  {
+    "id": 860,
+    "input_text": "A smartphone with a high-quality camera and a sleek design is attractive, but not if it lacks privacy features."
+  },
+  {
+    "id": 861,
+    "input_text": "A fan circulates air, while an air conditioner cools air but doesn't primarily circulate it."
+  },
+  {
+    "id": 862,
+    "input_text": "A gardener cultivates flowers, shrubs, and trees in a garden."
+  },
+  {
+    "id": 863,
+    "input_text": "A beverage is alcoholic if it contains ethanol and has a percentage of alcohol content."
+  },
+  {
+    "id": 864,
+    "input_text": "Lions hunt, koalas sleep, and hummingbirds hover."
+  },
+  {
+    "id": 865,
+    "input_text": "A student graduates with honors if they maintain a high GPA, complete a specific number of credit hours, and participate in extracurricular activities."
+  },
+  {
+    "id": 866,
+    "input_text": "A shape with four sides and all angles equal to 90 degrees is a rectangle."
+  },
+  {
+    "id": 867,
+    "input_text": "Rainy weather can cause slippery roads, while sunny weather can dry them."
+  },
+  {
+    "id": 868,
+    "input_text": "A smartphone has a touchscreen display, internet access, and the ability to download apps."
+  },
+  {
+    "id": 869,
+    "input_text": "A healthy lifestyle involves regular physical activity, a balanced diet, and sufficient sleep."
+  },
+  {
+    "id": 870,
+    "input_text": "A train is considered punctual if it consistently arrives and departs on schedule."
+  },
+  {
+    "id": 871,
+    "input_text": "A camera captures an image of an object by focusing light onto a sensor."
+  },
+  {
+    "id": 872,
+    "input_text": "A type of writing system that uses symbols to represent sounds or words, and can be written horizontally or vertically, is classified as a script."
+  },
+  {
+    "id": 873,
+    "input_text": "When a volcano erupts, it can cause destruction, emit smoke and ash, and change the surrounding environment."
+  },
+  {
+    "id": 874,
+    "input_text": "A square is a rectangle with all sides having equal length."
+  },
+  {
+    "id": 875,
+    "input_text": "A painting is valuable if it is made by a famous artist."
+  },
+  {
+    "id": 876,
+    "input_text": "A mountain with an elevation above 8,000 meters and permanent snow is considered part of the \"eight-thousander\" group."
+  },
+  {
+    "id": 877,
+    "input_text": "A mountain has a peak and slopes."
+  },
+  {
+    "id": 878,
+    "input_text": "In a desert ecosystem, cacti store water in their thick stems, and camouflaged animals blend in with their surroundings to avoid predators."
+  },
+  {
+    "id": 879,
+    "input_text": "All planets in the Solar System orbit around the sun."
+  },
+  {
+    "id": 880,
+    "input_text": "Students learn from teachers by attending lectures, participating in discussions, or completing assignments."
+  },
+  {
+    "id": 881,
+    "input_text": "A parent is a legal guardian of a child."
+  },
+  {
+    "id": 882,
+    "input_text": "A chef prepares and cooks meals, while a server takes orders and delivers food to customers."
+  },
+  {
+    "id": 883,
+    "input_text": "A flashlight emits light when turned on."
+  },
+  {
+    "id": 884,
+    "input_text": "A runner participates in sprints, marathons, or relays."
+  },
+  {
+    "id": 885,
+    "input_text": "A museum displays artifacts, educates visitors, and organizes guided tours."
+  },
+  {
+    "id": 886,
+    "input_text": "A game played with a ball, where two teams attempt to score points by throwing the ball through a hoop mounted at a specific height, is basketball."
+  },
+  {
+    "id": 887,
+    "input_text": "A fruit that is ripe or overripe is suitable for making a smoothie."
+  },
+  {
+    "id": 888,
+    "input_text": "Metals are good conductors of heat and electricity."
+  },
+  {
+    "id": 889,
+    "input_text": "A computer is portable if it is lightweight and has a built-in battery."
+  },
+  {
+    "id": 890,
+    "input_text": "A car has an engine, wheels, and a chassis, can be powered by gasoline, diesel, or electricity, and serves purposes like transportation, racing, or off-roading."
+  },
+  {
+    "id": 891,
+    "input_text": "An event is exclusive if it is invite-only or requires a membership."
+  },
+  {
+    "id": 892,
+    "input_text": "Frogs live on land and in water, whereas snakes live on land but not in water."
+  },
+  {
+    "id": 893,
+    "input_text": "In a courtroom, a judge hears cases and makes decisions based on evidence and laws."
+  },
+  {
+    "id": 894,
+    "input_text": "Telescopes enable astronomers to observe distant celestial objects and study the universe."
+  },
+  {
+    "id": 895,
+    "input_text": "An ecosystem thrives when it contains diverse species, possesses a stable food chain, and has a balanced climate."
+  },
+  {
+    "id": 896,
+    "input_text": "Lions are carnivores, cows are herbivores, and humans are omnivores."
+  },
+  {
+    "id": 897,
+    "input_text": "An area is considered a wetland if it is saturated with water, supports aquatic plants, and provides habitat for a diverse range of wildlife."
+  },
+  {
+    "id": 898,
+    "input_text": "A smartphone can communicate with other devices by connecting to Wi-Fi or using Bluetooth technology."
+  },
+  {
+    "id": 899,
+    "input_text": "An animal thrives in a habitat when it has access to food sources, encounters minimal threats, and reproduces successfully."
+  },
+  {
+    "id": 900,
+    "input_text": "A novel is a written work of fiction with a connected narrative and well-developed characters."
+  },
+  {
+    "id": 901,
+    "input_text": "An object is a polygon if it has at least three sides."
+  },
+  {
+    "id": 902,
+    "input_text": "A flower is a perennial if it lives for more than two years."
+  },
+  {
+    "id": 903,
+    "input_text": "A shape can be a square or a circle, but it can't be both simultaneously."
+  },
+  {
+    "id": 904,
+    "input_text": "A mammal lays eggs if it is a monotreme, while other mammals give birth to live young."
+  },
+  {
+    "id": 905,
+    "input_text": "A well-planned city has efficient public transportation, ample green spaces, and a diverse range of housing options for its residents."
+  },
+  {
+    "id": 906,
+    "input_text": "Artists create paintings or sculptures, but not both at the same time."
+  },
+  {
+    "id": 907,
+    "input_text": "Some buildings are tall and have a rooftop garden."
+  },
+  {
+    "id": 908,
+    "input_text": "A piece of clothing that is made of wool is appropriate for winter or cool weather."
+  },
+  {
+    "id": 909,
+    "input_text": "A vehicle is classified as a truck if it is designed for transporting cargo and has a separate compartment for the driver."
+  },
+  {
+    "id": 910,
+    "input_text": "A pilot flies an airplane to a destination."
+  },
+  {
+    "id": 911,
+    "input_text": "A species becomes endangered when its population declines rapidly, and it faces a high risk of extinction."
+  },
+  {
+    "id": 912,
+    "input_text": "An artwork is considered valuable if it was created by a renowned artist, is in good condition, and has historical or cultural significance."
+  },
+  {
+    "id": 913,
+    "input_text": "Whales breathe air."
+  },
+  {
+    "id": 914,
+    "input_text": "Books can be borrowed from a library if they are not reserved by another patron."
+  },
+  {
+    "id": 915,
+    "input_text": "A planet is deemed habitable if it resides within the habitable zone of its star, has a stable atmosphere, and possesses a surface with liquid water."
+  },
+  {
+    "id": 916,
+    "input_text": "An animal is a mammal if it has hair or fur and gives birth to live offspring."
+  },
+  {
+    "id": 917,
+    "input_text": "A book is written by an author and has pages."
+  },
+  {
+    "id": 918,
+    "input_text": "Wind turbines generate electricity by converting the kinetic energy of wind into mechanical energy."
+  },
+  {
+    "id": 919,
+    "input_text": "A mobile application that offers personalized fitness plans and tracks progress motivates users to maintain an active lifestyle and achieve their goals."
+  },
+  {
+    "id": 920,
+    "input_text": "A computer algorithm that can learn from data, improve its performance over time, and make predictions or decisions is called a machine learning algorithm."
+  },
+  {
+    "id": 921,
+    "input_text": "An appliance can be considered efficient if it conserves electricity or water."
+  },
+  {
+    "id": 922,
+    "input_text": "A type of clothing that is worn around the neck and is typically made of a long, narrow piece of fabric, such as silk or cotton, is a scarf."
+  },
+  {
+    "id": 923,
+    "input_text": "A smartphone with a durable build and water-resistant features can withstand daily wear and tear better."
+  },
+  {
+    "id": 924,
+    "input_text": "Planets orbit around stars due to the gravitational force between them."
+  },
+  {
+    "id": 925,
+    "input_text": "If an animal is an insect, it has six legs and a three-part body."
+  },
+  {
+    "id": 926,
+    "input_text": "An object submerged in water is buoyant if it has a lower density than water and a shape that allows it to displace water."
+  },
+  {
+    "id": 927,
+    "input_text": "A student x will receive a scholarship from university y if they have an excellent academic record, participate in extracurricular activities, and submit a compelling application."
+  },
+  {
+    "id": 928,
+    "input_text": "An electronic device is wireless if it communicates or transfers data without the need for physical connections, such as cables or wires."
+  },
+  {
+    "id": 929,
+    "input_text": "Apples fall from trees when they are ripe."
+  },
+  {
+    "id": 930,
+    "input_text": "A watch that is waterproof and has a built-in GPS system is useful for outdoor enthusiasts and athletes."
+  },
+  {
+    "id": 931,
+    "input_text": "A river flows, but a lake is still."
+  },
+  {
+    "id": 932,
+    "input_text": "A workout routine is effective when it targets multiple muscle groups, incorporates a mix of exercises, and promotes overall fitness."
+  },
+  {
+    "id": 933,
+    "input_text": "A car is considered an electric vehicle if it is powered solely by an electric motor and requires charging from an external source."
+  },
+  {
+    "id": 934,
+    "input_text": "A thriving ecosystem depends on a balanced food chain, ample resources, and stable climate conditions."
+  },
+  {
+    "id": 935,
+    "input_text": "A device is a smartphone if it can make calls, send messages, access the internet, and has a touch screen interface."
+  },
+  {
+    "id": 936,
+    "input_text": "A river flows into the ocean if it connects to a body of saltwater and does not terminate in a lake or reservoir."
+  },
+  {
+    "id": 937,
+    "input_text": "A train travels on tracks and is not a car."
+  },
+  {
+    "id": 938,
+    "input_text": "A location is a desert if it receives extremely low amounts of precipitation and has a very low population density."
+  },
+  {
+    "id": 939,
+    "input_text": "A dessert made from layers of sponge cake, fruit, and cream is a trifle."
+  },
+  {
+    "id": 940,
+    "input_text": "A telescope is used to observe distant objects in space."
+  },
+  {
+    "id": 941,
+    "input_text": "A celestial object that orbits a planet and is smaller than a planet is a moon."
+  },
+  {
+    "id": 942,
+    "input_text": "An employee is a good fit for a company if they have relevant skills, adapt well to the company culture, and demonstrate a strong work ethic, without being a source of workplace conflict."
+  },
+  {
+    "id": 943,
+    "input_text": "When a painting is vivid in color, has intricate details, and captures the essence of a subject, it is considered a masterpiece."
+  },
+  {
+    "id": 944,
+    "input_text": "Cats chase mice but do not chase elephants."
+  },
+  {
+    "id": 945,
+    "input_text": "A concert venue hosts live music performances, showcasing a diverse range of musical genres and providing entertainment for attendees."
+  },
+  {
+    "id": 946,
+    "input_text": "A book is deemed a bestseller if it has a high sales volume and receives positive reviews from critics."
+  },
+  {
+    "id": 947,
+    "input_text": "A mammal either lays eggs or gives birth to live young."
+  },
+  {
+    "id": 948,
+    "input_text": "Some laptops are lightweight or have long battery life."
+  },
+  {
+    "id": 949,
+    "input_text": "A species is considered endangered if its population declines rapidly and faces a high risk of extinction."
+  },
+  {
+    "id": 950,
+    "input_text": "A person is a journalist if they gather and report news."
+  },
+  {
+    "id": 951,
+    "input_text": "A laptop is a portable computer, while a desktop is not portable."
+  },
+  {
+    "id": 952,
+    "input_text": "A laptop can play videos or browse the internet, but not both, and a desktop can perform both tasks."
+  },
+  {
+    "id": 953,
+    "input_text": "A celestial body is classified as a moon if it orbits a planet and is not a satellite of another celestial body."
+  },
+  {
+    "id": 954,
+    "input_text": "A device is powered by solar panels or batteries if it receives electricity from either source."
+  },
+  {
+    "id": 955,
+    "input_text": "A person who is a baker prepares and bakes bread and pastries."
+  },
+  {
+    "id": 956,
+    "input_text": "A city with a high population density and limited green spaces is considered overcrowded."
+  },
+  {
+    "id": 957,
+    "input_text": "A recipe requires ingredients and instructions to create a specific dish."
+  },
+  {
+    "id": 958,
+    "input_text": "An area is designated as a national park if it is protected and managed by the government for the purpose of preserving its natural beauty and wildlife."
+  },
+  {
+    "id": 959,
+    "input_text": "A document is considered confidential if access to it is restricted to authorized personnel."
+  },
+  {
+    "id": 960,
+    "input_text": "Mail carriers deliver letters and packages to recipients."
+  },
+  {
+    "id": 961,
+    "input_text": "A chair has four legs."
+  },
+  {
+    "id": 962,
+    "input_text": "Sharks have sharp teeth and can detect electrical signals."
+  },
+  {
+    "id": 963,
+    "input_text": "A bicycle consists of two wheels connected by a frame and is propelled by pedaling."
+  },
+  {
+    "id": 964,
+    "input_text": "An apple is green if it is unripe, but it turns red when it is ripe, and some apples remain yellow when ripe."
+  },
+  {
+    "id": 965,
+    "input_text": "A park has recreational facilities."
+  },
+  {
+    "id": 966,
+    "input_text": "A bird can fly and swim, but not walk."
+  },
+  {
+    "id": 967,
+    "input_text": "A museum is an institution that collects, preserves, and displays artifacts, artwork, and historical objects, providing educational and cultural experiences for the public."
+  },
+  {
+    "id": 968,
+    "input_text": "Mountains are taller than hills."
+  },
+  {
+    "id": 969,
+    "input_text": "A building is recognized as a museum if it houses a collection of artifacts or artwork and is open to the public for viewing and educational purposes."
+  },
+  {
+    "id": 970,
+    "input_text": "A lighthouse emits a powerful beam of light to guide ships and boats, warning them of hazards or indicating safe passages near coastlines or on waterways."
+  },
+  {
+    "id": 971,
+    "input_text": "A flower is pollinated by insects if it attracts insects for transferring pollen from one part to another."
+  },
+  {
+    "id": 972,
+    "input_text": "A beverage is non-alcoholic if it lacks alcohol and isn't fermented."
+  },
+  {
+    "id": 973,
+    "input_text": "Every dog barks."
+  },
+  {
+    "id": 974,
+    "input_text": "Some software applications are open-source and designed for graphic design."
+  },
+  {
+    "id": 975,
+    "input_text": "A smartphone has a touchscreen display, can make calls, send text messages, and access the internet via Wi-Fi or cellular data."
+  },
+  {
+    "id": 976,
+    "input_text": "A meal can consist of a soup, a salad, or a sandwich."
+  },
+  {
+    "id": 977,
+    "input_text": "A solar panel converts sunlight into electricity through the photovoltaic effect."
+  },
+  {
+    "id": 978,
+    "input_text": "A computer x is manufactured by company y if x is designed, assembled, and marketed under the brand name of y."
+  },
+  {
+    "id": 979,
+    "input_text": "Mountains, hills, and valleys are natural landforms."
+  },
+  {
+    "id": 980,
+    "input_text": "If a person is a psychologist, they study and analyze human behavior and mental processes."
+  },
+  {
+    "id": 981,
+    "input_text": "A valid email address must contain an \"@\" symbol and a domain name."
+  },
+  {
+    "id": 982,
+    "input_text": "A research paper is influential if it presents novel findings, has a strong methodology, and is cited by numerous other papers."
+  },
+  {
+    "id": 983,
+    "input_text": "A tourist destination that isn't historical, natural, or entertaining might not be visited frequently."
+  },
+  {
+    "id": 984,
+    "input_text": "For a device to be considered portable, it should have a compact size, be lightweight, and have a battery or alternative power source."
+  },
+  {
+    "id": 985,
+    "input_text": "A bus transports multiple passengers, operates on a fixed route, and is not a taxi."
+  },
+  {
+    "id": 986,
+    "input_text": "A dog barks when it is happy or wants attention."
+  },
+  {
+    "id": 987,
+    "input_text": "A pencil has a graphite core and can be sharpened."
+  },
+  {
+    "id": 988,
+    "input_text": "Writers create novels and poets compose poems."
+  },
+  {
+    "id": 989,
+    "input_text": "A well-designed space is functional, visually appealing, and comfortable for the people using it."
+  },
+  {
+    "id": 990,
+    "input_text": "Some flowers bloom in the spring, while others bloom in the summer, autumn, or winter."
+  },
+  {
+    "id": 991,
+    "input_text": "A job is remote if it doesn't require physical presence at an office."
+  },
+  {
+    "id": 992,
+    "input_text": "A vehicle that uses tracks instead of wheels and is designed for use in snowy terrain is classified as a snowmobile."
+  },
+  {
+    "id": 993,
+    "input_text": "An iceberg is formed from a glacier when a section of ice breaks off and floats in the ocean."
+  },
+  {
+    "id": 994,
+    "input_text": "A type of precipitation that forms when water droplets in the atmosphere freeze into ice crystals is snow."
+  },
+  {
+    "id": 995,
+    "input_text": "A device can be either on or off, but not both at the same time."
+  },
+  {
+    "id": 996,
+    "input_text": "In a solar system, planets orbit around a star, while moons orbit around their respective planets, and comets follow elliptical paths around the star."
+  },
+  {
+    "id": 997,
+    "input_text": "A book is classified as a novel if it is a work of fiction, has a narrative structure, and presents a story with characters and events."
+  },
+  {
+    "id": 998,
+    "input_text": "A chair supports sitting, and a table supports placing items on it."
+  },
+  {
+    "id": 999,
+    "input_text": "A bird that can fly long distances, migrate, and has a distinctive call is a migratory bird."
+  },
+  {
+    "id": 1000,
+    "input_text": "Astronomers use telescopes to observe celestial objects and gather data, helping to expand our understanding of the universe."
+  }
+]

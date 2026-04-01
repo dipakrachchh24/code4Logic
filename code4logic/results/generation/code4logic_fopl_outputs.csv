@@ -1,0 +1,5 @@
+id,input_text,generated_fopl,status,timestamp
+1,"If a user logs in, the system shall authenticate the user.",,no_formula,2025-12-14T14:47:21.198582
+2,"When temperature exceeds threshold, the alarm is triggered.",,no_formula,2025-12-14T14:47:24.570981
+1,"If a user logs in, the system shall authenticate the user.",∀x (LogsIn(x) → Authenticates(x)),success,2025-12-14T15:07:16.510265
+2,"When temperature exceeds threshold, the alarm is triggered.","∀t (Exceeds(t,threshold) → Triggered())",success,2025-12-14T15:07:19.788159

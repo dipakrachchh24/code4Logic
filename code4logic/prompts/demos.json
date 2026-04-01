@@ -1,0 +1,17 @@
+[
+  {
+    "nl": "Every cat is an animal.",
+    "fol": "∀x (Cat(x) -> Animal(x))",
+    "code": "formula_1 = Variable('x')\nformula_2 = Predicate('Cat', [formula_1])\nformula_3 = Predicate('Animal', [formula_1])\nformula_4 = Implication(formula_2, formula_3)\nformula_5 = UniversalQuantification(formula_4, formula_1)\nformula = End(formula_5)"
+  },
+  {
+    "nl": "Some dog chases a cat.",
+    "fol": "∃x ∃y (Dog(x) ∧ Cat(y) ∧ Chases(x,y))",
+    "code": "formula_1 = Variable('x')\nformula_2 = Variable('y')\nformula_3 = Predicate('Dog', [formula_1])\nformula_4 = Predicate('Cat', [formula_2])\nformula_5 = Predicate('Chases', [formula_1, formula_2])\nformula_6 = Conjunction(formula_3, formula_4)\nformula_7 = Conjunction(formula_6, formula_5)\nformula_8 = ExistentialQuantification(formula_7, formula_2)\nformula_9 = ExistentialQuantification(formula_8, formula_1)\nformula = End(formula_9)"
+  },
+  {
+    "nl": "If someone is a bird, then they can fly.",
+    "fol": "∀x (Bird(x) -> CanFly(x))",
+    "code": "formula_1 = Variable('x')\nformula_2 = Predicate('Bird', [formula_1])\nformula_3 = Predicate('CanFly', [formula_1])\nformula_4 = Implication(formula_2, formula_3)\nformula_5 = UniversalQuantification(formula_4, formula_1)\nformula = End(formula_5)"
+  }
+]

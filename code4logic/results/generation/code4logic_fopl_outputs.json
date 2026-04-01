@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "input_text": "If a user logs in, the system shall authenticate the user.",
+    "generated_fopl": "\u2200x (LogsIn(x) \u2192 Authenticates(x))",
+    "status": "success",
+    "timestamp": "2025-12-14T15:07:16.510265"
+  },
+  {
+    "id": 2,
+    "input_text": "When temperature exceeds threshold, the alarm is triggered.",
+    "generated_fopl": "\u2200t (Exceeds(t,threshold) \u2192 Triggered())",
+    "status": "success",
+    "timestamp": "2025-12-14T15:07:19.788159"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "input_text": "A gemstone can be a diamond, a ruby, or an emerald, but not more than one type of gemstone.",
+    "generated_fopl": "\u2200x ((Diamond(x) \u2228 (Ruby(x) \u2228 Emerald(x))) \u2192 \u00ac((Diamond(x) \u2227 Ruby(x)) \u2227 Emerald(x)))",
+    "status": "success",
+    "timestamp": "2025-12-15T14:07:34.539771+00:00"
+  },
+  {
+    "id": 3,
+    "input_text": "People who speak more than one language are bilingual or multilingual.",
+    "generated_fopl": "\u2200x (GreaterThan(y,OneLanguage) \u2192 (Bilingual(x) \u2228 Multilingual(x)))",
+    "status": "success",
+    "timestamp": "2025-12-15T14:07:39.039042+00:00"
+  },
+  {
+    "id": 4,
+    "input_text": "An organization is non-profit if it has a charitable mission, does not distribute profits to owners, and primarily relies on donations.",
+    "generated_fopl": "\u2200x (((CharitableMission(x) \u2227 \u00acDistributesProfits(x)) \u2227 ReliesOnDonations(x)) \u2192 NonProfit(x))",
+    "status": "success",
+    "timestamp": "2025-12-15T14:07:44.056601+00:00"
+  }
+]

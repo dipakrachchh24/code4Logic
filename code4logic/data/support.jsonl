@@ -1,0 +1,2 @@
+{"id": "ex1", "nl": "If a user logs in, the system shall authenticate the user.", "fol": "∀x (Vacation(x) ∧ Relaxing(x) → (BeautifulScenery(x) ∧ EnjoyableActivities(x)))"}
+{"id": "ex2", "nl": "When temperature exceeds threshold, the alarm is triggered.", "fol": "∀x (Gemstone(x) → ((Diamond(x) ∧ ¬(Ruby(x) ∨ Emerald(x))) ∨ (Ruby(x) ∧ ¬(Diamond(x) ∨ Emerald(x))) ∨ (Emerald(x) ∧ ¬(Diamond(x) ∨ Ruby(x)))))"}
